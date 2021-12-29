@@ -2609,9 +2609,9 @@ class AppComponent {
         // this.auth.userLoggedIn().subscribe((data:any)=>{
         //  console.log(data)
         // })
-        if (localStorage.getItem("username") === null || localStorage.getItem('user')) {
-            localStorage.clear();
-        }
+        // if (localStorage.getItem("username") === null || localStorage.getItem('user')) {
+        //   localStorage.clear();
+        // }
     }
 }
 AppComponent.ɵfac = function AppComponent_Factory(t) { return new (t || AppComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_2__.Router), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](_service_auth_service__WEBPACK_IMPORTED_MODULE_0__.AuthService)); };
@@ -27061,7 +27061,7 @@ PerformanceListComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_M
     } if (rf & 2) {
         let _t;
         _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵqueryRefresh"](_t = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵloadQuery"]()) && (ctx.dataBinding = _t.first);
-    } }, decls: 32, vars: 22, consts: [["id", "content", "role", "main", 1, "app-content"], [1, "app-content-body"], [1, "top"], [1, "row", "t-main"], [1, "col-sm-6", "col-xs-12", "t-main-1"], [1, "m-n", "t-main1"], [1, "col-sm-6", "text-right", "poppins"], ["aria-label", "breadcrumb"], [1, "breadcrumb", "t-main"], ["aria-current", "page", 1, "breadcrumb-item", "active", 2, "font-size", "11px"], ["aria-current", "page", 1, "breadcrumb-item", "active", 2, "font-size", "11px", "color", "red"], ["kendoGridSelectBy", "id", 3, "kendoGridBinding", "selectedKeys", "pageSize", "pageable", "sortable", "reorderable", "resizable", "height", "columnMenu"], ["kendoGridToolbarTemplate", ""], ["title", "ID", 3, "width"], ["kendoGridCellTemplate", ""], ["field", "industry", "title", "Industry", 3, "width"], ["field", "employee", "title", "Employee", 3, "width"], ["title", "Goal Details", 3, "width"], ["field", "weightage", "title", "Weightage", 3, "width"], ["field", "duration", "title", "Duration", 3, "width"], ["title", "Controls", 3, "width", "resizable", "filterable"], ["placeholder", "Search in all columns...", "kendoTextBox", "", 3, "input"], ["class", "button", 4, "ngIf"], [1, "button"], ["routerLink", "/performance"], [1, "service-request", 2, "color", "red"], [1, "service-request"], ["aria-hidden", "true", 1, "fa", "fa-calendar-check-o", 2, "color", "green"], [4, "ngFor", "ngForOf"], [1, ""], ["text", "Action"], ["icon", "edit", "text", "Edit", 3, "url", 4, "ngIf"], ["icon", "edit", "text", "Edit", 3, "url"]], template: function PerformanceListComponent_Template(rf, ctx) { if (rf & 1) {
+    } }, decls: 32, vars: 22, consts: [["id", "content", "role", "main", 1, "app-content"], [1, "app-content-body"], [1, "top"], [1, "row", "t-main"], [1, "col-sm-6", "col-xs-12", "t-main-1"], [1, "m-n", "t-main1"], [1, "col-sm-6", "text-right", "poppins"], ["aria-label", "breadcrumb"], [1, "breadcrumb", "t-main"], ["aria-current", "page", 1, "breadcrumb-item", "active", 2, "font-size", "11px"], ["aria-current", "page", 1, "breadcrumb-item", "active", 2, "font-size", "11px", "color", "red"], ["kendoGridSelectBy", "id", 3, "kendoGridBinding", "selectedKeys", "pageSize", "pageable", "sortable", "reorderable", "resizable", "height", "columnMenu"], ["kendoGridToolbarTemplate", ""], ["title", "ID", 3, "width"], ["kendoGridCellTemplate", ""], ["field", "industry", "title", "Industry", 3, "width"], ["field", "employee", "title", "Employee", 3, "width"], ["title", "Goal Details", 3, "width"], ["field", "weightage", "title", "Weightage", 3, "width"], ["field", "duration", "title", "Duration", 3, "width"], ["title", "Action", 3, "width", "resizable", "filterable"], ["placeholder", "Search in all columns...", "kendoTextBox", "", 3, "input"], ["class", "button", 4, "ngIf"], [1, "button"], ["routerLink", "/performance"], [1, "service-request", 2, "color", "red"], [1, "service-request"], ["aria-hidden", "true", 1, "fa", "fa-calendar-check-o", 2, "color", "green"], [4, "ngFor", "ngForOf"], [1, ""], ["icon", "gear"], ["icon", "edit", "text", "Edit", 3, "url", 4, "ngIf"], ["icon", "edit", "text", "Edit", 3, "url"]], template: function PerformanceListComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](0, "app-header");
         _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](1, "app-sidenav");
         _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](2, "div", 0);
@@ -28374,16 +28374,17 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "ServiceRequestListComponent": () => (/* binding */ ServiceRequestListComponent)
 /* harmony export */ });
-/* harmony import */ var _progress_kendo_angular_grid__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @progress/kendo-angular-grid */ 80668);
+/* harmony import */ var _progress_kendo_angular_grid__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @progress/kendo-angular-grid */ 80668);
 /* harmony import */ var _progress_kendo_data_query__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @progress/kendo-data-query */ 30622);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/core */ 2316);
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/router */ 71258);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/core */ 2316);
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @angular/router */ 71258);
 /* harmony import */ var src_app_service_service_request_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! src/app/service/service-request.service */ 26117);
-/* harmony import */ var _header_header_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../header/header.component */ 93482);
-/* harmony import */ var _sidenav_sidenav_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../sidenav/sidenav.component */ 10226);
-/* harmony import */ var _progress_kendo_angular_inputs__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @progress/kendo-angular-inputs */ 14867);
-/* harmony import */ var _progress_kendo_angular_menu__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @progress/kendo-angular-menu */ 94048);
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @angular/common */ 54364);
+/* harmony import */ var src_app_service_auth_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! src/app/service/auth.service */ 90892);
+/* harmony import */ var src_app_service_user_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! src/app/service/user.service */ 84981);
+/* harmony import */ var _header_header_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../header/header.component */ 93482);
+/* harmony import */ var _sidenav_sidenav_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../sidenav/sidenav.component */ 10226);
+/* harmony import */ var _progress_kendo_angular_inputs__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @progress/kendo-angular-inputs */ 14867);
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @angular/common */ 54364);
 
 
 
@@ -28395,126 +28396,138 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+
+function ServiceRequestListComponent_ng_template_19_button_2_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "button", 20);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](1, "a", 21);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](2, "Create New Service");
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+} }
 function ServiceRequestListComponent_ng_template_19_Template(rf, ctx) { if (rf & 1) {
-    const _r7 = _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](0, "input", 19);
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵlistener"]("input", function ServiceRequestListComponent_ng_template_19_Template_input_input_0_listener($event) { _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵrestoreView"](_r7); const ctx_r6 = _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵnextContext"](); return ctx_r6.onFilter($event); });
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelement"](1, "kendo-grid-spacer");
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](2, "button", 20);
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](3, "a", 21);
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](4, "Create New Service");
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
+    const _r7 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "input", 18);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("input", function ServiceRequestListComponent_ng_template_19_Template_input_input_0_listener($event) { _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r7); const ctx_r6 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"](); return ctx_r6.onFilter($event); });
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](1, "kendo-grid-spacer");
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](2, ServiceRequestListComponent_ng_template_19_button_2_Template, 3, 0, "button", 19);
+} if (rf & 2) {
+    const ctx_r0 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("ngIf", ctx_r0.userPermission == null ? null : ctx_r0.userPermission.servicecreate);
 } }
 function ServiceRequestListComponent_ng_template_21_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](0, "div", 22);
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](2, "div", 23);
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelement"](3, "i", 24);
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](4);
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵpipe"](5, "date");
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "div", 22);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](2, "div", 23);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](3, "i", 24);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpipe"](5, "date");
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
 } if (rf & 2) {
     const dataItem_r8 = ctx.$implicit;
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtextInterpolate"](dataItem_r8.service_id);
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](3);
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtextInterpolate1"](" : ", _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵpipeBind2"](5, 2, dataItem_r8.created_at, "dd-MM-yyyy"), "");
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtextInterpolate"](dataItem_r8.service_id);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtextInterpolate1"](" : ", _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpipeBind2"](5, 2, dataItem_r8.created_at, "dd-MM-yyyy"), "");
 } }
 function ServiceRequestListComponent_ng_template_23_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](0, "div", 23);
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](1, "b");
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](2, "Type");
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](3);
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](4, "div", 23);
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](5, "b");
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](6, "Location");
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](7);
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](8, "div", 23);
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](9, "b");
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](10, "Priority");
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](11);
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](12, "div", 23);
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](13, "b");
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](14, "Source");
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](15);
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "div", 23);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](1, "b");
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](2, "Type");
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](4, "div", 23);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](5, "b");
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](6, "Location");
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](8, "div", 23);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](9, "b");
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](10, "Priority");
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](11);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](12, "div", 23);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](13, "b");
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](14, "Source");
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](15);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
 } if (rf & 2) {
     const dataItem_r9 = ctx.$implicit;
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](3);
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtextInterpolate1"](" : ", dataItem_r9.service_type, "");
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](4);
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtextInterpolate1"](" : ", dataItem_r9.service_location, "");
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](4);
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtextInterpolate1"](" : ", dataItem_r9.priority, "");
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](4);
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtextInterpolate1"](" : ", dataItem_r9.source_type, "");
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtextInterpolate1"](" : ", dataItem_r9.service_type, "");
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtextInterpolate1"](" : ", dataItem_r9.service_location, "");
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtextInterpolate1"](" : ", dataItem_r9.priority, "");
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtextInterpolate1"](" : ", dataItem_r9.source_type, "");
 } }
 function ServiceRequestListComponent_ng_template_25_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](0, "div", 23);
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](1, "b");
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](2, "Account");
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](3);
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](4, "div", 23);
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](5, "b");
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](6, "Account");
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](7);
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "div", 23);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](1, "b");
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](2, "Account");
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](4, "div", 23);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](5, "b");
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](6, "Contact");
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
 } if (rf & 2) {
     const dataItem_r10 = ctx.$implicit;
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](3);
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtextInterpolate1"](" : ", dataItem_r10.contactData[0].company_name, "");
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](4);
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtextInterpolate1"](" : ", dataItem_r10.contactData[0].first_name, "");
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtextInterpolate1"](" : ", dataItem_r10.contactData[0].company_name, "");
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtextInterpolate1"](" : ", dataItem_r10.contactData[0].first_name, "");
 } }
 function ServiceRequestListComponent_ng_template_27_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](0, "div", 23);
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelement"](1, "i", 25);
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](2, "b");
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](3, "Schedule");
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](4);
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵpipe"](5, "date");
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](6, "div", 23);
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](7, "b");
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](8, "Status");
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](9);
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "div", 23);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](1, "i", 25);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](2, "b");
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](3, "Schedule");
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpipe"](5, "date");
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](6, "div", 23);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](7, "b");
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](8, "Status");
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](9);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
 } if (rf & 2) {
     const dataItem_r11 = ctx.$implicit;
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](4);
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtextInterpolate1"](" : ", _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵpipeBind2"](5, 2, dataItem_r11.visit_schedule, "dd-MM-yyyy"), "");
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](5);
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtextInterpolate1"](": ", dataItem_r11.stages, "");
-} }
-function ServiceRequestListComponent_ng_template_29_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](0, "kendo-menu");
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelement"](1, "kendo-menu-item", 26);
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtextInterpolate1"](" : ", _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpipeBind2"](5, 2, dataItem_r11.visit_schedule, "dd-MM-yyyy"), "");
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtextInterpolate1"](": ", dataItem_r11.stages, "");
 } }
 const _c0 = function () { return { filter: true }; };
-const _c1 = function () { return { "text-center": true }; };
 class ServiceRequestListComponent {
-    constructor(router, ServiceRequestService) {
+    constructor(router, ServiceRequestService, users, userservice) {
         this.router = router;
         this.ServiceRequestService = ServiceRequestService;
+        this.users = users;
+        this.userservice = userservice;
         this.mySelection = [];
     }
     ngOnInit() {
+        this.users.userLoggedIn().subscribe((user) => {
+            console.log(user);
+            this.user = user.result;
+            this.userservice.getUserRolePermissions(user.result.role).subscribe((data) => {
+                console.log(data.result[0]);
+                this.userPermission = data.result[0];
+            });
+        });
         this.getallservice();
     }
     getallservice() {
@@ -28581,76 +28594,70 @@ class ServiceRequestListComponent {
         this.dataBinding.skip = 0;
     }
 }
-ServiceRequestListComponent.ɵfac = function ServiceRequestListComponent_Factory(t) { return new (t || ServiceRequestListComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_5__.Router), _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵdirectiveInject"](src_app_service_service_request_service__WEBPACK_IMPORTED_MODULE_1__.ServiceRequestService)); };
-ServiceRequestListComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵdefineComponent"]({ type: ServiceRequestListComponent, selectors: [["app-service-request-list"]], viewQuery: function ServiceRequestListComponent_Query(rf, ctx) { if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵviewQuery"](_progress_kendo_angular_grid__WEBPACK_IMPORTED_MODULE_6__.DataBindingDirective, 5);
+ServiceRequestListComponent.ɵfac = function ServiceRequestListComponent_Factory(t) { return new (t || ServiceRequestListComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_7__.Router), _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵdirectiveInject"](src_app_service_service_request_service__WEBPACK_IMPORTED_MODULE_1__.ServiceRequestService), _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵdirectiveInject"](src_app_service_auth_service__WEBPACK_IMPORTED_MODULE_2__.AuthService), _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵdirectiveInject"](src_app_service_user_service__WEBPACK_IMPORTED_MODULE_3__.UserService)); };
+ServiceRequestListComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵdefineComponent"]({ type: ServiceRequestListComponent, selectors: [["app-service-request-list"]], viewQuery: function ServiceRequestListComponent_Query(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵviewQuery"](_progress_kendo_angular_grid__WEBPACK_IMPORTED_MODULE_8__.DataBindingDirective, 5);
     } if (rf & 2) {
         let _t;
-        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵqueryRefresh"](_t = _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵloadQuery"]()) && (ctx.dataBinding = _t.first);
-    } }, decls: 30, vars: 20, consts: [["id", "content", "role", "main", 1, "app-content"], [1, "app-content-body"], [1, "top"], [1, "row", "t-main"], [1, "col-sm-6", "col-xs-12", "t-main-1"], [1, "m-n", "t-main1"], [1, "col-sm-6", "text-right", "poppins"], ["aria-label", "breadcrumb"], [1, "breadcrumb", "t-main"], ["aria-current", "page", 1, "breadcrumb-item", "active", 2, "font-size", "11px"], ["aria-current", "page", 1, "breadcrumb-item", "active", 2, "font-size", "11px", "color", "red"], ["kendoGridSelectBy", "id", 3, "kendoGridBinding", "selectedKeys", "pageSize", "pageable", "sortable", "reorderable", "resizable", "height", "columnMenu"], ["kendoGridToolbarTemplate", ""], ["title", "ID", 3, "width"], ["kendoGridCellTemplate", ""], ["title", "Service Details", 3, "width"], ["title", "Details", 3, "width"], ["title", "Status", 3, "width"], ["title", "Action", 3, "width", "resizable", "filterable"], ["placeholder", "Search in all columns...", "kendoTextBox", "", 3, "input"], [1, "button"], ["routerLink", "/service-request"], [1, "service", 2, "color", "red"], [1, "service"], ["aria-hidden", "true", 1, "fa", "fa-calendar-check-o", 2, "color", "green"], ["aria-hidden", "true", 1, "fa", "fa-calendar-plus-o", 2, "color", "green"], ["icon", "gear"]], template: function ServiceRequestListComponent_Template(rf, ctx) { if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelement"](0, "app-header");
-        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelement"](1, "app-sidenav");
-        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](2, "div", 0);
-        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](3, "div", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](4, "div", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](5, "div", 3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](6, "div", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](7, "h4", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](8, "Service List");
-        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](9, "div", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](10, "nav", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](11, "ol", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](12, "li", 9);
-        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](13, "Dashboard");
-        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](14, "li", 9);
-        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](15, "Service");
-        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](16, "li", 10);
-        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](17, "Service View List");
-        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](18, "kendo-grid", 11);
-        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtemplate"](19, ServiceRequestListComponent_ng_template_19_Template, 5, 0, "ng-template", 12);
-        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](20, "kendo-grid-column", 13);
-        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtemplate"](21, ServiceRequestListComponent_ng_template_21_Template, 6, 5, "ng-template", 14);
-        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](22, "kendo-grid-column", 15);
-        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtemplate"](23, ServiceRequestListComponent_ng_template_23_Template, 16, 4, "ng-template", 14);
-        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](24, "kendo-grid-column", 16);
-        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtemplate"](25, ServiceRequestListComponent_ng_template_25_Template, 8, 2, "ng-template", 14);
-        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](26, "kendo-grid-column", 17);
-        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtemplate"](27, ServiceRequestListComponent_ng_template_27_Template, 10, 5, "ng-template", 14);
-        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](28, "kendo-grid-column", 18);
-        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtemplate"](29, ServiceRequestListComponent_ng_template_29_Template, 2, 0, "ng-template", 14);
-        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵqueryRefresh"](_t = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵloadQuery"]()) && (ctx.dataBinding = _t.first);
+    } }, decls: 28, vars: 14, consts: [["id", "content", "role", "main", 1, "app-content"], [1, "app-content-body"], [1, "top"], [1, "row", "t-main"], [1, "col-sm-6", "col-xs-12", "t-main-1"], [1, "m-n", "t-main1"], [1, "col-sm-6", "text-right", "poppins"], ["aria-label", "breadcrumb"], [1, "breadcrumb", "t-main"], ["aria-current", "page", 1, "breadcrumb-item", "active", 2, "font-size", "11px"], ["aria-current", "page", 1, "breadcrumb-item", "active", 2, "font-size", "11px", "color", "red"], ["kendoGridSelectBy", "id", 3, "kendoGridBinding", "selectedKeys", "pageSize", "pageable", "sortable", "reorderable", "resizable", "height", "columnMenu"], ["kendoGridToolbarTemplate", ""], ["title", "ID", 3, "width"], ["kendoGridCellTemplate", ""], ["title", "Service Details", 3, "width"], ["title", "Details", 3, "width"], ["title", "Status", 3, "width"], ["placeholder", "Search in all columns...", "kendoTextBox", "", 3, "input"], ["class", "button", 4, "ngIf"], [1, "button"], ["routerLink", "/service-request"], [1, "service", 2, "color", "red"], [1, "service"], ["aria-hidden", "true", 1, "fa", "fa-calendar-check-o", 2, "color", "green"], ["aria-hidden", "true", 1, "fa", "fa-calendar-plus-o", 2, "color", "green"]], template: function ServiceRequestListComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](0, "app-header");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](1, "app-sidenav");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](2, "div", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](3, "div", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](4, "div", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](5, "div", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](6, "div", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](7, "h4", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](8, "Service List");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](9, "div", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](10, "nav", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](11, "ol", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](12, "li", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](13, "Dashboard");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](14, "li", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](15, "Service");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](16, "li", 10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](17, "Service View List");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](18, "kendo-grid", 11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](19, ServiceRequestListComponent_ng_template_19_Template, 3, 1, "ng-template", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](20, "kendo-grid-column", 13);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](21, ServiceRequestListComponent_ng_template_21_Template, 6, 5, "ng-template", 14);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](22, "kendo-grid-column", 15);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](23, ServiceRequestListComponent_ng_template_23_Template, 16, 4, "ng-template", 14);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](24, "kendo-grid-column", 16);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](25, ServiceRequestListComponent_ng_template_25_Template, 8, 2, "ng-template", 14);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](26, "kendo-grid-column", 17);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](27, ServiceRequestListComponent_ng_template_27_Template, 10, 5, "ng-template", 14);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
     } if (rf & 2) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](18);
-        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("kendoGridBinding", ctx.gridView)("selectedKeys", ctx.mySelection)("pageSize", 20)("pageable", true)("sortable", true)("reorderable", true)("resizable", true)("height", 500)("columnMenu", _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵpureFunction0"](18, _c0));
-        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("width", 100);
-        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("width", 100);
-        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("width", 100);
-        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("width", 100);
-        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵclassMap"](_angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵpureFunction0"](19, _c1));
-        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("width", 100)("resizable", false)("filterable", false);
-    } }, directives: [_header_header_component__WEBPACK_IMPORTED_MODULE_2__.HeaderComponent, _sidenav_sidenav_component__WEBPACK_IMPORTED_MODULE_3__.SidenavComponent, _progress_kendo_angular_grid__WEBPACK_IMPORTED_MODULE_6__.GridComponent, _progress_kendo_angular_grid__WEBPACK_IMPORTED_MODULE_6__.SelectionDirective, _progress_kendo_angular_grid__WEBPACK_IMPORTED_MODULE_6__.DataBindingDirective, _progress_kendo_angular_grid__WEBPACK_IMPORTED_MODULE_6__.ToolbarTemplateDirective, _progress_kendo_angular_grid__WEBPACK_IMPORTED_MODULE_6__.ColumnComponent, _progress_kendo_angular_grid__WEBPACK_IMPORTED_MODULE_6__.CellTemplateDirective, _progress_kendo_angular_inputs__WEBPACK_IMPORTED_MODULE_7__.TextBoxDirective, _progress_kendo_angular_grid__WEBPACK_IMPORTED_MODULE_6__.GridSpacerComponent, _angular_router__WEBPACK_IMPORTED_MODULE_5__.RouterLinkWithHref, _progress_kendo_angular_menu__WEBPACK_IMPORTED_MODULE_8__.MenuComponent, _progress_kendo_angular_menu__WEBPACK_IMPORTED_MODULE_8__.MenuItemComponent], pipes: [_angular_common__WEBPACK_IMPORTED_MODULE_9__.DatePipe], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzZXJ2aWNlLXJlcXVlc3QtbGlzdC5jb21wb25lbnQuY3NzIn0= */"] });
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](18);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("kendoGridBinding", ctx.gridView)("selectedKeys", ctx.mySelection)("pageSize", 20)("pageable", true)("sortable", true)("reorderable", true)("resizable", true)("height", 500)("columnMenu", _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpureFunction0"](13, _c0));
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("width", 100);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("width", 100);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("width", 100);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("width", 100);
+    } }, directives: [_header_header_component__WEBPACK_IMPORTED_MODULE_4__.HeaderComponent, _sidenav_sidenav_component__WEBPACK_IMPORTED_MODULE_5__.SidenavComponent, _progress_kendo_angular_grid__WEBPACK_IMPORTED_MODULE_8__.GridComponent, _progress_kendo_angular_grid__WEBPACK_IMPORTED_MODULE_8__.SelectionDirective, _progress_kendo_angular_grid__WEBPACK_IMPORTED_MODULE_8__.DataBindingDirective, _progress_kendo_angular_grid__WEBPACK_IMPORTED_MODULE_8__.ToolbarTemplateDirective, _progress_kendo_angular_grid__WEBPACK_IMPORTED_MODULE_8__.ColumnComponent, _progress_kendo_angular_grid__WEBPACK_IMPORTED_MODULE_8__.CellTemplateDirective, _progress_kendo_angular_inputs__WEBPACK_IMPORTED_MODULE_9__.TextBoxDirective, _progress_kendo_angular_grid__WEBPACK_IMPORTED_MODULE_8__.GridSpacerComponent, _angular_common__WEBPACK_IMPORTED_MODULE_10__.NgIf, _angular_router__WEBPACK_IMPORTED_MODULE_7__.RouterLinkWithHref], pipes: [_angular_common__WEBPACK_IMPORTED_MODULE_10__.DatePipe], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzZXJ2aWNlLXJlcXVlc3QtbGlzdC5jb21wb25lbnQuY3NzIn0= */"] });
 
 
 /***/ }),
@@ -31407,7 +31414,7 @@ ServiceRequestComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MO
     } if (rf & 2) {
         let _t;
         _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵqueryRefresh"](_t = _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵloadQuery"]()) && (ctx.multiselecttree = _t.first);
-    } }, decls: 178, vars: 18, consts: [["id", "content", "role", "main", 1, "app-content"], [1, "app-content-body"], [1, "top"], [1, "row", "t-main"], [1, "col-sm-6", "col-xs-12", "t-main-1"], [1, "m-n", "t-main1"], [1, "col-sm-6", "text-right", "poppins"], ["aria-label", "breadcrumb"], [1, "breadcrumb", "t-main"], ["aria-current", "page", 1, "breadcrumb-item", "active", 2, "font-size", "11px"], ["aria-current", "page", 1, "breadcrumb-item", "active", 2, "font-size", "11px", "color", "red"], ["ng-controller", "FormDemoCtr5", 1, "wrapper-md"], [3, "formGroup", "ngSubmit"], [1, "row"], [1, "col-sm-12"], [1, "panel", "panel-default"], [1, "panel-heading", "font-bold"], [1, "panel-body"], [1, "col-md-4", "form-group"], ["type", "text", "formControlName", "service_id", 1, "form-control", 3, "value"], ["formControlName", "service_type", 1, "form-control"], ["value", "", "disabled", ""], ["value", "AMC"], ["value", "FOC"], ["value", "Paid"], ["value", "Other"], ["formControlName", "service_location", 1, "form-control"], ["value", "On site"], ["value", "Off site"], [1, "clearfix"], ["formControlName", "priority", 1, "form-control"], ["value", "Low"], ["value", "Medium"], ["value", "High"], ["value", "Urgent"], ["formControlName", "source_type", 1, "form-control"], ["value", "Call"], ["value", "E Mail"], ["value", "Message"], [1, "form-group", "col-md-4"], [1, "input-group"], [1, "input-group-addon", 2, "color", "gray", "font-size", "20px", "background", "white", "border-right", "0px"], [1, "fa", "fa-building"], ["formControlName", "account", 3, "placeholder", "settings", "data", "onSelect"], [1, "input-group-addon", 2, "color", "gray", "font-size", "20px", "background", "white", "border-radius", "0px", "border-right", "0px"], [1, "fa", "fa-user"], ["formControlName", "account_info", 3, "placeholder", "settings", "data", "ngModel", "onSelect", "ngModelChange"], ["type", "text", "formControlName", "person_name", 1, "form-control"], ["formControlName", "assign_to", 1, "form-control"], ["value", "", "selected", ""], [3, "value", 4, "ngFor", "ngForOf"], ["type", "date", "formControlName", "visit_schedule", "max", "2050-03-31", 1, "form-control", 3, "min"], ["formControlName", "stages", 1, "form-control"], ["value", "Completed"], ["value", "Pending"], ["value", "Open"], ["value", "Repair Estimate Prepare"], [1, "form-group", "col-md-12", 2, "display", "flex", "align-items", "flex-end"], [1, "col-md-12"], ["style", "margin: 5px 0", "class", "col-md-12 input-group", 4, "ngFor", "ngForOf"], [1, "input-group-addon", 2, "margin", "5px 0", "color", "red", "font-size", "20px", "background", "white", "border-left", "1px solid #cfdadd", "width", "35px", "cursor", "pointer", 3, "click"], [1, "col-md-10"], [2, "text-align", "right", "padding-right", "18px"], ["onclick", "$('#file').click()", 2, "cursor", "pointer"], ["aria-hidden", "true", 1, "fa", "fa-paperclip"], ["accept", "application/pdf,image/*", "type", "file", "multiple", "", "encType", "multipart/form-data", "placeholder", "Uplode your Company Logo", "id", "file", "formControlName", "attachments", 1, "form-control", 2, "font-size", "12px", "border-right", "0px", "display", "none", 3, "change"], [1, "col-md-12", 2, "padding", "0px"], [1, "table"], [2, "background", "#FFE5E5"], [4, "ngFor", "ngForOf"], [1, "col-md-12", "form-group"], ["type", "text", "placeholder", "Remark", "formControlName", "remark", 1, "form-control"], [2, "text-align", "right", "margin", "10px 0px", "margin-right", "16px"], [1, "btn", "btn-dark"], ["routerLink", "/contact"], ["type", "submit", 1, "btn", "btn-danger", 3, "disabled", "click"], [3, "value"], [1, "col-md-12", "input-group", 2, "margin", "5px 0"], ["type", "text", 1, "form-control", 3, "value", "blur"], [1, "input-group-addon", 2, "cursor", "pointer", 3, "click"], [2, "color", "blue"], ["aria-hidden", "true", 1, "fa", "fa-trash", 3, "click"]], template: function ServiceRequestComponent_Template(rf, ctx) { if (rf & 1) {
+    } }, decls: 178, vars: 18, consts: [["id", "content", "role", "main", 1, "app-content"], [1, "app-content-body"], [1, "top"], [1, "row", "t-main"], [1, "col-sm-6", "col-xs-12", "t-main-1"], [1, "m-n", "t-main1"], [1, "col-sm-6", "text-right", "poppins"], ["aria-label", "breadcrumb"], [1, "breadcrumb", "t-main"], ["aria-current", "page", 1, "breadcrumb-item", "active", 2, "font-size", "11px"], ["aria-current", "page", 1, "breadcrumb-item", "active", 2, "font-size", "11px", "color", "red"], ["ng-controller", "FormDemoCtr5", 1, "wrapper-md"], [3, "formGroup", "ngSubmit"], [1, "row"], [1, "col-sm-12"], [1, "panel", "panel-default"], [1, "panel-heading", "font-bold"], [1, "panel-body"], [1, "col-md-4", "form-group"], ["type", "text", "formControlName", "service_id", 1, "form-control", 3, "value"], ["formControlName", "service_type", 1, "form-control"], ["value", "", "disabled", ""], ["value", "AMC"], ["value", "FOC"], ["value", "Paid"], ["value", "Other"], ["formControlName", "service_location", 1, "form-control"], ["value", "On site"], ["value", "Off site"], [1, "clearfix"], ["formControlName", "priority", 1, "form-control"], ["value", "Low"], ["value", "Medium"], ["value", "High"], ["value", "Urgent"], ["formControlName", "source_type", 1, "form-control"], ["value", "Call"], ["value", "E Mail"], ["value", "Message"], [1, "form-group", "col-md-4"], [1, "input-group"], [1, "input-group-addon", 2, "color", "gray", "font-size", "20px", "background", "white", "border-right", "0px"], [1, "fa", "fa-building"], ["formControlName", "account", 3, "placeholder", "settings", "data", "onSelect"], [1, "input-group-addon", 2, "color", "gray", "font-size", "20px", "background", "white", "border-radius", "0px", "border-right", "0px"], [1, "fa", "fa-user"], ["formControlName", "account_info", 3, "placeholder", "settings", "data", "ngModel", "onSelect", "ngModelChange"], ["type", "text", "formControlName", "person_name", 1, "form-control"], ["formControlName", "assign_to", 1, "form-control"], ["value", "", "selected", "", "disabled", ""], [3, "value", 4, "ngFor", "ngForOf"], ["type", "date", "formControlName", "visit_schedule", "max", "2050-03-31", 1, "form-control", 3, "min"], ["formControlName", "stages", 1, "form-control"], ["value", "Completed"], ["value", "Pending"], ["value", "Open"], ["value", "Repair Estimate Prepare"], [1, "form-group", "col-md-12", 2, "display", "flex", "align-items", "flex-end"], [1, "col-md-12"], ["style", "margin: 5px 0", "class", "col-md-12 input-group", 4, "ngFor", "ngForOf"], [1, "input-group-addon", 2, "margin", "5px 0", "color", "red", "font-size", "20px", "background", "white", "border-left", "1px solid #cfdadd", "width", "35px", "cursor", "pointer", 3, "click"], [1, "col-md-10"], [2, "text-align", "right", "padding-right", "18px"], ["onclick", "$('#file').click()", 2, "cursor", "pointer"], ["aria-hidden", "true", 1, "fa", "fa-paperclip"], ["accept", "application/pdf,image/*", "type", "file", "multiple", "", "encType", "multipart/form-data", "placeholder", "Uplode your Company Logo", "id", "file", "formControlName", "attachments", 1, "form-control", 2, "font-size", "12px", "border-right", "0px", "display", "none", 3, "change"], [1, "col-md-12", 2, "padding", "0px"], [1, "table"], [2, "background", "#FFE5E5"], [4, "ngFor", "ngForOf"], [1, "col-md-12", "form-group"], ["type", "text", "placeholder", "Remark", "formControlName", "remark", 1, "form-control"], [2, "text-align", "right", "margin", "10px 0px", "margin-right", "16px"], [1, "btn", "btn-dark"], ["routerLink", "/contact"], ["type", "submit", 1, "btn", "btn-danger", 3, "disabled", "click"], [3, "value"], [1, "col-md-12", "input-group", 2, "margin", "5px 0"], ["type", "text", 1, "form-control", 3, "value", "blur"], [1, "input-group-addon", 2, "cursor", "pointer", 3, "click"], [2, "color", "blue"], ["aria-hidden", "true", 1, "fa", "fa-trash", 3, "click"]], template: function ServiceRequestComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵelement"](0, "app-header");
         _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵelement"](1, "app-sidenav");
         _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵelementStart"](2, "div", 0);
