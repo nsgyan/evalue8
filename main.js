@@ -3492,20 +3492,20 @@ class CompanyComponent {
             }
         });
     }
-    changeCountry() {
-        console.log(this.addressForm.value.country);
-        this.state_country.getStates(this.addressForm.value.country).subscribe((state) => {
-            console.log(state);
-            this.State = state;
-        });
-    }
-    changeState() {
-        console.log(this.addressForm.value.state);
-        this.state_country.getCity(this.addressForm.value.state).subscribe((city) => {
-            console.log(city);
-            this.City = city;
-        });
-    }
+    // changeCountry(){
+    //   console.log(this.addressForm.value.country)
+    //   this.state_country.getStates(this.addressForm.value.country).subscribe((state)=>{
+    //     console.log(state)
+    //     this.State=state
+    //   })
+    // }
+    // changeState(){
+    //   console.log(this.addressForm.value.state)
+    //   this.state_country.getCity(this.addressForm.value.state).subscribe((city)=>{
+    //     console.log(city)
+    //     this.City=city
+    //   })
+    // }
     get c() {
         return this.companyForm.controls;
     }
@@ -3525,18 +3525,19 @@ class CompanyComponent {
                 }
             });
         });
-        //   let number2 = Math.random() // 0.9394456857981651
-        //   number2.toString(36); // '0.xtis06h6'
-        //  var id = number2.toString(36).substr(2, 9);
-        //  this.branchId=id.toUpperCase()
+        let number2 = Math.random(); // 0.9394456857981651
+        number2.toString(36); // '0.xtis06h6'
+        var id = number2.toString(36).substr(2, 9);
+        this.branchId = id.toUpperCase();
         this.getAddress();
+        console.log(this.getAddress);
         this.Country = src_assets_Country__WEBPACK_IMPORTED_MODULE_0__.country;
         this.auth.userLoggedIn().subscribe((data) => {
             this.loginUser = data.result.username;
             this.company.getCompanyData(this.companyId).subscribe((companydata) => {
                 var _a, _b, _c, _d, _e, _f;
                 this.Data = companydata[0];
-                console.log(companydata[0]);
+                // console.log(companydata[0])
                 this.companyName = (_a = companydata[0]) === null || _a === void 0 ? void 0 : _a.company_name;
                 this.companyGst = (_b = companydata[0]) === null || _b === void 0 ? void 0 : _b.gstin;
                 this.companyPan = (_c = companydata[0]) === null || _c === void 0 ? void 0 : _c.pan;
@@ -3595,7 +3596,7 @@ class CompanyComponent {
             secondary_email: [((_s = this.Data) === null || _s === void 0 ? void 0 : _s.secondary_email) ? (_t = this.Data) === null || _t === void 0 ? void 0 : _t.secondary_email : '', _angular_forms__WEBPACK_IMPORTED_MODULE_10__.Validators.pattern(/^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/)],
             created_at: ((_u = this.Data) === null || _u === void 0 ? void 0 : _u.created_at) ? (_v = this.Data) === null || _v === void 0 ? void 0 : _v.created_at : ''
         });
-        console.log(this.companyForm);
+        // console.log(this.companyForm)
     }
 }
 CompanyComponent.ɵfac = function CompanyComponent_Factory(t) { return new (t || CompanyComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵdirectiveInject"](_service_company_service__WEBPACK_IMPORTED_MODULE_2__.CompanyService), _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵdirectiveInject"](_angular_forms__WEBPACK_IMPORTED_MODULE_10__.FormBuilder), _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵdirectiveInject"](_service_toster_service__WEBPACK_IMPORTED_MODULE_3__.TosterService), _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵdirectiveInject"](_service_auth_service__WEBPACK_IMPORTED_MODULE_4__.AuthService), _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵdirectiveInject"](_service_country_state_city_service__WEBPACK_IMPORTED_MODULE_5__.CountryStateCityService), _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵdirectiveInject"](_service_user_service__WEBPACK_IMPORTED_MODULE_6__.UserService), _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_11__.Router)); };
