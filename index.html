@@ -11,7 +11,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
       <meta name="google-site-verification" content="PX_O4L-TfCnWoR6DG8ITgCmKZZ_Bi98BubpfOKYCXUo"/>
       <script src="//cdnjs.cloudflare.com/ajax/libs/jszip/2.4.0/jszip.min.js"></script>
-        
+
       <link rel="stylesheet" href="assets/libs/assets/animate.css/animate.css" type="text/css"/>
       <!-- <link rel="stylesheet" href="/libs/assets/font-awesome/css/font-awesome.min.css" type="text/css" /> -->
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css"/>
@@ -41,7 +41,7 @@
       <link rel="stylesheet" href="assets/css/style.css">
 <link rel="stylesheet" href="styles.css"></head>
 <body>
-  <app-root></app-root>
+  <app-root onmousemove="getMouse()"></app-root>
   <script src="assets/libs/jquery/jquery/dist/jquery.js"></script>
 <script src="assets/libs/jquery/bootstrap/dist/js/bootstrap.js"></script>
 <script src="assets/js/ui-load.js"></script>
@@ -53,7 +53,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.8.7/chosen.jquery.min.js" integrity="sha512-rMGGF4wg1R73ehtnxXBt5mbUfN9JUJwbk21KMlnLZDJh7BkPmeovBuddZCENJddHYYMkCh9hPFnPmS9sspki8g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script type="text/javascript" src="assets/js/jquery.dataTables.min.js"></script>
 <script type="text/javascript" src="assets/js/dataTables.bootstrap.min.js"></script>
-<script type="text/javascript" src="assets/js/dataTables.buttons.min.js"></script> 
+<script type="text/javascript" src="assets/js/dataTables.buttons.min.js"></script>
 <script type="text/javascript" src="assets/js/buttons.colVis.min.js"></script>
 <script type="text/javascript" src="assets/js/buttons.print.min.js"></script>
 <script type="text/javascript" src="assets/js/pdfmake.min.js"></script>
@@ -80,7 +80,7 @@
 <script src="assets/api/fullcalendar/fullcalendar.min.js"></script>
 <script src="assets/api/select2plugin/jquery.multiselect.js"></script>
 <script src="https://www.google.com/recaptcha/api.js" async="" defer=""></script>
-<script type="text/javascript">    
+<script type="text/javascript">
 
 	var ps = new PerfectScrollbar('.aside-wrap',);
 </script>
@@ -90,6 +90,10 @@
 		showConfirmButton: false,
 		timer: 2000
 	});
+
+  function getMouse(){
+      console.log('mouse move')
+    }
 
 	/*---------------End user profile update-------------------------*/
 </script>
@@ -103,7 +107,7 @@
 
 
 <!-- Date & Time -->
- 
+
 <!-- Date & Time -->
 
 <!---------------------------------------------- end success saved record  swal---------------------->
