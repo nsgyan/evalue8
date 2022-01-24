@@ -1,4 +1,4 @@
-<html>
+<!-- <html>
   <head>
     <title>reCAPTCHA demo: Simple page</title>
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
@@ -10,4 +10,36 @@
       <input type="submit" value="Submit">
     </form>
   </body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+ <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+<script>
+function validateForm() {
+ 
+   let x = document.forms["myForm"]["g-recaptcha-response"].value;
+  if (x == "") {
+    alert("Captcha must be filled out");
+    return false;
+  }
+}
+</script>
+</head>
+<body>
+
+<h2>JavaScript Validation</h2>
+
+<form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+ 
+  
+   <div id="recaptcha" class="g-recaptcha" data-sitekey="6Ld4Jh8TAAAAAD2tURa21kTFwMkKoyJCqaXb0uoK"></div>
+
+  <input type="submit" value="Submit">
+</form>
+
+</body>
 </html>
+
