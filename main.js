@@ -7709,7 +7709,40 @@ class CreateDealComponent {
     });
     this.getTaxableAmount();
     return data;
-  }
+  } // updateDiscount(data: any, id: any, discount: any): any {
+  //   console.log(data, id, discount);
+  //   let amount = 0;
+  //   data?.map((item: any, index: any): any => {
+  //     console.log(item.amount);
+  //     if (item.type === 'Product') {
+  //       if (item.id === id) {
+  //         // data.amount=amount
+  //         console.log(item.id);
+  //         item.discount = discount;
+  //         let total = item.UnitPrice * item.quantity;
+  //         item.amount = total - total * (Number(discount) / 100);
+  //         return;
+  //       }
+  //     } else {
+  //       this.updateDiscount(item.products, id, discount);
+  //       item.amount = 0;
+  //       item.products.length > 0 ? (item.quantity = 1) : (item.quantity = 0);
+  //       item.products.map((itm: any) => {
+  //         item.amount += parseFloat(itm.amount);
+  //         console.log(item.amount);
+  //       });
+  //       console.log(item.id);
+  //       item.UnitPrice = item.amount;
+  //       item.discount = discount;
+  //       let total = item.UnitPrice * item.quantity;
+  //       item.amount = total - total * (Number(discount) / 100);
+  //       this.data.filter((dt: any) => dt);
+  //     }
+  //   });
+  //   this.getTaxableAmount();
+  //   return data;
+  // }
+
 
   updateDiscount(data, id, discount) {
     console.log(data, id, discount);
@@ -7720,8 +7753,8 @@ class CreateDealComponent {
       if (item.type === 'Product') {
         if (item.id === id) {
           // data.amount=amount
-          console.log(item.id);
-          item.discount = discount;
+          console.log(item.id); // item.discount=discount
+
           let total = item.UnitPrice * item.quantity;
           item.amount = total - total * (Number(discount) / 100);
           return;
@@ -7735,8 +7768,8 @@ class CreateDealComponent {
           console.log(item.amount);
         });
         console.log(item.id);
-        item.UnitPrice = item.amount;
-        item.discount = discount;
+        item.UnitPrice = item.amount; // item.discount=discount
+
         let total = item.UnitPrice * item.quantity;
         item.amount = total - total * (Number(discount) / 100);
         this.data.filter(dt => dt);
@@ -9974,7 +10007,7 @@ class CreateLeadComponent {
     this.selectedItem = [];
     this.showbtn = false;
     this.selectedDataForMerge = [];
-    this.MergedProductsName = "";
+    this.MergedProductsName = '';
     this.ShowFilter = true;
     this.limitSelection = false;
     this.dropdownList = [];
@@ -10015,7 +10048,7 @@ class CreateLeadComponent {
 
     number.toString(36); // '0.xtis06h6'
 
-    var id = "L-" + number.toString(36).substr(2, 9);
+    var id = 'L-' + number.toString(36).substr(2, 9);
     this.lead_id = id.toUpperCase();
   }
 
@@ -10067,19 +10100,19 @@ class CreateLeadComponent {
 
           if (data.status == 200) {
             //  this.toast.showSuccess(data.message)
-            _this.toast.showSuccess("Successfully Submitted");
+            _this.toast.showSuccess('Successfully Submitted');
 
             setTimeout(() => {
               var _a;
 
-              (_a = document.getElementsByClassName("modal-backdrop")[0]) === null || _a === void 0 ? void 0 : _a.classList.remove('modal-backdrop');
+              (_a = document.getElementsByClassName('modal-backdrop')[0]) === null || _a === void 0 ? void 0 : _a.classList.remove('modal-backdrop');
               console.log();
 
               _this.router.navigate(['/quote']);
             }, 1500);
           } else if (data.status === 500) {
             // this.toast.showError(data.message)
-            _this.toast.showError("Error");
+            _this.toast.showError('Error');
           }
         });
       }
@@ -10122,17 +10155,17 @@ class CreateLeadComponent {
           console.log(data);
 
           if (data.status === 200) {
-            _this2.toast.showSuccess("Successfully Submitted");
+            _this2.toast.showSuccess('Successfully Submitted');
 
             setTimeout(() => {
               _this2.router.navigate(['/lead']);
             }, 1500);
           } else if (data.status === 404) {
-            _this2.toast.showError("Error");
+            _this2.toast.showError('Error');
           }
 
           if (data.status === 401) {
-            _this2.toast.showError("Error");
+            _this2.toast.showError('Error');
           }
         });
       } // :this.toast.showError("Incorrect Data")
@@ -10154,8 +10187,8 @@ class CreateLeadComponent {
     }
 
     if (this.leadForm.controls.lead_source.valid && this.leadForm.controls.lead_title.valid && this.leadForm.controls.lead_type.valid && this.leadForm.controls.lead_status_stage.valid && this.leadForm.controls.selected_company.valid) {
-      console.log("open model");
-      (_a = document.getElementById("openmodal")) === null || _a === void 0 ? void 0 : _a.click();
+      console.log('open model');
+      (_a = document.getElementById('openmodal')) === null || _a === void 0 ? void 0 : _a.click();
     }
   }
 
@@ -10220,7 +10253,7 @@ class CreateLeadComponent {
     };
     this.settings = {
       singleSelection: true,
-      text: "Select by Part No ( Ex-1702)",
+      text: 'Select by Part No ( Ex-1702)',
       selectAllText: 'Select All',
       unSelectAllText: 'UnSelect All',
       enableSearchFilter: true,
@@ -10263,7 +10296,7 @@ class CreateLeadComponent {
   onSearch(event) {
     if (event.target.value.length >= 4) {
       this.product.getProductDataSearch({
-        'searchValue': event.target.value
+        searchValue: event.target.value
       }).subscribe(data => {
         this.productData = data.result.slice();
         this.data1 = this.productData.slice();
@@ -10281,7 +10314,7 @@ class CreateLeadComponent {
       console.log(this.data1.length);
       let limit = this.data1.length;
       this.product.getAllProductLimit({
-        'lim': limit
+        lim: limit
       }).subscribe(data => {
         console.log(data);
         this.productData = data.result.slice();
@@ -10318,7 +10351,7 @@ class CreateLeadComponent {
       });
       this.isValidPrdFormSubmitted = true;
     } else {
-      console.log(this.productForm.value, "hiii");
+      console.log(this.productForm.value, 'hiii');
     }
   }
 
@@ -10333,7 +10366,7 @@ class CreateLeadComponent {
   handleBack() {
     sweetalert2__WEBPACK_IMPORTED_MODULE_1___default().fire({
       title: 'Confirm To Go Back',
-      text: "Are you sure?",
+      text: 'Are you sure?',
       icon: 'warning',
       showCancelButton: true,
       confirmButtonColor: '#3085d6',
@@ -10432,13 +10465,13 @@ class CreateLeadComponent {
     if (this.value[0] !== undefined) {
       if (this.selectedProduct.length == 1) {
         this.selectedProduct[0].amount += Number(this.value[0].UnitPrice);
-        (_a = this.selectedProduct[0]["products"]) === null || _a === void 0 ? void 0 : _a.push(this.value[0]);
+        (_a = this.selectedProduct[0]['products']) === null || _a === void 0 ? void 0 : _a.push(this.value[0]);
         this.totalAmount += Number(this.value[0].UnitPrice);
-        this.selectedProduct[0]["quantity"] == 0 ? this.totalQuantity += 1 : null;
-        this.selectedProduct[0]["quantity"] = 1;
+        this.selectedProduct[0]['quantity'] == 0 ? this.totalQuantity += 1 : null;
+        this.selectedProduct[0]['quantity'] = 1;
         this.data = this.data.filter(dt => dt);
       } else if (this.selectedProduct.length > 1) {
-        this.toast.showError("Please Select only One Group!");
+        this.toast.showError('Please Select only One Group!');
       } else {
         this.totalAmount += Number(this.value[0].UnitPrice);
         this.totalQuantity += Number(this.value[0].quantity);
@@ -10466,7 +10499,7 @@ class CreateLeadComponent {
   changeParentType(data) {
     console.log(data);
     data.map(item => {
-      if (item.type === "Product") {
+      if (item.type === 'Product') {
         item['parent'] = true;
         item.id = Math.floor(Math.random() * 1000);
         console.log(item);
@@ -10489,17 +10522,17 @@ class CreateLeadComponent {
       productname: this.groupName,
       PartNo: Math.floor(Math.random() * 10000),
       id: Math.floor(Math.random() * 100),
-      UOM: "NA",
-      CCNNo: "NA",
-      GST: "NA",
+      UOM: 'NA',
+      CCNNo: 'NA',
+      GST: 'NA',
       UnitPrice: this.groupSize,
       products: this.selectedProduct,
-      Category: "NA",
-      OEM: "NA",
-      OEMProductCode: "NA",
-      HSNCode: "NA",
-      main_id: "NA",
-      type: "Group",
+      Category: 'NA',
+      OEM: 'NA',
+      OEMProductCode: 'NA',
+      HSNCode: 'NA',
+      main_id: 'NA',
+      type: 'Group',
       amount: this.groupAmount,
       quantity: 1,
       parent: false // type: 'directory',
@@ -10523,7 +10556,7 @@ class CreateLeadComponent {
     });
     this.selectedProduct = [];
     this.groupPartNumber = null;
-    this.groupName = "", this.gst = "";
+    this.groupName = '', this.gst = '';
     this.groupAmount = 0;
     this.groupSize = 0;
     (_a = document.getElementById('closebtn')) === null || _a === void 0 ? void 0 : _a.click();
@@ -10561,7 +10594,7 @@ class CreateLeadComponent {
       });
       (_a = document.getElementById('showmodal')) === null || _a === void 0 ? void 0 : _a.click();
     } else {
-      console.log("Select atleast two products");
+      console.log('Select atleast two products');
     }
   }
 
@@ -10623,7 +10656,40 @@ class CreateLeadComponent {
     });
     this.getTaxableAmount();
     return data;
-  }
+  } //   updateDiscount(data: any, id: any, discount: any):any {
+  //     console.log(data,id,discount)
+  //     let amount=0
+  //     data?.map((item: any, index: any):any => {
+  //       console.log(item.amount);
+  //       if (item.type === 'Product') {
+  //         if (item.id === id) {
+  //           // data.amount=amount
+  //           console.log(item.id);
+  //           item.discount=discount
+  //           let total=item.UnitPrice*item.quantity
+  //           item.amount = total-total*(Number(discount)/100);
+  //           return
+  //         }
+  //       } else {
+  //         this.updateDiscount(item.products, id, discount);
+  //         item.amount=0
+  //         item.products.length>0?item.quantity=1:item.quantity=0
+  //         item.products.map((itm:any)=>{
+  //           item.amount+=parseFloat(itm.amount)
+  //           console.log(item.amount)
+  //         })
+  //         console.log(item.id);
+  //         item.UnitPrice= item.amount
+  //         item.discount=discount
+  //         let total=item.UnitPrice*item.quantity
+  //         item.amount = total-total*(Number(discount)/100);
+  //         this.data.filter((dt:any)=>dt)
+  //       }
+  //     });
+  //     this.getTaxableAmount()
+  // return data
+  //   }
+
 
   updateDiscount(data, id, discount) {
     console.log(data, id, discount);
@@ -10634,8 +10700,8 @@ class CreateLeadComponent {
       if (item.type === 'Product') {
         if (item.id === id) {
           // data.amount=amount
-          console.log(item.id);
-          item.discount = discount;
+          console.log(item.id); // item.discount=discount
+
           let total = item.UnitPrice * item.quantity;
           item.amount = total - total * (Number(discount) / 100);
           return;
@@ -10649,8 +10715,8 @@ class CreateLeadComponent {
           console.log(item.amount);
         });
         console.log(item.id);
-        item.UnitPrice = item.amount;
-        item.discount = discount;
+        item.UnitPrice = item.amount; // item.discount=discount
+
         let total = item.UnitPrice * item.quantity;
         item.amount = total - total * (Number(discount) / 100);
         this.data.filter(dt => dt);
@@ -10666,7 +10732,7 @@ class CreateLeadComponent {
     if (type === 'Product') {
       data === null || data === void 0 ? void 0 : data.map((item, index) => {
         if (item.type === 'Product') {
-          console.log(item.type, "======>");
+          console.log(item.type, '======>');
 
           if (item.id === id) {
             let sliceAmt = item.amount;
@@ -10753,7 +10819,7 @@ class CreateLeadComponent {
   checkAddGroup() {
     var _a;
 
-    console.log("add group");
+    console.log('add group');
 
     if (this.groupName && this.uom && this.gst && this.hsncode) {
       this.mergedProduct = {
@@ -10761,16 +10827,16 @@ class CreateLeadComponent {
         PartNo: Math.floor(Math.random() * 10000),
         id: Math.floor(Math.random() * 100),
         UOM: this.uom,
-        CCNNo: "NA",
+        CCNNo: 'NA',
         GST: this.gst,
         UnitPrice: 0,
         products: [],
-        Category: "NA",
-        OEM: "NA",
-        OEMProductCode: "NA",
+        Category: 'NA',
+        OEM: 'NA',
+        OEMProductCode: 'NA',
         HSNCode: this.hsncode,
-        main_id: "NA",
-        type: "Group",
+        main_id: 'NA',
+        type: 'Group',
         amount: 0,
         quantity: 0,
         parent: false
@@ -10779,19 +10845,19 @@ class CreateLeadComponent {
       this.data.push(this.mergedProduct);
       (_a = document.getElementById('closenameinp')) === null || _a === void 0 ? void 0 : _a.click(); // directive.rebind()
 
-      this.groupName = "";
-      this.gst = "";
-      this.hsncode = "";
-      this.uom = "";
+      this.groupName = '';
+      this.gst = '';
+      this.hsncode = '';
+      this.uom = '';
       this.data = this.data.filter(dt => dt);
     } else {
-      this.toast.showError("All Field are mandatory!");
+      this.toast.showError('All Field are mandatory!');
     }
 
-    this.groupName = "";
-    this.gst = "";
-    this.hsncode = "";
-    this.uom = "";
+    this.groupName = '';
+    this.gst = '';
+    this.hsncode = '';
+    this.uom = '';
   }
 
   handleBoxOpen() {
@@ -10801,7 +10867,7 @@ class CreateLeadComponent {
       console.log(this.selectedProduct[0].id);
       this.showDropdownData = this.data.filter(item => item.id != this.selectedProduct[0].id);
     } else if (this.selectedProduct.length > 1) {
-      this.toast.showError("Please Select only one group!");
+      this.toast.showError('Please Select only one group!');
     } else {
       this.showDropdownData = this.data.filter(item => item);
     } // directive.data=this.data
@@ -10873,21 +10939,21 @@ class CreateLeadComponent {
     });
     this.productForm = this.productfm.group({
       id: Math.floor(Math.random() * (100000 - 10000) + 10000),
-      CCNNo: ["", _angular_forms__WEBPACK_IMPORTED_MODULE_16__.Validators.required],
-      Category: ["", _angular_forms__WEBPACK_IMPORTED_MODULE_16__.Validators.required],
-      GST: ["", _angular_forms__WEBPACK_IMPORTED_MODULE_16__.Validators.required],
-      HSNCode: ["", _angular_forms__WEBPACK_IMPORTED_MODULE_16__.Validators.required],
-      OEM: ["", _angular_forms__WEBPACK_IMPORTED_MODULE_16__.Validators.required],
-      OEMProductCode: ["", _angular_forms__WEBPACK_IMPORTED_MODULE_16__.Validators.required],
-      PartNo: ["", _angular_forms__WEBPACK_IMPORTED_MODULE_16__.Validators.required],
-      UOM: ["", _angular_forms__WEBPACK_IMPORTED_MODULE_16__.Validators.required],
-      UnitPrice: ["", _angular_forms__WEBPACK_IMPORTED_MODULE_16__.Validators.required],
-      productname: ["", _angular_forms__WEBPACK_IMPORTED_MODULE_16__.Validators.required],
-      type: ["", _angular_forms__WEBPACK_IMPORTED_MODULE_16__.Validators.required],
-      parent: ["", _angular_forms__WEBPACK_IMPORTED_MODULE_16__.Validators.required],
-      quantity: ["", _angular_forms__WEBPACK_IMPORTED_MODULE_16__.Validators.required],
-      amount: ["", _angular_forms__WEBPACK_IMPORTED_MODULE_16__.Validators.required],
-      products: ["", _angular_forms__WEBPACK_IMPORTED_MODULE_16__.Validators.required]
+      CCNNo: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_16__.Validators.required],
+      Category: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_16__.Validators.required],
+      GST: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_16__.Validators.required],
+      HSNCode: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_16__.Validators.required],
+      OEM: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_16__.Validators.required],
+      OEMProductCode: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_16__.Validators.required],
+      PartNo: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_16__.Validators.required],
+      UOM: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_16__.Validators.required],
+      UnitPrice: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_16__.Validators.required],
+      productname: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_16__.Validators.required],
+      type: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_16__.Validators.required],
+      parent: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_16__.Validators.required],
+      quantity: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_16__.Validators.required],
+      amount: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_16__.Validators.required],
+      products: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_16__.Validators.required]
     });
   }
 
@@ -10903,7 +10969,7 @@ class CreateLeadComponent {
       console.log(this.productForm, 'true');
       this.productForm.value.id = Math.floor(Math.random() * (100000 - 10000) + 10000);
       this.product.AddProduct(this.productForm.value).subscribe(data => {
-        this.buttondisabled = "false";
+        this.buttondisabled = 'false';
         console.log(data);
 
         if (data.status == 200) {
@@ -10930,18 +10996,18 @@ class CreateLeadComponent {
       id: '',
       // id:Math.floor(Math.random()*(100000 - 10000) + 10000),
       CCNNo: '',
-      Category: "",
-      GST: "",
-      HSNCode: "",
-      OEM: "",
-      OEMProductCode: "",
+      Category: '',
+      GST: '',
+      HSNCode: '',
+      OEM: '',
+      OEMProductCode: '',
       PartNo: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_16__.Validators.required],
       UOM: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_16__.Validators.required],
       UnitPrice: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_16__.Validators.required],
       productname: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_16__.Validators.required],
       type: 'Product',
-      parent: "",
-      quantity: "",
+      parent: '',
+      quantity: '',
       amount: '',
       products: []
     });
@@ -10958,7 +11024,7 @@ class CreateLeadComponent {
   setGst(amount, gst) {
     let cal = 0;
 
-    if (gst == "") {
+    if (gst == '') {
       cal = 0;
     } else {
       let GstValue = gst.split('%');
@@ -10974,14 +11040,14 @@ class CreateLeadComponent {
       console.log(item.GST);
       let cal = 0;
 
-      if (item.GST == "") {
+      if (item.GST == '') {
         cal = 0;
       } else {
         let GstValue = item.GST.split('%');
         cal = parseFloat(GstValue[0]) / 100;
       }
 
-      if (item.GST == "") {
+      if (item.GST == '') {
         cal = 0;
       } else {
         let GstValue = item.GST.split('%');
@@ -19868,7 +19934,40 @@ class DealEditComponent {
     });
     this.getTaxableAmount();
     return data;
-  }
+  } // updateDiscount(data: any, id: any, discount: any): any {
+  //   console.log(data, id, discount);
+  //   let amount = 0;
+  //   data?.map((item: any, index: any): any => {
+  //     console.log(item.amount);
+  //     if (item.type === 'Product') {
+  //       if (item.id === id) {
+  //         // data.amount=amount
+  //         console.log(item.id);
+  //         item.discount = discount;
+  //         let total = item.UnitPrice * item.quantity;
+  //         item.amount = total - total * (Number(discount) / 100);
+  //         return;
+  //       }
+  //     } else {
+  //       this.updateDiscount(item.products, id, discount);
+  //       item.amount = 0;
+  //       item.products.length > 0 ? (item.quantity = 1) : (item.quantity = 0);
+  //       item.products.map((itm: any) => {
+  //         item.amount += parseFloat(itm.amount);
+  //         console.log(item.amount);
+  //       });
+  //       console.log(item.id);
+  //       item.UnitPrice = item.amount;
+  //       item.discount = discount;
+  //       let total = item.UnitPrice * item.quantity;
+  //       item.amount = total - total * (Number(discount) / 100);
+  //       this.data.filter((dt: any) => dt);
+  //     }
+  //   });
+  //   this.getTaxableAmount();
+  //   return data;
+  // }
+
 
   updateDiscount(data, id, discount) {
     console.log(data, id, discount);
@@ -19879,8 +19978,8 @@ class DealEditComponent {
       if (item.type === 'Product') {
         if (item.id === id) {
           // data.amount=amount
-          console.log(item.id);
-          item.discount = discount;
+          console.log(item.id); // item.discount=discount
+
           let total = item.UnitPrice * item.quantity;
           item.amount = total - total * (Number(discount) / 100);
           return;
@@ -19894,8 +19993,8 @@ class DealEditComponent {
           console.log(item.amount);
         });
         console.log(item.id);
-        item.UnitPrice = item.amount;
-        item.discount = discount;
+        item.UnitPrice = item.amount; // item.discount=discount
+
         let total = item.UnitPrice * item.quantity;
         item.amount = total - total * (Number(discount) / 100);
         this.data.filter(dt => dt);
@@ -23033,8 +23132,8 @@ class LeadEditComponent {
       if (item.type === 'Product') {
         if (item.id === id) {
           // data.amount=amount
-          console.log(item.id);
-          item.discount = discount;
+          console.log(item.id); // item.discount=discount
+
           let total = item.UnitPrice * item.quantity;
           item.amount = total - total * (Number(discount) / 100);
           return;
@@ -23048,8 +23147,8 @@ class LeadEditComponent {
           console.log(item.amount);
         });
         console.log(item.id);
-        item.UnitPrice = item.amount;
-        item.discount = discount;
+        item.UnitPrice = item.amount; // item.discount=discount
+
         let total = item.UnitPrice * item.quantity;
         item.amount = total - total * (Number(discount) / 100);
         this.data.filter(dt => dt);
@@ -23057,7 +23156,40 @@ class LeadEditComponent {
     });
     this.getTaxableAmount();
     return data;
-  }
+  } //   updateDiscount(data: any, id: any, discount: any):any {
+  //     console.log(data,id,discount)
+  //     let amount=0
+  //     data?.map((item: any, index: any):any => {
+  //       console.log(item.amount);
+  //       if (item.type === 'Product') {
+  //         if (item.id === id) {
+  //           // data.amount=amount
+  //           console.log(item.id);
+  //           item.discount=discount
+  //           let total=item.UnitPrice*item.quantity
+  //           item.amount = total-total*(Number(discount)/100);
+  //           return
+  //         }
+  //       } else {
+  //         this.updateDiscount(item.products, id, discount);
+  //         item.amount=0
+  //         item.products.length>0?item.quantity=1:item.quantity=0
+  //         item.products.map((itm:any)=>{
+  //           item.amount+=parseFloat(itm.amount)
+  //           console.log(item.amount)
+  //         })
+  //         console.log(item.id);
+  //         item.UnitPrice= item.amount
+  //         item.discount=discount
+  //         let total=item.UnitPrice*item.quantity
+  //         item.amount = total-total*(Number(discount)/100);
+  //         this.data.filter((dt:any)=>dt)
+  //       }
+  //     });
+  //     this.getTaxableAmount()
+  // return data
+  //   }
+
 
   deleteData(data, id, type, v) {
     console.log(data, id, type);
@@ -27961,7 +28093,40 @@ class QuoteEditComponent {
     });
     this.getTaxableAmount();
     return data;
-  }
+  } //   updateDiscount(data: any, id: any, discount: any):any {
+  //     console.log(data,id,discount)
+  //     let amount=0
+  //     data?.map((item: any, index: any):any => {
+  //       console.log(item.amount);
+  //       if (item.type === 'Product') {
+  //         if (item.id === id) {
+  //           // data.amount=amount
+  //           console.log(item.id);
+  //           item.discount=discount
+  //           let total=item.UnitPrice*item.quantity
+  //           item.amount = total-total*(Number(discount)/100);
+  //           return
+  //         }
+  //       } else {
+  //         this.updateDiscount(item.products, id, discount);
+  //         item.amount=0
+  //         item.products.length>0?item.quantity=1:item.quantity=0
+  //         item.products.map((itm:any)=>{
+  //           item.amount+=parseFloat(itm.amount)
+  //           console.log(item.amount)
+  //         })
+  //         console.log(item.id);
+  //         item.UnitPrice= item.amount
+  //         item.discount=discount
+  //         let total=item.UnitPrice*item.quantity
+  //         item.amount = total-total*(Number(discount)/100);
+  //         this.data.filter((dt:any)=>dt)
+  //       }
+  //     });
+  //     this.getTaxableAmount()
+  // return data
+  //   }
+
 
   updateDiscount(data, id, discount) {
     console.log(data, id, discount);
@@ -27972,8 +28137,8 @@ class QuoteEditComponent {
       if (item.type === 'Product') {
         if (item.id === id) {
           // data.amount=amount
-          console.log(item.id);
-          item.discount = discount;
+          console.log(item.id); // item.discount=discount
+
           let total = item.UnitPrice * item.quantity;
           item.amount = total - total * (Number(discount) / 100);
           return;
@@ -27987,8 +28152,8 @@ class QuoteEditComponent {
           console.log(item.amount);
         });
         console.log(item.id);
-        item.UnitPrice = item.amount;
-        item.discount = discount;
+        item.UnitPrice = item.amount; // item.discount=discount
+
         let total = item.UnitPrice * item.quantity;
         item.amount = total - total * (Number(discount) / 100);
         this.data.filter(dt => dt);
@@ -36466,7 +36631,7 @@ class ProductgridComponent {
                 this.data[this.levelIndex].productname = formdata.productname;
                 this.data[this.levelIndex].PartNo = formdata.PartNo;
             }
-            this.data[this.levelIndex].GST = formdata.GST + '%';
+            this.data[this.levelIndex].GST = formdata.GST;
             this.data[this.levelIndex].HSNCode = formdata.HSNCode;
             this.data[this.levelIndex].UnitPrice = formdata.UnitPrice;
             this.data[this.levelIndex].quantity = formdata.quantity;
@@ -36487,7 +36652,7 @@ class ProductgridComponent {
                 if (this.levelvalue == this.levelIndex.length - 1) {
                     this.levelvalue = 0;
                     ele.HSNCode = ff.HSNCode;
-                    ele.GST = ff.GST + '%';
+                    ele.GST = ff.GST;
                     ele.UnitPrice = 0;
                     ele.quantity = ff.quantity;
                     ele.discount = ff.discount;
@@ -36502,7 +36667,7 @@ class ProductgridComponent {
                 if (index === parseInt(this.levelIndex[this.levelvalue]) &&
                     ele.type === 'Product') {
                     this.levelvalue = 0;
-                    ele.GST = ff.GST + '%';
+                    ele.GST = ff.GST;
                     ele.HSNCode = ff.HSNCode;
                     ele.UnitPrice = ff.UnitPrice;
                     ele.quantity = ff.quantity;
@@ -36642,7 +36807,7 @@ class ProductgridComponent {
             id: generatedid,
             CCNNo: '',
             Category: 'Group',
-            GST: '18%',
+            GST: '',
             HSNCode: '',
             OEM: '',
             OEMProductCode: '',
@@ -36665,7 +36830,7 @@ class ProductgridComponent {
             id: generatedid,
             CCNNo: '',
             Category: 'Product',
-            GST: '18%',
+            GST: '',
             HSNCode: '',
             OEM: '',
             OEMProductCode: '',
