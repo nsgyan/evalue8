@@ -27563,14 +27563,14 @@ class QuoteEditComponent {
   }
 
   SubmitForm() {
-    var _a, _b, _c;
+    var _a, _b;
 
-    this.quoteForm.value.quote_owner = (_a = this.quoteData) === null || _a === void 0 ? void 0 : _a.quote_owner;
+    this.quoteForm.value.quote_owner = this.quoteOwner;
     this.quoteForm.value.account_id = this.account_id;
     this.quoteForm.value.contact_id = this.contact_id;
-    this.quoteForm.value.created_date_time = (_b = this.quoteData) === null || _b === void 0 ? void 0 : _b.created_date_time;
+    this.quoteForm.value.created_date_time = (_a = this.quoteData) === null || _a === void 0 ? void 0 : _a.created_date_time;
     this.quoteForm.value.modified_by = this.currentUser;
-    this.quoteForm.value.created_by = (_c = this.quoteData) === null || _c === void 0 ? void 0 : _c.created_by;
+    this.quoteForm.value.created_by = (_b = this.quoteData) === null || _b === void 0 ? void 0 : _b.created_by;
     this.quoteForm.value.attachments = this.files_url;
     this.quoteForm.value.created_by = this.currentUser;
     this.quoteForm.value.deal_validity = this.deal_validity;
@@ -27779,7 +27779,8 @@ class QuoteEditComponent {
       var _a, _b, _c, _d, _e, _f;
 
       console.log(data);
-      this.quoteData = data.result[0]; // this.selectedBranch=data.result[0].quote_location
+      this.quoteData = data.result[0];
+      this.quoteOwner = data.result[0].quote_owner; // this.selectedBranch=data.result[0].quote_location
 
       this.quoteData.approved_by = ((_a = data.result[0]) === null || _a === void 0 ? void 0 : _a.approved_by) && ((_b = data.result[0]) === null || _b === void 0 ? void 0 : _b.approved_by) != "undefined" ? (_c = data.result[0]) === null || _c === void 0 ? void 0 : _c.approved_by[0] : {
         username: 'NA'
@@ -27883,7 +27884,7 @@ class QuoteEditComponent {
 
   handleOwnerChange(e) {
     console.log(e);
-    this.quoteOwner = e.username;
+    this.quoteOwner = e;
     this.quoteOwnerId = e._id; // this.leadOwner=e.target.value.split(',')[0]
   }
 
@@ -28410,7 +28411,7 @@ class QuoteEditComponent {
 
     this.quoteForm = this.qtFm.group({
       quote_id: this.quoteId,
-      quote_owner: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_15__.Validators.required],
+      quote_owner: [this.quoteOwner, _angular_forms__WEBPACK_IMPORTED_MODULE_15__.Validators.required],
       account_id: this.account_id,
       contact_id: this.contact_id,
       quote_title: [((_a = this.quoteData) === null || _a === void 0 ? void 0 : _a.quote_title) ? (_b = this.quoteData) === null || _b === void 0 ? void 0 : _b.quote_title : '', _angular_forms__WEBPACK_IMPORTED_MODULE_15__.Validators.required],
@@ -36740,13 +36741,13 @@ class ProductgridComponent {
             else {
                 if (index === parseInt(this.levelIndex[this.levelvalue]) &&
                     ele.type === 'Product') {
-                    this.levelvalue = 0;
                     ele.GST = ff.GST;
                     ele.HSNCode = ff.HSNCode;
                     ele.UnitPrice = ff.UnitPrice;
                     ele.quantity = ff.quantity;
                     ele.discount = ff.discount;
                     ele.amount = ff.UnitPrice * ff.quantity;
+                    this.levelvalue = 0;
                 }
             }
         });
