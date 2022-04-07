@@ -1,46 +1,48 @@
-<!DOCTYPE html><html lang="en"><head>
+<!doctype html>
+<html lang="en">
+<head>
   <meta charset="utf-8">
   <title>Big Leap</title>
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-   <link rel="shortcut icon" href="../../assets/img/bigleap.png" type="image/x-icon">
-      <meta name="BigLeap" content="Troology">
+   <link rel="shortcut icon" href="../../assets/img/bigleap.png" type="image/x-icon"/>
+      <meta name="BigLeap" content="Troology"/>
 
-      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
      
       <script src="//cdnjs.cloudflare.com/ajax/libs/jszip/2.4.0/jszip.min.js"></script>
 
-      <style>@charset "UTF-8";</style><link rel="stylesheet" href="assets/libs/assets/animate.css/animate.css" type="text/css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="assets/libs/assets/animate.css/animate.css"></noscript>
+      <link rel="stylesheet" href="assets/libs/assets/animate.css/animate.css" type="text/css"/>
       <!-- <link rel="stylesheet" href="/libs/assets/font-awesome/css/font-awesome.min.css" type="text/css" /> -->
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
-      <link rel="stylesheet" href="assets/libs/assets/simple-line-icons/css/simple-line-icons.css" type="text/css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="assets/libs/assets/simple-line-icons/css/simple-line-icons.css"></noscript>
-      <style>html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;}body{margin:0;}@media print{*,*:before,*:after{color:#000 !important;text-shadow:none !important;background:transparent !important;-webkit-box-shadow:none !important;box-shadow:none !important;}}*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}*:before,*:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}html{font-size:10px;-webkit-tap-highlight-color:rgba(0, 0, 0, 0);}body{font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;font-size:14px;line-height:1.42857143;color:#333;background-color:#fff;}</style><link rel="stylesheet" href="assets/libs/jquery/bootstrap/dist/css/bootstrap.css" type="text/css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="assets/libs/jquery/bootstrap/dist/css/bootstrap.css"></noscript>
-      <link rel="stylesheet" href="assets/libs/jquery/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css" type="text/css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="assets/libs/jquery/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css"></noscript>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css"/>
+      <link rel="stylesheet" href="assets/libs/assets/simple-line-icons/css/simple-line-icons.css" type="text/css"/>
+      <link rel="stylesheet" href="assets/libs/jquery/bootstrap/dist/css/bootstrap.css" type="text/css"/>
+      <link rel="stylesheet" href="assets/libs/jquery/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css" type="text/css"/>
       <!-- Datatables -->
-      <style>html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;}body{margin:0;}@media print{*,:after,:before{color:#000!important;text-shadow:none!important;background:0 0!important;-webkit-box-shadow:none!important;box-shadow:none!important;}}*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}:after,:before{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}html{font-size:10px;-webkit-tap-highlight-color:rgba(0,0,0,0);}body{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:14px;line-height:1.42857143;color:#333;background-color:#fff;}</style><link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="assets/css/bootstrap.min.css"></noscript>
-      <link rel="stylesheet" type="text/css" href="assets/css/dataTables.bootstrap.min.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="assets/css/dataTables.bootstrap.min.css"></noscript>
+      <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+      <link rel="stylesheet" type="text/css" href="assets/css/dataTables.bootstrap.min.css">
       <!-- <link rel='stylesheet' type='text/css' href='/css/buttons.dataTables.min.css'/> -->
-      <link rel="stylesheet" href="assets/css/font.css" type="text/css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="assets/css/font.css"></noscript>
-      <style>html{background-color:#f0f3f4;}body{font-family:"Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;font-size:14px;-webkit-font-smoothing:antialiased;line-height:1.42857143;color:#58666e;background-color:transparent;}*:focus{outline:0 !important;}html,body{width:100%;height:100%;}body{overflow-x:hidden;}@media (max-width: 767px){body{height:auto;min-height:100%;}}@media (max-width: 767px){html,body{overflow-x:hidden !important;}}</style><link rel="stylesheet" href="assets/css/app.css" type="text/css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="assets/css/app.css"></noscript>
-      <link rel="stylesheet" href="assets/css/loader.css" type="text/css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="assets/css/loader.css"></noscript>
-      <link rel="stylesheet" href="assets/css/jquery-ui.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="assets/css/jquery-ui.css"></noscript>
-      <link rel="stylesheet" href="assets/css/bootstrap-datepicker.standalone.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="assets/css/bootstrap-datepicker.standalone.css"></noscript>
-      <link rel="stylesheet" href="assets/css/sweetalert2.min.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="assets/css/sweetalert2.min.css"></noscript>
-      <link rel="stylesheet" href="assets/api/select/docsupport/prism.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="assets/api/select/docsupport/prism.css"></noscript>
-      <link rel="stylesheet" href="assets/api/select/chosen.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="assets/api/select/chosen.css"></noscript>
-      <link rel="stylesheet" href="assets/libs/jquery/bootstrap-pincode-input-master/css/bootstrap-pincode-input.css" type="text/css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="assets/libs/jquery/bootstrap-pincode-input-master/css/bootstrap-pincode-input.css"></noscript>
-      <link rel="stylesheet" type="text/css" href="assets/css/dropzone.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="assets/css/dropzone.css"></noscript>
-      <link rel="stylesheet" type="text/css" href="assets/libs/jquery/perfect-scrollbar-master/css/perfect-scrollbar.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="assets/libs/jquery/perfect-scrollbar-master/css/perfect-scrollbar.css"></noscript>
-      <link href="assets/api/fullcalendar/fullcalendar.min.css" rel="stylesheet" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="assets/api/fullcalendar/fullcalendar.min.css"></noscript>
-      <link href="assets/api/fullcalendar/fullcalendar.print.min.css" rel="stylesheet" media="print" onload="this.media='print'"><noscript><link rel="stylesheet" href="assets/api/fullcalendar/fullcalendar.print.min.css" media="print"></noscript>
-      <link rel="stylesheet" href="assets/css/css-circle.css" type="text/css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="assets/css/css-circle.css"></noscript>
-      <link href="assets/api/select2plugin/jquery.multiselect.css" rel="stylesheet" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="assets/api/select2plugin/jquery.multiselect.css"></noscript>
-      <style>@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700');@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700');@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');body{font-family:'Roboto', sans-serif;font-size:13px;}@media (min-width: 767px){}</style><link rel="stylesheet" href="assets/css/custom.css" type="text/css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="assets/css/custom.css"></noscript>
-      <link rel="stylesheet" href="assets/css/style.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="assets/css/style.css"></noscript>
+      <link rel="stylesheet" href="assets/css/font.css" type="text/css"/>
+      <link rel="stylesheet" href="assets/css/app.css" type="text/css"/>
+      <link rel="stylesheet" href="assets/css/loader.css" type="text/css"/>
+      <link rel="stylesheet" href="assets/css/jquery-ui.css">
+      <link rel="stylesheet" href="assets/css/bootstrap-datepicker.standalone.css"/>
+      <link rel="stylesheet" href="assets/css/sweetalert2.min.css"/>
+      <link rel="stylesheet" href="assets/api/select/docsupport/prism.css">
+      <link rel="stylesheet" href="assets/api/select/chosen.css">
+      <link rel="stylesheet" href="assets/libs/jquery/bootstrap-pincode-input-master/css/bootstrap-pincode-input.css" type="text/css"/>
+      <link rel="stylesheet" type="text/css" href="assets/css/dropzone.css">
+      <link rel="stylesheet" type="text/css" href="assets/libs/jquery/perfect-scrollbar-master/css/perfect-scrollbar.css">
+      <link href="assets/api/fullcalendar/fullcalendar.min.css" rel="stylesheet"/>
+      <link href="assets/api/fullcalendar/fullcalendar.print.min.css" rel="stylesheet" media="print"/>
+      <link rel="stylesheet" href="assets/css/css-circle.css" type="text/css"/>
+      <link href="assets/api/select2plugin/jquery.multiselect.css" rel="stylesheet"/>
+      <link rel="stylesheet" href="assets/css/custom.css" type="text/css"/>
+      <link rel="stylesheet" href="assets/css/style.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <style type="text/css">@font-face{font-family:'Roboto';font-style:normal;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v29/KFOlCnqEu92Fr1MmSU5fCRc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}@font-face{font-family:'Roboto';font-style:normal;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v29/KFOlCnqEu92Fr1MmSU5fABc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}@font-face{font-family:'Roboto';font-style:normal;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v29/KFOlCnqEu92Fr1MmSU5fCBc4AMP6lbBP.woff2) format('woff2');unicode-range:U+1F00-1FFF;}@font-face{font-family:'Roboto';font-style:normal;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v29/KFOlCnqEu92Fr1MmSU5fBxc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0370-03FF;}@font-face{font-family:'Roboto';font-style:normal;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v29/KFOlCnqEu92Fr1MmSU5fCxc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}@font-face{font-family:'Roboto';font-style:normal;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v29/KFOlCnqEu92Fr1MmSU5fChc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}@font-face{font-family:'Roboto';font-style:normal;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v29/KFOlCnqEu92Fr1MmSU5fBBc4AMP6lQ.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v29/KFOmCnqEu92Fr1Mu72xKKTU1Kvnz.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v29/KFOmCnqEu92Fr1Mu5mxKKTU1Kvnz.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v29/KFOmCnqEu92Fr1Mu7mxKKTU1Kvnz.woff2) format('woff2');unicode-range:U+1F00-1FFF;}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v29/KFOmCnqEu92Fr1Mu4WxKKTU1Kvnz.woff2) format('woff2');unicode-range:U+0370-03FF;}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v29/KFOmCnqEu92Fr1Mu7WxKKTU1Kvnz.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v29/KFOmCnqEu92Fr1Mu7GxKKTU1Kvnz.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v29/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}@font-face{font-family:'Roboto';font-style:normal;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v29/KFOlCnqEu92Fr1MmEU9fCRc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}@font-face{font-family:'Roboto';font-style:normal;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v29/KFOlCnqEu92Fr1MmEU9fABc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}@font-face{font-family:'Roboto';font-style:normal;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v29/KFOlCnqEu92Fr1MmEU9fCBc4AMP6lbBP.woff2) format('woff2');unicode-range:U+1F00-1FFF;}@font-face{font-family:'Roboto';font-style:normal;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v29/KFOlCnqEu92Fr1MmEU9fBxc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0370-03FF;}@font-face{font-family:'Roboto';font-style:normal;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v29/KFOlCnqEu92Fr1MmEU9fCxc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}@font-face{font-family:'Roboto';font-style:normal;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v29/KFOlCnqEu92Fr1MmEU9fChc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}@font-face{font-family:'Roboto';font-style:normal;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v29/KFOlCnqEu92Fr1MmEU9fBBc4AMP6lQ.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}</style>
-  <style type="text/css">@font-face{font-family:'Material Icons';font-style:normal;font-weight:400;src:url(https://fonts.gstatic.com/s/materialicons/v126/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.woff2) format('woff2');}.material-icons{font-family:'Material Icons';font-weight:normal;font-style:normal;font-size:24px;line-height:1;letter-spacing:normal;text-transform:none;display:inline-block;white-space:nowrap;word-wrap:normal;direction:ltr;-webkit-font-feature-settings:'liga';-webkit-font-smoothing:antialiased;}</style>
-<style>.mat-typography{font:400 14px/20px Roboto,Helvetica Neue,sans-serif;letter-spacing:normal;}script{display:none!important;}body,html{height:100%;}body{margin:0;font-family:Roboto,Helvetica Neue,sans-serif;}</style><link rel="stylesheet" href="styles.edfb3e2daa6e4ff310c0.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles.edfb3e2daa6e4ff310c0.css"></noscript></head>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&amp;display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="styles.css"></head>
 <body class="mat-typography">
   <app-root onmousemove="getMouse()"></app-root>
   <script src="assets/libs/jquery/jquery/dist/jquery.js"></script>
@@ -80,7 +82,7 @@
 <script src="assets/libs/jquery/perfect-scrollbar-master/js/perfect-scrollbar.min.js"></script>
 <script src="assets/api/fullcalendar/fullcalendar.min.js"></script>
 <script src="assets/api/select2plugin/jquery.multiselect.js"></script>
-<script src="https://www.google.com/recaptcha/api.js" async="" defer></script>
+<script src="https://www.google.com/recaptcha/api.js" async="" defer=""></script>
 <script type="text/javascript">
 
 	var ps = new PerfectScrollbar('.aside-wrap',);
@@ -115,6 +117,5 @@
 
 <!----------------------------------------------excel imported status model-------------------------->
 
-<script src="runtime.273333901f64356cb6ed.js" defer></script><script src="polyfills.9ea5c030b756a310dc92.js" defer></script><script src="scripts.9f5678d27e2b8ffd3e38.js" defer></script><script src="main.05dc17875d68cb493acc.js" defer></script>
-
-</body></html>
+<script src="runtime.js" defer></script><script src="polyfills.js" defer></script><script src="scripts.js" defer></script><script src="vendor.js" defer></script><script src="main.js" defer></script></body>
+</html>

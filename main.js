@@ -33722,20 +33722,29 @@ class QuoteListComponent {
             if (result.isConfirmed) {
                 console.log(id);
                 let quote = this.gridData.filter((data) => data._id === id);
-                quote[0].verified_by = this.user;
-                quote[0].verified_date = new Date();
-                quote[0].quote_status_approvel = 'verified';
-                quote[0].verified = true;
-                console.log(quote[0]);
-                this.quote.submitForm(quote[0]).subscribe((data) => {
-                    console.log(data);
-                    if (data.status === 200) {
-                        sweetalert2__WEBPACK_IMPORTED_MODULE_1___default().fire('Verified!', 'Your Quote is verified.', 'success');
-                    }
-                    else {
-                        sweetalert2__WEBPACK_IMPORTED_MODULE_1___default().fire('Error!', 'Something went wrong!', 'error');
-                    }
-                });
+                if (quote[0].open_activity == "" ||
+                    quote[0].other_charges == "" ||
+                    quote[0].p_f == "" ||
+                    quote[0].p_t == "" ||
+                    quote[0].payment_terms.length == 0) {
+                    sweetalert2__WEBPACK_IMPORTED_MODULE_1___default().fire('Error!', 'Some Field are not filled', 'error');
+                }
+                else {
+                    quote[0].verified_by = this.user;
+                    quote[0].verified_date = new Date();
+                    quote[0].quote_status_approvel = 'verified';
+                    quote[0].verified = true;
+                    console.log(quote[0]);
+                    this.quote.submitForm(quote[0]).subscribe((data) => {
+                        console.log(data);
+                        if (data.status === 200) {
+                            sweetalert2__WEBPACK_IMPORTED_MODULE_1___default().fire('Verified!', 'Your Quote is verified.', 'success');
+                        }
+                        else {
+                            sweetalert2__WEBPACK_IMPORTED_MODULE_1___default().fire('Error!', 'Something went wrong!', 'error');
+                        }
+                    });
+                }
             }
         });
     }
@@ -33752,27 +33761,36 @@ class QuoteListComponent {
             if (result.isConfirmed) {
                 console.log(id);
                 let quote = this.gridData.filter((data) => data._id === id);
-                console.log(quote);
-                if (!quote[0].verified) {
-                    console.log('Quote Approved');
-                    quote[0].verified = true;
-                    quote[0].verified_by = this.user;
-                    quote[0].verified_date = new Date();
+                if (quote[0].open_activity == "" ||
+                    quote[0].other_charges == "" ||
+                    quote[0].p_f == "" ||
+                    quote[0].p_t == "" ||
+                    quote[0].payment_terms.length == 0) {
+                    sweetalert2__WEBPACK_IMPORTED_MODULE_1___default().fire('Error!', 'Some Field are not filled', 'error');
                 }
-                quote[0].approved_by = this.user;
-                quote[0].approval_date = new Date();
-                quote[0].aprroved = true;
-                quote[0].quote_status_approvel = 'approved';
-                console.log(quote);
-                this.quote.submitForm(quote[0]).subscribe((data) => {
-                    console.log(data);
-                    if (data.status === 200) {
-                        sweetalert2__WEBPACK_IMPORTED_MODULE_1___default().fire('Approved!', 'Your Quote is Approved.', 'success');
+                else {
+                    console.log(quote);
+                    if (!quote[0].verified) {
+                        console.log('Quote Approved');
+                        quote[0].verified = true;
+                        quote[0].verified_by = this.user;
+                        quote[0].verified_date = new Date();
                     }
-                    else {
-                        sweetalert2__WEBPACK_IMPORTED_MODULE_1___default().fire('Error!', 'Something went wrong!', 'error');
-                    }
-                });
+                    quote[0].approved_by = this.user;
+                    quote[0].approval_date = new Date();
+                    quote[0].aprroved = true;
+                    quote[0].quote_status_approvel = 'approved';
+                    console.log(quote);
+                    this.quote.submitForm(quote[0]).subscribe((data) => {
+                        console.log(data);
+                        if (data.status === 200) {
+                            sweetalert2__WEBPACK_IMPORTED_MODULE_1___default().fire('Approved!', 'Your Quote is Approved.', 'success');
+                        }
+                        else {
+                            sweetalert2__WEBPACK_IMPORTED_MODULE_1___default().fire('Error!', 'Something went wrong!', 'error');
+                        }
+                    });
+                }
             }
         });
     }
@@ -36361,9 +36379,13 @@ class ChildElementComponent {
     constructor(Efb) {
         this.Efb = Efb;
         this.formChanged = new _angular_core__WEBPACK_IMPORTED_MODULE_0__.EventEmitter();
+        this.deleteProduct = new _angular_core__WEBPACK_IMPORTED_MODULE_0__.EventEmitter();
     }
     ngOnInit() {
         this.formSetter(this.itemdata.dataItem);
+    }
+    deleteHandler() {
+        this.deleteProduct.emit(this.itemdata.dataItem.id);
     }
     formSetter(item) {
         this.registerForm = new _angular_forms__WEBPACK_IMPORTED_MODULE_1__.FormGroup({
@@ -36405,6 +36427,11 @@ class ChildElementComponent {
     submitForm() {
         this.registerForm.markAllAsTouched();
         console.log(this.registerForm.value);
+        this.registerForm.value.amount =
+            (this.registerForm.value.UnitPrice -
+                this.registerForm.value.UnitPrice *
+                    (this.registerForm.value.discount / 100)) *
+                this.registerForm.value.quantity;
         this.formChanged.emit(this.registerForm.value);
     }
     clearForm() {
@@ -36412,7 +36439,7 @@ class ChildElementComponent {
     }
 }
 ChildElementComponent.ɵfac = function ChildElementComponent_Factory(t) { return new (t || ChildElementComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_forms__WEBPACK_IMPORTED_MODULE_1__.FormBuilder)); };
-ChildElementComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ChildElementComponent, selectors: [["app-child-element"]], inputs: { itemdata: "itemdata" }, outputs: { formChanged: "formChanged" }, decls: 60, vars: 12, consts: [[1, "right_sec"], [1, "Sec_heading"], [1, "example-wrap"], [1, "k-form", 3, "formGroup"], ["type", "hidden", "formControlName", "type"], [1, "k-form-fieldset"], ["text", "Product Name", 3, "for"], ["formControlName", "productname", "kendoTextBox", "", "required", "", 1, "Product_Area"], ["productname", ""], ["text", "Part No.", 3, "for"], ["formControlName", "PartNo", "kendoTextBox", "", "required", "", 1, "Product_Area"], ["PartNo", ""], ["text", "HSN Code", 3, "for"], ["formControlName", "HSNCode", "kendoTextBox", "", "required", "", 1, "Product_Area"], ["hsn", ""], ["text", "GST", 3, "for"], ["formControlName", "GST", "type", "text", "kendoTextBox", "", "required", "", 1, "Product_Area"], ["GST", ""], ["text", "Unit Price", 3, "for"], ["formControlName", "UnitPrice", "type", "number", "kendoTextBox", "", "required", "", 1, "Product_Area", 3, "min"], ["UnitPrice", ""], ["text", "UOM", 3, "for"], ["formControlName", "UOM", "kendoTextBox", "", "required", "", 1, "Product_Area"], ["UOM", ""], ["text", "Quantity", 3, "for"], ["formControlName", "quantity", "type", "number", "value", "1", "kendoTextBox", "", "required", "", 1, "Product_Area", 3, "min"], ["qty", ""], ["text", "Discount", 3, "for"], ["formControlName", "discount", "type", "number", "kendoTextBox", "", "required", "", 1, "Product_Area", 3, "min"], ["discount", ""], [1, "k-form-buttons"], ["kendoButton", "", "themeColor", "primary", 1, "closeBtn", 3, "click"], ["kendoButton", "", 1, "closeBtn", "Clear", 3, "click"]], template: function ChildElementComponent_Template(rf, ctx) { if (rf & 1) {
+ChildElementComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ChildElementComponent, selectors: [["app-child-element"]], inputs: { itemdata: "itemdata" }, outputs: { formChanged: "formChanged", deleteProduct: "deleteProduct" }, decls: 62, vars: 12, consts: [[1, "right_sec"], [1, "Sec_heading"], [1, "example-wrap"], [1, "k-form", 3, "formGroup"], ["type", "hidden", "formControlName", "type"], [1, "k-form-fieldset"], ["text", "Product Name", 3, "for"], ["formControlName", "productname", "kendoTextBox", "", "required", "", 1, "Product_Area"], ["productname", ""], ["text", "Part No.", 3, "for"], ["formControlName", "PartNo", "kendoTextBox", "", "required", "", 1, "Product_Area"], ["PartNo", ""], ["text", "HSN Code", 3, "for"], ["formControlName", "HSNCode", "kendoTextBox", "", "required", "", 1, "Product_Area"], ["hsn", ""], ["text", "GST", 3, "for"], ["formControlName", "GST", "type", "text", "kendoTextBox", "", "required", "", 1, "Product_Area"], ["GST", ""], ["text", "Unit Price", 3, "for"], ["formControlName", "UnitPrice", "type", "number", "kendoTextBox", "", "required", "", 1, "Product_Area", 3, "min"], ["UnitPrice", ""], ["text", "UOM", 3, "for"], ["formControlName", "UOM", "kendoTextBox", "", "required", "", 1, "Product_Area"], ["UOM", ""], ["text", "Quantity", 3, "for"], ["formControlName", "quantity", "type", "number", "value", "1", "kendoTextBox", "", "required", "", 1, "Product_Area", 3, "min"], ["qty", ""], ["text", "Discount", 3, "for"], ["formControlName", "discount", "type", "number", "kendoTextBox", "", "required", "", 1, "Product_Area", 3, "min"], ["discount", ""], [1, "k-form-buttons"], ["kendoButton", "", "themeColor", "primary", 1, "closeBtn", 3, "click"], ["kendoButton", "", 1, "closeBtn", "Clear", 3, "click"]], template: function ChildElementComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "h2", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "Product View");
@@ -36485,6 +36512,10 @@ ChildElementComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODU
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](58, "button", 32);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function ChildElementComponent_Template_button_click_58_listener() { return ctx.clearForm(); });
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](59, "Cancel");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](60, "button", 32);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function ChildElementComponent_Template_button_click_60_listener() { return ctx.deleteHandler(); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](61, "Delete");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -36588,7 +36619,7 @@ function ProductgridComponent_ng_template_30_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵproperty"]("ngClass", ctx_r0.iconClass(dataItem_r3));
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtextInterpolate1"](" ", dataItem_r3.productname, " ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtextInterpolate1"](" ", dataItem_r3.productname.substring(0, 60), " ");
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](3);
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtextInterpolate1"](" ", _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵpipeBind2"](7, 6, dataItem_r3.UnitPrice, "1.2"), "");
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](3);
@@ -36615,7 +36646,7 @@ function ProductgridComponent_ng_template_31_Template(rf, ctx) { if (rf & 1) {
 function ProductgridComponent_app_child_element_33_Template(rf, ctx) { if (rf & 1) {
     const _r8 = _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵgetCurrentView"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "app-child-element", 27);
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵlistener"]("formChanged", function ProductgridComponent_app_child_element_33_Template_app_child_element_formChanged_0_listener($event) { _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵrestoreView"](_r8); const ctx_r7 = _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵnextContext"](); return ctx_r7.formChangedHandler($event); });
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵlistener"]("formChanged", function ProductgridComponent_app_child_element_33_Template_app_child_element_formChanged_0_listener($event) { _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵrestoreView"](_r8); const ctx_r7 = _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵnextContext"](); return ctx_r7.formChangedHandler($event); })("deleteProduct", function ProductgridComponent_app_child_element_33_Template_app_child_element_deleteProduct_0_listener($event) { _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵrestoreView"](_r8); const ctx_r9 = _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵnextContext"](); return ctx_r9.deleteProductHandler($event); });
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
 } if (rf & 2) {
     const ctx_r2 = _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵnextContext"]();
@@ -36693,6 +36724,7 @@ class ProductgridComponent {
         };
     }
     onSelectionChange(e) {
+        console.log(e);
         this.childShow = true;
         this.childData = e;
         this.selectedKeys.push(e.index);
@@ -36700,7 +36732,9 @@ class ProductgridComponent {
         this.levelvalue = 0;
     }
     formChangedHandler(formdata) {
-        console.log(this.levelIndex);
+        console.log(this.levelIndex, formdata);
+        // this.data.map((item:any,i:any)=>{
+        // })
         if (this.levelIndex.length === 1) {
             if (formdata.type !== 'Product') {
                 this.data[this.levelIndex].productname = formdata.productname;
@@ -36712,7 +36746,8 @@ class ProductgridComponent {
             this.data[this.levelIndex].quantity = formdata.quantity;
             this.data[this.levelIndex].discount = formdata.discount;
             this.data[this.levelIndex].amount =
-                formdata.UnitPrice * formdata.quantity;
+                (formdata.UnitPrice - formdata.UnitPrice * (formdata.discount / 100)) *
+                    formdata.quantity;
         }
         else {
             console.log('musjkdhskjdfh');
@@ -36731,7 +36766,8 @@ class ProductgridComponent {
                     ele.UnitPrice = 0;
                     ele.quantity = ff.quantity;
                     ele.discount = ff.discount;
-                    ele.amount = ff.UnitPrice * ff.quantity;
+                    ele.amount =
+                        (ff.UnitPrice - ff.UnitPrice * (ff.discount / 100)) * ff.quantity;
                 }
                 else {
                     this.levelvalue++;
@@ -36746,8 +36782,9 @@ class ProductgridComponent {
                     ele.UnitPrice = ff.UnitPrice;
                     ele.quantity = ff.quantity;
                     ele.discount = ff.discount;
-                    ele.amount = ff.UnitPrice * ff.quantity;
-                    this.levelvalue = 0;
+                    ele.amount =
+                        (ff.UnitPrice - ff.UnitPrice * (ff.discount / 100)) * ff.quantity;
+                    // this.levelvalue = 0;
                 }
             }
         });
@@ -36818,14 +36855,29 @@ class ProductgridComponent {
         }, 300);
     }
     onNodeDblClick(event) {
-        var _a;
         this.log('nodeDblClick', event);
         this.isSingleClicked = false;
-        console.log(event, 'nosjkdfh fdsjdhjkshdkfj deDblClick');
-        if (confirm('Are you sure want to delete?')) {
-            this.data.splice((_a = event.item) === null || _a === void 0 ? void 0 : _a.index, 1);
-            this.childShow = false;
-        }
+    }
+    deleteProductHandler(id) {
+        this.deleteData(this.data, id);
+        this.childShow = false;
+    }
+    deleteData(data, id) {
+        data === null || data === void 0 ? void 0 : data.map((item, index) => {
+            if (item.type === 'Product') {
+                if (item.id === id) {
+                    data.splice(index, 1);
+                    return;
+                }
+            }
+            else {
+                if (item.id === id) {
+                    data.splice(index, 1);
+                    return;
+                }
+                this.deleteData(item.products, id);
+            }
+        });
     }
     addEvents(eventArray, event, arg) {
         const eventData = arg ? ', event data:' : '';
@@ -36927,12 +36979,12 @@ class ProductgridComponent {
     }
 }
 ProductgridComponent.ɵfac = function ProductgridComponent_Factory(t) { return new (t || ProductgridComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdirectiveInject"](_productservice_service__WEBPACK_IMPORTED_MODULE_0__.ProductserviceService), _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdirectiveInject"](src_app_service_product_service__WEBPACK_IMPORTED_MODULE_1__.ProductService)); };
-ProductgridComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdefineComponent"]({ type: ProductgridComponent, selectors: [["app-productgrid"]], inputs: { gridData: "gridData" }, outputs: { dataChanged: "dataChanged" }, features: [_angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵProvidersFeature"]([_productservice_service__WEBPACK_IMPORTED_MODULE_0__.ProductserviceService])], decls: 34, vars: 13, consts: [[1, "topRow"], [1, "topRowCont"], [1, "date_icon"], [1, "fa", "fa-calendar"], [3, "click"], [1, "closeBtn", 3, "click"], [1, "container-fluid"], [1, "row"], [1, "col-md-8", "left"], [1, "Sec_heading"], [1, "searchBtn"], [1, "select_product_Sec", 3, "placeholder", "settings", "data", "ngModel", "ngModelChange", "onSelect", "onSelectAll", "onFilterChange"], [1, ""], [1, "AddNewGroupBtn", 3, "click"], [1, "fa", "fa-plus"], ["kendoButton", "", 1, "AddNewGroupBtn", 3, "click"], ["textField", "productname", "kendoTreeViewHierarchyBinding", "", "childrenField", "products", "kendoTreeViewExpandable", "", "expandBy", "id", "kendoTreeViewDragAndDrop", "", "kendoTreeViewDragAndDropEditing", "", "kendoTreeViewSelectable", "", "selectBy", "id", "kendoTreeViewCheckable", "", "checkBy", "id", 3, "nodes", "expandedKeys", "allowCopy", "selectedKeys", "kendoTreeViewCheckable", "checkedKeys", "selectionChange", "addItem", "removeItem", "nodeDragStart", "nodeDragEnd", "nodeDrag", "nodeDrop", "nodeClick", "nodeDblClick", "selectedKeysChange", "checkedKeysChange"], ["kendoTreeViewNodeTemplate", ""], ["kendoTreeViewDragClueTemplate", ""], [1, "col-md-4", "border"], [3, "itemdata", "formChanged", 4, "ngIf"], ["title", "Product Name & Part Number", 1, "col-sm-7"], [3, "ngClass"], [1, "col-sm-2"], [1, "fa", "fa-rupee"], [1, "col-sm-1"], [1, "k-drag-status", "k-icon", 3, "ngClass"], [3, "itemdata", "formChanged"]], template: function ProductgridComponent_Template(rf, ctx) { if (rf & 1) {
+ProductgridComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdefineComponent"]({ type: ProductgridComponent, selectors: [["app-productgrid"]], inputs: { gridData: "gridData" }, outputs: { dataChanged: "dataChanged" }, features: [_angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵProvidersFeature"]([_productservice_service__WEBPACK_IMPORTED_MODULE_0__.ProductserviceService])], decls: 34, vars: 13, consts: [[1, "topRow"], [1, "topRowCont"], [1, "date_icon"], [1, "fa", "fa-calendar"], [3, "click"], [1, "closeBtn", 3, "click"], [1, "container-fluid"], [1, "row"], [1, "col-md-8", "left"], [1, "Sec_heading"], [1, "searchBtn"], [1, "select_product_Sec", 3, "placeholder", "settings", "data", "ngModel", "ngModelChange", "onSelect", "onSelectAll", "onFilterChange"], [1, ""], [1, "AddNewGroupBtn", 3, "click"], [1, "fa", "fa-plus"], ["kendoButton", "", 1, "AddNewGroupBtn", 3, "click"], ["textField", "productname", "kendoTreeViewHierarchyBinding", "", "childrenField", "products", "kendoTreeViewExpandable", "", "expandBy", "id", "kendoTreeViewDragAndDrop", "", "kendoTreeViewDragAndDropEditing", "", "kendoTreeViewSelectable", "", "selectBy", "id", "kendoTreeViewCheckable", "", "checkBy", "id", 3, "nodes", "expandedKeys", "allowCopy", "selectedKeys", "kendoTreeViewCheckable", "checkedKeys", "selectionChange", "addItem", "removeItem", "nodeDragStart", "nodeDragEnd", "nodeDrag", "nodeDrop", "nodeClick", "nodeDblClick", "selectedKeysChange", "checkedKeysChange"], ["kendoTreeViewNodeTemplate", ""], ["kendoTreeViewDragClueTemplate", ""], [1, "col-md-4", "border"], [3, "itemdata", "formChanged", "deleteProduct", 4, "ngIf"], ["title", "Product Name & Part Number", 1, "col-sm-7"], [3, "ngClass"], [1, "col-sm-2"], [1, "fa", "fa-rupee"], [1, "col-sm-1"], [1, "k-drag-status", "k-icon", 3, "ngClass"], [3, "itemdata", "formChanged", "deleteProduct"]], template: function ProductgridComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "div");
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](1, "section", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](2, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](3, "h5");
-        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](4, "Quote ID:65467565564");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](4, "Quote Products");
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](5, "div", 1);
