@@ -5302,24 +5302,34 @@ function CreateDealComponent_div_3_tr_337_Template(rf, ctx) {
 
 function CreateDealComponent_div_3_tr_396_Template(rf, ctx) {
   if (rf & 1) {
+    const _r56 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵgetCurrentView"]();
+
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](0, "tr");
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](1, "th");
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](2, "p", 202);
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](3, "a", 203);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](4);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](4, "th");
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](5);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](6, "th");
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](5, "th");
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](6);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](8, "th");
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](9);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](7, "th");
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](8);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](10, "th");
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelement"](11, "i", 203);
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelement"](12, "i", 204);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](9, "th");
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](10);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](11, "th");
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](12, "i", 204);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵlistener"]("click", function CreateDealComponent_div_3_tr_396_Template_i_click_12_listener() {
+      const restoredCtx = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r56);
+      const i_r54 = restoredCtx.index;
+      const ctx_r55 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"](2);
+      return ctx_r55.removeAttachment(i_r54);
+    });
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
   }
@@ -5327,6 +5337,8 @@ function CreateDealComponent_div_3_tr_396_Template(rf, ctx) {
   if (rf & 2) {
     const file_r53 = ctx.$implicit;
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵadvance"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵpropertyInterpolate"]("href", file_r53.img_url, _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵsanitizeUrl"]);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵadvance"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtextInterpolate"](file_r53.name);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵadvance"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtextInterpolate1"]("", file_r53.attached_by, " ");
@@ -5627,7 +5639,7 @@ function CreateDealComponent_div_3_div_640_Template(rf, ctx) {
 
 function CreateDealComponent_div_3_Template(rf, ctx) {
   if (rf & 1) {
-    const _r67 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵgetCurrentView"]();
+    const _r70 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵgetCurrentView"]();
 
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](0, "div", 4);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](1, "div", 5);
@@ -5687,13 +5699,13 @@ function CreateDealComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](38, "ng-multiselect-dropdown", 27);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵlistener"]("ngModelChange", function CreateDealComponent_div_3_Template_ng_multiselect_dropdown_ngModelChange_38_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r67);
-      const ctx_r66 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
-      return ctx_r66.selectedUser = $event;
+      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r70);
+      const ctx_r69 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
+      return ctx_r69.selectedUser = $event;
     })("onSelect", function CreateDealComponent_div_3_Template_ng_multiselect_dropdown_onSelect_38_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r67);
-      const ctx_r68 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
-      return ctx_r68.handleOwnerChange($event);
+      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r70);
+      const ctx_r71 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
+      return ctx_r71.handleOwnerChange($event);
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
@@ -5710,9 +5722,9 @@ function CreateDealComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](47, "ng-multiselect-dropdown", 32);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵlistener"]("onSelect", function CreateDealComponent_div_3_Template_ng_multiselect_dropdown_onSelect_47_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r67);
-      const ctx_r69 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
-      return ctx_r69.onItemSelect($event);
+      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r70);
+      const ctx_r72 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
+      return ctx_r72.onItemSelect($event);
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](48, "span", 33);
@@ -5737,9 +5749,9 @@ function CreateDealComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](61, "ng-multiselect-dropdown", 39);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵlistener"]("onSelect", function CreateDealComponent_div_3_Template_ng_multiselect_dropdown_onSelect_61_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r67);
-      const ctx_r70 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
-      return ctx_r70.onContactSelect($event);
+      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r70);
+      const ctx_r73 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
+      return ctx_r73.onContactSelect($event);
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](62, "span", 33);
@@ -5861,13 +5873,13 @@ function CreateDealComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](139, "ng-multiselect-dropdown", 60);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵlistener"]("ngModelChange", function CreateDealComponent_div_3_Template_ng_multiselect_dropdown_ngModelChange_139_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r67);
-      const ctx_r71 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
-      return ctx_r71.selectedBranch = $event;
+      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r70);
+      const ctx_r74 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
+      return ctx_r74.selectedBranch = $event;
     })("onSelect", function CreateDealComponent_div_3_Template_ng_multiselect_dropdown_onSelect_139_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r67);
-      const ctx_r72 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
-      return ctx_r72.handleLocationChange($event);
+      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r70);
+      const ctx_r75 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
+      return ctx_r75.handleLocationChange($event);
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtemplate"](140, CreateDealComponent_div_3_div_140_Template, 2, 1, "div", 35);
@@ -6017,9 +6029,9 @@ function CreateDealComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](234, "div", 79);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](235, "button", 80);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵlistener"]("click", function CreateDealComponent_div_3_Template_button_click_235_listener() {
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r67);
-      const ctx_r73 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
-      return ctx_r73.setItem();
+      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r70);
+      const ctx_r76 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
+      return ctx_r76.setItem();
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](236, "ADD Items");
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
@@ -6104,9 +6116,9 @@ function CreateDealComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](292, "div", 109);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](293, "input", 110);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵlistener"]("input", function CreateDealComponent_div_3_Template_input_input_293_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r67);
-      const ctx_r74 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
-      return ctx_r74.inputName($event);
+      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r70);
+      const ctx_r77 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
+      return ctx_r77.inputName($event);
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
@@ -6117,9 +6129,9 @@ function CreateDealComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](296, "div", 109);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](297, "input", 112);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵlistener"]("input", function CreateDealComponent_div_3_Template_input_input_297_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r67);
-      const ctx_r75 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
-      return ctx_r75.inputhsn($event);
+      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r70);
+      const ctx_r78 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
+      return ctx_r78.inputhsn($event);
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
@@ -6128,9 +6140,9 @@ function CreateDealComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](299, "div", 109);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](300, "input", 113);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵlistener"]("input", function CreateDealComponent_div_3_Template_input_input_300_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r67);
-      const ctx_r76 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
-      return ctx_r76.inputgst($event);
+      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r70);
+      const ctx_r79 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
+      return ctx_r79.inputgst($event);
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
@@ -6139,9 +6151,9 @@ function CreateDealComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](302, "div", 109);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](303, "input", 114);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵlistener"]("input", function CreateDealComponent_div_3_Template_input_input_303_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r67);
-      const ctx_r77 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
-      return ctx_r77.inputuom($event);
+      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r70);
+      const ctx_r80 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
+      return ctx_r80.inputuom($event);
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
@@ -6154,9 +6166,9 @@ function CreateDealComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](307, "button", 117);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵlistener"]("click", function CreateDealComponent_div_3_Template_button_click_307_listener() {
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r67);
-      const ctx_r78 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
-      return ctx_r78.checkAddGroup();
+      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r70);
+      const ctx_r81 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
+      return ctx_r81.checkAddGroup();
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](308, "Save");
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
@@ -6185,9 +6197,9 @@ function CreateDealComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](323, "input", 125);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵlistener"]("input", function CreateDealComponent_div_3_Template_input_input_323_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r67);
-      const ctx_r79 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
-      return ctx_r79.inputName($event);
+      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r70);
+      const ctx_r82 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
+      return ctx_r82.inputName($event);
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
@@ -6245,9 +6257,9 @@ function CreateDealComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](357, "button", 117);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵlistener"]("click", function CreateDealComponent_div_3_Template_button_click_357_listener() {
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r67);
-      const ctx_r80 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
-      return ctx_r80.mergeSelection();
+      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r70);
+      const ctx_r83 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
+      return ctx_r83.mergeSelection();
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](358, "Merge Selected Products");
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
@@ -6291,9 +6303,9 @@ function CreateDealComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](379, "input", 135);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵlistener"]("change", function CreateDealComponent_div_3_Template_input_change_379_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r67);
-      const ctx_r81 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
-      return ctx_r81.handleAttachmentUpload($event);
+      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r70);
+      const ctx_r84 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
+      return ctx_r84.handleAttachmentUpload($event);
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
@@ -6319,7 +6331,7 @@ function CreateDealComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelement"](395, "th");
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtemplate"](396, CreateDealComponent_div_3_tr_396_Template, 13, 4, "tr", 128);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtemplate"](396, CreateDealComponent_div_3_tr_396_Template, 13, 5, "tr", 128);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
@@ -6582,9 +6594,9 @@ function CreateDealComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](560, "div", 173);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](561, "input", 174);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵlistener"]("click", function CreateDealComponent_div_3_Template_input_click_561_listener() {
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r67);
-      const ctx_r82 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
-      return ctx_r82.handleCheckbox("7 Days");
+      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r70);
+      const ctx_r85 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
+      return ctx_r85.handleCheckbox("7 Days");
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](562, " 7 Days ");
@@ -6592,9 +6604,9 @@ function CreateDealComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](563, "div", 173);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](564, "input", 174);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵlistener"]("click", function CreateDealComponent_div_3_Template_input_click_564_listener() {
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r67);
-      const ctx_r83 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
-      return ctx_r83.handleCheckbox("15 Days");
+      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r70);
+      const ctx_r86 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
+      return ctx_r86.handleCheckbox("15 Days");
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](565, " 15 Days ");
@@ -6602,9 +6614,9 @@ function CreateDealComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](566, "div", 173);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](567, "input", 174);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵlistener"]("click", function CreateDealComponent_div_3_Template_input_click_567_listener() {
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r67);
-      const ctx_r84 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
-      return ctx_r84.handleCheckbox("30 Days");
+      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r70);
+      const ctx_r87 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
+      return ctx_r87.handleCheckbox("30 Days");
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](568, " 30 Days ");
@@ -6612,9 +6624,9 @@ function CreateDealComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](569, "div", 173);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](570, "input", 174);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵlistener"]("click", function CreateDealComponent_div_3_Template_input_click_570_listener() {
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r67);
-      const ctx_r85 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
-      return ctx_r85.handleCheckbox("60 Days");
+      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r70);
+      const ctx_r88 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
+      return ctx_r88.handleCheckbox("60 Days");
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](571, " 60 Days ");
@@ -6622,9 +6634,9 @@ function CreateDealComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](572, "div", 173);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](573, "input", 174);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵlistener"]("click", function CreateDealComponent_div_3_Template_input_click_573_listener() {
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r67);
-      const ctx_r86 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
-      return ctx_r86.handleCheckbox("90 Days");
+      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r70);
+      const ctx_r89 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
+      return ctx_r89.handleCheckbox("90 Days");
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](574, " 90 Days ");
@@ -6632,9 +6644,9 @@ function CreateDealComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](575, "div", 173);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](576, "input", 174);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵlistener"]("click", function CreateDealComponent_div_3_Template_input_click_576_listener() {
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r67);
-      const ctx_r87 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
-      return ctx_r87.handleCheckbox("Other");
+      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r70);
+      const ctx_r90 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
+      return ctx_r90.handleCheckbox("Other");
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](577, " Other ");
@@ -6651,17 +6663,17 @@ function CreateDealComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](583, "div", 176);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](584, "button", 177);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵlistener"]("click", function CreateDealComponent_div_3_Template_button_click_584_listener() {
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r67);
-      const ctx_r88 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
-      return ctx_r88.handleBack();
+      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r70);
+      const ctx_r91 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
+      return ctx_r91.handleBack();
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](585, "Cancel");
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](586, "button", 178);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵlistener"]("click", function CreateDealComponent_div_3_Template_button_click_586_listener() {
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r67);
-      const ctx_r89 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
-      return ctx_r89.submitForm();
+      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r70);
+      const ctx_r92 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
+      return ctx_r92.submitForm();
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](587, "Save");
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
@@ -6811,9 +6823,9 @@ function CreateDealComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](676, "button", 178);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵlistener"]("click", function CreateDealComponent_div_3_Template_button_click_676_listener() {
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r67);
-      const ctx_r90 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
-      return ctx_r90.handleSubmit();
+      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r70);
+      const ctx_r93 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
+      return ctx_r93.handleSubmit();
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](677, "Save");
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
@@ -6950,7 +6962,7 @@ function CreateDealComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵadvance"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtextInterpolate"](ctx_r3.groupAmount);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵadvance"](43);
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵproperty"]("ngForOf", ctx_r3.show_files);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵproperty"]("ngForOf", ctx_r3.files_url);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵadvance"](11);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵproperty"]("ngIf", ctx_r3.f.sales_order_no.errors && ctx_r3.f.sales_order_no.errors.required && ctx_r3.isValidFormSubmitted);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵadvance"](21);
@@ -7681,6 +7693,11 @@ class CreateDealComponent {
     return data;
   }
 
+  removeAttachment(index) {
+    console.log(index);
+    this.files_url.splice(index, 1);
+  }
+
   updateUnitPrice(data, id, unitprice) {
     console.log(data, id, unitprice);
     let amount = 0;
@@ -8115,7 +8132,7 @@ CreateDealComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_
   selectors: [["app-create-deal"]],
   decls: 4,
   vars: 4,
-  consts: [[4, "ngIf"], [3, "gridData", "dataChanged", 4, "ngIf"], ["id", "content", "class", "app-content", "role", "main", 4, "ngIf"], [3, "gridData", "dataChanged"], ["id", "content", "role", "main", 1, "app-content"], [1, "app-content-body"], [1, "top"], [1, "row", "t-main"], [1, "col-sm-6", "col-xs-12", "t-main-1"], [1, "m-n", "t-main1"], [1, "col-sm-6", "text-right", "poppins"], ["aria-label", "breadcrumb"], [1, "breadcrumb", "t-main", 2, "cursor", "pointer"], ["aria-current", "page", "routerLink", "/", 1, "breadcrumb-item", "active", 2, "font-size", "11px"], ["aria-current", "page", 1, "breadcrumb-item", "active", 2, "font-size", "11px"], ["aria-current", "page", "routerLink", "/deal", 1, "breadcrumb-item", "active", 2, "font-size", "11px"], ["aria-current", "page", 1, "breadcrumb-item", "active", 2, "font-size", "11px", "color", "red"], [3, "formGroup"], ["ng-controller", "FormDemoCtrl", 1, "wrapper-md"], [1, "row"], [1, "col-sm-12"], [1, "panel", "panel-default"], [1, "panel-heading"], [1, "panel-body"], [1, "col-md-4", "form-group"], [1, "text-danger"], ["type", "text", "placeholder", "Enter Your deal ID", "formControlName", "deal_id", 1, "form-control", 3, "value"], ["formControlName", "deal_owner", 3, "placeholder", "settings", "ngModel", "data", "ngModelChange", "onSelect"], [1, "form-group", "col-md-4"], [1, "input-group"], [1, "input-group-addon", 2, "color", "gray", "font-size", "20px", "background", "white", "border-right", "0px"], [1, "fa", "fa-building"], ["formControlName", "company", 3, "placeholder", "settings", "data", "onSelect"], [1, "input-group-addon", 2, "color", "red", "font-size", "20px", "background", "white", "border-radius", "0px"], ["routerLink", "/create-account"], ["class", "text-danger text-left mb-1 errorcontrols", 4, "ngIf"], [1, "clearfix"], [1, "input-group-addon", 2, "color", "gray", "font-size", "20px", "background", "white", "border-radius", "0px", "border-right", "0px"], [1, "fa", "fa-user"], ["formControlName", "contact", 3, "placeholder", "settings", "data", "onSelect"], ["routerLink", "/create-contact"], ["formControlName", "deal_source", "id", "deal_source", 1, "form-control"], ["value", "", "selected", "", "disabled", ""], ["value", "Inbound OEM"], ["value", "Inbound Direct Customer"], ["value", "Inbound Advertisement"], ["value", "Outbound Cold Call"], ["value", "Outbound Routine"], ["value", "Website"], ["value", "Others"], ["type", "text", "placeholder", "Enter Deal Title", "formControlName", "deal_title", 1, "form-control"], ["formControlName", "deal_type", "id", "deal_type", 1, "form-control"], ["value", "Project"], ["value", "Solution"], ["value", "Standard"], ["type", "text", "placeholder", "Enter Your Referral", "formControlName", "referral", 1, "form-control"], ["type", "number", "placeholder", "Enter Your Estimated Value", "formControlName", "deal_estimated_value", 1, "form-control"], ["formControlName", "deal_status_stage", "id", "deal_status_stage", 1, "form-control"], ["value", "Information Required"], ["value", "Lost"], ["formControlName", "deal_location", 3, "placeholder", "settings", "ngModel", "data", "ngModelChange", "onSelect"], ["formControlName", "sales_person", 3, "placeholder", "settings", "data"], [1, "panel-heading", "font-bold"], ["type", "text", "placeholder", "Company Industry", 1, "form-control", 3, "value"], ["type", "text", "placeholder", "Company Country", 1, "form-control", 3, "value"], ["type", "text", "placeholder", "Company State", 1, "form-control", 3, "value"], ["type", "text", "placeholder", "Company City", 1, "form-control", 3, "value"], ["type", "text", "placeholder", "Company Location", 1, "form-control", 3, "value"], ["type", "text", "placeholder", "Company GST", 1, "form-control", 3, "value"], ["type", "text", "placeholder", "Company PAN", 1, "form-control", 3, "value"], ["type", "text", "placeholder", "Company TAN", 1, "form-control", 3, "value"], ["type", "text", "placeholder", "Company CIN", 1, "form-control", 3, "value"], ["type", "text", "placeholder", "Contact Role", 1, "form-control", 3, "value"], ["type", "text", "placeholder", "Contact Name", 1, "form-control", 3, "value"], ["type", "text", "placeholder", "Contact Phone", 1, "form-control", 3, "value"], ["type", "text", "placeholder", "Contact Mobile", 1, "form-control", 3, "value"], ["type", "text", "placeholder", "Contact Email", 1, "form-control", 3, "value"], [1, "col-md-12", "form-group"], ["type", "text", "placeholder", "remark", "formControlName", "remark", 1, "form-control"], [2, "text-align", "right"], [1, "add-group", 3, "click"], ["id", "productListDropdown", 1, "example-wrapper"], ["kendoTreeListExpandable", "", 3, "data", "fetchChildren", "hasChildren", "pageable", "pageSize", "sortable", "sort", "navigable"], [3, "width"], ["kendoTreeListCellTemplate", ""], ["field", "productname", "title", "Product Name", 3, "expandable", "width"], ["field", "type", "title", "Type", 3, "width"], ["title", "GST", 3, "width"], ["title", "Unit Price", "field", "UnitPrice", 3, "width"], ["title", "Quantity", "field", "quantity", 3, "width"], ["title", "Discount(%)", "field", "discount", 3, "width"], ["title", "Amount", 3, "width"], [1, "product_footer"], [1, "pull-left"], [1, "pull-right", "fw600"], [1, "totalSumValue"], [1, "pull-right"], [1, "fa", "fa-rupee", "text-danger"], ["class", "pull-right", 4, "ngIf"], [1, "pull-left", "fw600"], ["class", "pull-right fw600", 4, "ngIf"], ["id", "myModalgroup2", "role", "dialog", 1, "modal", "fade"], [1, "modal-dialog"], [1, "modal-content"], [1, "modal-header"], ["type", "button", "data-dismiss", "modal", 1, "close"], [1, "modal-title"], [1, "modal-body"], [1, "col-md-12"], [1, "form-group"], ["type", "text", "placeholder", "Enter Name", 1, "form-control", 3, "value", "input"], [1, "col-md-4"], ["type", "text", "placeholder", "Enter HSN Code", "formControlName", "Enter HSN Code", 1, "form-control", 3, "value", "input"], ["type", "text", "placeholder", "Enter GST", "type", "number", 1, "form-control", 3, "value", "input"], ["type", "text", "placeholder", "Enter UOM", 1, "form-control", 3, "value", "input"], [1, "modal-footer"], ["type", "button", "id", "closenameinp", "data-dismiss", "modal", 1, "btn", "btn-default"], ["type", "button", 1, "btn", "btn-primary", 3, "click"], ["type", "hidden", "id", "showmodal", "data-toggle", "modal", "data-target", "#myModal"], ["id", "myModal", "tabindex", "-1", "role", "dialog", "aria-labelledby", "productLabel", "aria-hidden", "true", 1, "modal", "fade"], ["role", "document", 1, "modal-dialog"], ["id", "productLabel", 1, "modal-title"], ["type", "button", "data-dismiss", "modal", "aria-label", "Close", 1, "close"], ["aria-hidden", "true"], [1, "modal-body", 2, "min-height", "200px"], ["type", "text", 1, "form-control", 3, "value", "input"], [1, "table"], ["scope", "col"], [4, "ngFor", "ngForOf"], ["type", "button", "id", "closebtn", "data-dismiss", "modal", 1, "btn", "btn-dark"], ["type", "text", "placeholder", "Enter Note", "formControlName", "note", 1, "form-control"], [1, "col-md-10"], [2, "text-align", "right", "padding-right", "18px"], ["onclick", "$('#file').click()", 2, "cursor", "pointer"], ["aria-hidden", "true", 1, "fa", "fa-paperclip"], ["accept", "application/pdf,image/*", "type", "file", "multiple", "", "encType", "multipart/form-data", "placeholder", "Uplode your Company Logo", "id", "file", "formControlName", "attachments", 1, "form-control", 2, "font-size", "12px", "border-right", "0px", "display", "none", 3, "change"], [1, "col-md-12", 2, "padding", "0px"], [2, "background", "#FFE5E5"], ["type", "text", "placeholder", "Enter Order Sales number", "formControlName", "sales_order_no", 1, "form-control"], ["formControlName", "p_f", "id", "p_f", 1, "form-control"], ["value", "DOD - Door delivery to your plant"], ["value", "FOB Lucknow"], ["value", "FOB Rudrapur"], ["formControlName", "p_t", "id", "p_t", 1, "form-control"], ["value", "100% within 30 days of GR"], ["value", "100% within 7 days of GR"], ["value", "100% immediately against delivery"], ["value", "100% against delivery on COD Basis"], ["value", "100% against Pro forma Invoice before dispatch"], ["value", " 90% within 30 days of GR 10% after I&C & Others"], ["formControlName", "inco_terms", "id", "inco_terms", 1, "form-control"], ["value", "Not applicable"], ["value", "Inclusive"], ["value", "Extra @2%"], ["value", "Extra  @3%"], ["formControlName", "freight", "id", "freight", 1, "form-control"], ["value", "Extra as per actuals to  your account"], ["value", "Dispatch  on 'To Pay' basis"], ["formControlName", "taxes", "id", "taxes", 1, "form-control"], ["value", "Extra as applicable"], ["type", "text", "placeholder", "Enter Others", "formControlName", "other_charges", 1, "form-control"], ["formControlName", "delivery", "id", "delivery", 1, "form-control"], ["value", "1-2 weeks"], ["value", "3-4 weeks"], ["value", "4-6 weeks"], ["value", "6-8 weeks"], ["value", "8-10 weeks"], ["value", "10-12 weeks"], ["value", "12-16 weeks"], ["formControlName", "warranty", "id", "warranty", 1, "form-control"], ["value", "Not Applicable"], ["value", "6 months (from date of  sale)"], ["value", "12 months (from  date of sale)"], [1, "col-md-2", "deal_div", 2, "border", "1px solid black"], ["type", "radio", "name", "validity", 2, "font-size", "12px", 3, "click"], [1, "col-md-1", "deal_div", 2, "border", "1px solid black"], [2, "text-align", "right", "margin", "10px 0px"], [1, "btn", "btn-dark", 3, "click"], [1, "btn", "btn-danger", 3, "click"], ["id", "exampleModalCenter1", "tabindex", "-1", "role", "dialog", "aria-labelledby", "exampleModalCenterTitle", "aria-hidden", "true", 1, "modal", "fade"], ["role", "document", 1, "modal-dialog", "modal-dialog-centered"], ["type", "button", "data-dismiss", "modal", 1, "close", "m-t-xs"], [1, "modal-title", "font-weight-600", "text-20"], [1, "details"], ["type", "hidden", "formControlName", "type", "value", "Product"], ["formControlName", "productname", "type", "text", "placeholder", "", 1, "form-control"], [1, "col-md-6"], ["formControlName", "PartNo", "type", "text", "placeholder", "", 1, "form-control"], ["formControlName", "CCNNo", "type", "text", "placeholder", "", 1, "form-control"], ["formControlName", "UnitPrice", "type", "Number", "placeholder", "", 1, "form-control"], ["formControlName", "UOM", "type", "text", "placeholder", "", 1, "form-control"], ["formControlName", "Category", "type", "text", "placeholder", "", 1, "form-control"], ["formControlName", "OEM", "type", "text", "placeholder", "", 1, "form-control"], ["formControlName", "OEMProductCode", "type", "text", 1, "form-control"], ["formControlName", "HSNCode", "type", "text", "placeholder", "", 1, "form-control"], ["formControlName", "GST", "type", "Number", "placeholder", "", 1, "form-control"], [1, "control-label", "font-weight-600"], ["type", "button", "id", "closemodal", "data-dismiss", "modal", 1, "btn", "btn-dark"], [1, "text-danger", "text-left", "mb-1", "errorcontrols"], ["type", "checkbox", "name", "dataItem.id", 3, "change", 4, "ngIf"], ["type", "checkbox", "name", "dataItem.id", 3, "change"], [1, "fa", "fa-rupee"], [2, "color", "blue"], ["aria-hidden", "true", 1, "fa", "fa-pencil-square-o"], ["aria-hidden", "true", 1, "fa", "fa-trash"]],
+  consts: [[4, "ngIf"], [3, "gridData", "dataChanged", 4, "ngIf"], ["id", "content", "class", "app-content", "role", "main", 4, "ngIf"], [3, "gridData", "dataChanged"], ["id", "content", "role", "main", 1, "app-content"], [1, "app-content-body"], [1, "top"], [1, "row", "t-main"], [1, "col-sm-6", "col-xs-12", "t-main-1"], [1, "m-n", "t-main1"], [1, "col-sm-6", "text-right", "poppins"], ["aria-label", "breadcrumb"], [1, "breadcrumb", "t-main", 2, "cursor", "pointer"], ["aria-current", "page", "routerLink", "/", 1, "breadcrumb-item", "active", 2, "font-size", "11px"], ["aria-current", "page", 1, "breadcrumb-item", "active", 2, "font-size", "11px"], ["aria-current", "page", "routerLink", "/deal", 1, "breadcrumb-item", "active", 2, "font-size", "11px"], ["aria-current", "page", 1, "breadcrumb-item", "active", 2, "font-size", "11px", "color", "red"], [3, "formGroup"], ["ng-controller", "FormDemoCtrl", 1, "wrapper-md"], [1, "row"], [1, "col-sm-12"], [1, "panel", "panel-default"], [1, "panel-heading"], [1, "panel-body"], [1, "col-md-4", "form-group"], [1, "text-danger"], ["type", "text", "placeholder", "Enter Your deal ID", "formControlName", "deal_id", 1, "form-control", 3, "value"], ["formControlName", "deal_owner", 3, "placeholder", "settings", "ngModel", "data", "ngModelChange", "onSelect"], [1, "form-group", "col-md-4"], [1, "input-group"], [1, "input-group-addon", 2, "color", "gray", "font-size", "20px", "background", "white", "border-right", "0px"], [1, "fa", "fa-building"], ["formControlName", "company", 3, "placeholder", "settings", "data", "onSelect"], [1, "input-group-addon", 2, "color", "red", "font-size", "20px", "background", "white", "border-radius", "0px"], ["routerLink", "/create-account"], ["class", "text-danger text-left mb-1 errorcontrols", 4, "ngIf"], [1, "clearfix"], [1, "input-group-addon", 2, "color", "gray", "font-size", "20px", "background", "white", "border-radius", "0px", "border-right", "0px"], [1, "fa", "fa-user"], ["formControlName", "contact", 3, "placeholder", "settings", "data", "onSelect"], ["routerLink", "/create-contact"], ["formControlName", "deal_source", "id", "deal_source", 1, "form-control"], ["value", "", "selected", "", "disabled", ""], ["value", "Inbound OEM"], ["value", "Inbound Direct Customer"], ["value", "Inbound Advertisement"], ["value", "Outbound Cold Call"], ["value", "Outbound Routine"], ["value", "Website"], ["value", "Others"], ["type", "text", "placeholder", "Enter Deal Title", "formControlName", "deal_title", 1, "form-control"], ["formControlName", "deal_type", "id", "deal_type", 1, "form-control"], ["value", "Project"], ["value", "Solution"], ["value", "Standard"], ["type", "text", "placeholder", "Enter Your Referral", "formControlName", "referral", 1, "form-control"], ["type", "number", "placeholder", "Enter Your Estimated Value", "formControlName", "deal_estimated_value", 1, "form-control"], ["formControlName", "deal_status_stage", "id", "deal_status_stage", 1, "form-control"], ["value", "Information Required"], ["value", "Lost"], ["formControlName", "deal_location", 3, "placeholder", "settings", "ngModel", "data", "ngModelChange", "onSelect"], ["formControlName", "sales_person", 3, "placeholder", "settings", "data"], [1, "panel-heading", "font-bold"], ["type", "text", "placeholder", "Company Industry", 1, "form-control", 3, "value"], ["type", "text", "placeholder", "Company Country", 1, "form-control", 3, "value"], ["type", "text", "placeholder", "Company State", 1, "form-control", 3, "value"], ["type", "text", "placeholder", "Company City", 1, "form-control", 3, "value"], ["type", "text", "placeholder", "Company Location", 1, "form-control", 3, "value"], ["type", "text", "placeholder", "Company GST", 1, "form-control", 3, "value"], ["type", "text", "placeholder", "Company PAN", 1, "form-control", 3, "value"], ["type", "text", "placeholder", "Company TAN", 1, "form-control", 3, "value"], ["type", "text", "placeholder", "Company CIN", 1, "form-control", 3, "value"], ["type", "text", "placeholder", "Contact Role", 1, "form-control", 3, "value"], ["type", "text", "placeholder", "Contact Name", 1, "form-control", 3, "value"], ["type", "text", "placeholder", "Contact Phone", 1, "form-control", 3, "value"], ["type", "text", "placeholder", "Contact Mobile", 1, "form-control", 3, "value"], ["type", "text", "placeholder", "Contact Email", 1, "form-control", 3, "value"], [1, "col-md-12", "form-group"], ["type", "text", "placeholder", "remark", "formControlName", "remark", 1, "form-control"], [2, "text-align", "right"], [1, "add-group", 3, "click"], ["id", "productListDropdown", 1, "example-wrapper"], ["kendoTreeListExpandable", "", 3, "data", "fetchChildren", "hasChildren", "pageable", "pageSize", "sortable", "sort", "navigable"], [3, "width"], ["kendoTreeListCellTemplate", ""], ["field", "productname", "title", "Product Name", 3, "expandable", "width"], ["field", "type", "title", "Type", 3, "width"], ["title", "GST", 3, "width"], ["title", "Unit Price", "field", "UnitPrice", 3, "width"], ["title", "Quantity", "field", "quantity", 3, "width"], ["title", "Discount(%)", "field", "discount", 3, "width"], ["title", "Amount", 3, "width"], [1, "product_footer"], [1, "pull-left"], [1, "pull-right", "fw600"], [1, "totalSumValue"], [1, "pull-right"], [1, "fa", "fa-rupee", "text-danger"], ["class", "pull-right", 4, "ngIf"], [1, "pull-left", "fw600"], ["class", "pull-right fw600", 4, "ngIf"], ["id", "myModalgroup2", "role", "dialog", 1, "modal", "fade"], [1, "modal-dialog"], [1, "modal-content"], [1, "modal-header"], ["type", "button", "data-dismiss", "modal", 1, "close"], [1, "modal-title"], [1, "modal-body"], [1, "col-md-12"], [1, "form-group"], ["type", "text", "placeholder", "Enter Name", 1, "form-control", 3, "value", "input"], [1, "col-md-4"], ["type", "text", "placeholder", "Enter HSN Code", "formControlName", "Enter HSN Code", 1, "form-control", 3, "value", "input"], ["type", "text", "placeholder", "Enter GST", "type", "number", 1, "form-control", 3, "value", "input"], ["type", "text", "placeholder", "Enter UOM", 1, "form-control", 3, "value", "input"], [1, "modal-footer"], ["type", "button", "id", "closenameinp", "data-dismiss", "modal", 1, "btn", "btn-default"], ["type", "button", 1, "btn", "btn-primary", 3, "click"], ["type", "hidden", "id", "showmodal", "data-toggle", "modal", "data-target", "#myModal"], ["id", "myModal", "tabindex", "-1", "role", "dialog", "aria-labelledby", "productLabel", "aria-hidden", "true", 1, "modal", "fade"], ["role", "document", 1, "modal-dialog"], ["id", "productLabel", 1, "modal-title"], ["type", "button", "data-dismiss", "modal", "aria-label", "Close", 1, "close"], ["aria-hidden", "true"], [1, "modal-body", 2, "min-height", "200px"], ["type", "text", 1, "form-control", 3, "value", "input"], [1, "table"], ["scope", "col"], [4, "ngFor", "ngForOf"], ["type", "button", "id", "closebtn", "data-dismiss", "modal", 1, "btn", "btn-dark"], ["type", "text", "placeholder", "Enter Note", "formControlName", "note", 1, "form-control"], [1, "col-md-10"], [2, "text-align", "right", "padding-right", "18px"], ["onclick", "$('#file').click()", 2, "cursor", "pointer"], ["aria-hidden", "true", 1, "fa", "fa-paperclip"], ["accept", "application/pdf,image/*", "type", "file", "multiple", "", "encType", "multipart/form-data", "placeholder", "Uplode your Company Logo", "id", "file", "formControlName", "attachments", 1, "form-control", 2, "font-size", "12px", "border-right", "0px", "display", "none", 3, "change"], [1, "col-md-12", 2, "padding", "0px"], [2, "background", "#FFE5E5"], ["type", "text", "placeholder", "Enter Order Sales number", "formControlName", "sales_order_no", 1, "form-control"], ["formControlName", "p_f", "id", "p_f", 1, "form-control"], ["value", "DOD - Door delivery to your plant"], ["value", "FOB Lucknow"], ["value", "FOB Rudrapur"], ["formControlName", "p_t", "id", "p_t", 1, "form-control"], ["value", "100% within 30 days of GR"], ["value", "100% within 7 days of GR"], ["value", "100% immediately against delivery"], ["value", "100% against delivery on COD Basis"], ["value", "100% against Pro forma Invoice before dispatch"], ["value", " 90% within 30 days of GR 10% after I&C & Others"], ["formControlName", "inco_terms", "id", "inco_terms", 1, "form-control"], ["value", "Not applicable"], ["value", "Inclusive"], ["value", "Extra @2%"], ["value", "Extra  @3%"], ["formControlName", "freight", "id", "freight", 1, "form-control"], ["value", "Extra as per actuals to  your account"], ["value", "Dispatch  on 'To Pay' basis"], ["formControlName", "taxes", "id", "taxes", 1, "form-control"], ["value", "Extra as applicable"], ["type", "text", "placeholder", "Enter Others", "formControlName", "other_charges", 1, "form-control"], ["formControlName", "delivery", "id", "delivery", 1, "form-control"], ["value", "1-2 weeks"], ["value", "3-4 weeks"], ["value", "4-6 weeks"], ["value", "6-8 weeks"], ["value", "8-10 weeks"], ["value", "10-12 weeks"], ["value", "12-16 weeks"], ["formControlName", "warranty", "id", "warranty", 1, "form-control"], ["value", "Not Applicable"], ["value", "6 months (from date of  sale)"], ["value", "12 months (from  date of sale)"], [1, "col-md-2", "deal_div", 2, "border", "1px solid black"], ["type", "radio", "name", "validity", 2, "font-size", "12px", 3, "click"], [1, "col-md-1", "deal_div", 2, "border", "1px solid black"], [2, "text-align", "right", "margin", "10px 0px"], [1, "btn", "btn-dark", 3, "click"], [1, "btn", "btn-danger", 3, "click"], ["id", "exampleModalCenter1", "tabindex", "-1", "role", "dialog", "aria-labelledby", "exampleModalCenterTitle", "aria-hidden", "true", 1, "modal", "fade"], ["role", "document", 1, "modal-dialog", "modal-dialog-centered"], ["type", "button", "data-dismiss", "modal", 1, "close", "m-t-xs"], [1, "modal-title", "font-weight-600", "text-20"], [1, "details"], ["type", "hidden", "formControlName", "type", "value", "Product"], ["formControlName", "productname", "type", "text", "placeholder", "", 1, "form-control"], [1, "col-md-6"], ["formControlName", "PartNo", "type", "text", "placeholder", "", 1, "form-control"], ["formControlName", "CCNNo", "type", "text", "placeholder", "", 1, "form-control"], ["formControlName", "UnitPrice", "type", "Number", "placeholder", "", 1, "form-control"], ["formControlName", "UOM", "type", "text", "placeholder", "", 1, "form-control"], ["formControlName", "Category", "type", "text", "placeholder", "", 1, "form-control"], ["formControlName", "OEM", "type", "text", "placeholder", "", 1, "form-control"], ["formControlName", "OEMProductCode", "type", "text", 1, "form-control"], ["formControlName", "HSNCode", "type", "text", "placeholder", "", 1, "form-control"], ["formControlName", "GST", "type", "Number", "placeholder", "", 1, "form-control"], [1, "control-label", "font-weight-600"], ["type", "button", "id", "closemodal", "data-dismiss", "modal", 1, "btn", "btn-dark"], [1, "text-danger", "text-left", "mb-1", "errorcontrols"], ["type", "checkbox", "name", "dataItem.id", 3, "change", 4, "ngIf"], ["type", "checkbox", "name", "dataItem.id", 3, "change"], [1, "fa", "fa-rupee"], [2, "color", "blue"], ["target", "_blank", 3, "href"], ["aria-hidden", "true", 1, "fa", "fa-trash", 2, "cursor", "pointer", 3, "click"]],
   template: function CreateDealComponent_Template(rf, ctx) {
     if (rf & 1) {
       _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtemplate"](0, CreateDealComponent_app_header_0_Template, 1, 0, "app-header", 0);
@@ -8795,21 +8812,23 @@ function CreateLeadComponent_div_3_tr_449_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵelementStart"](0, "tr");
     _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵelementStart"](1, "th");
     _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵelementStart"](2, "p", 160);
-    _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵtext"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵelementStart"](3, "a", 161);
+    _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵtext"](4);
     _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵelementStart"](4, "th");
-    _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵtext"](5);
     _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵelementStart"](6, "th");
-    _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵtext"](7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵelementStart"](5, "th");
+    _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵtext"](6);
     _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵelementStart"](8, "th");
-    _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵtext"](9);
+    _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵelementStart"](7, "th");
+    _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵtext"](8);
     _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵelementStart"](10, "th");
-    _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵelementStart"](11, "i", 161);
-    _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵlistener"]("click", function CreateLeadComponent_div_3_tr_449_Template_i_click_11_listener() {
+    _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵelementStart"](9, "th");
+    _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵtext"](10);
+    _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵelementStart"](11, "th");
+    _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵelementStart"](12, "i", 162);
+    _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵlistener"]("click", function CreateLeadComponent_div_3_tr_449_Template_i_click_12_listener() {
       const restoredCtx = _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵrestoreView"](_r68);
       const i_r66 = restoredCtx.index;
       const ctx_r67 = _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵnextContext"](2);
@@ -8823,6 +8842,8 @@ function CreateLeadComponent_div_3_tr_449_Template(rf, ctx) {
   if (rf & 2) {
     const file_r65 = ctx.$implicit;
     _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵadvance"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵpropertyInterpolate"]("href", file_r65.img_url, _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵsanitizeUrl"]);
+    _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵadvance"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵtextInterpolate"](file_r65.name);
     _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵadvance"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵtextInterpolate"](file_r65.attached_by);
@@ -8839,7 +8860,7 @@ const _c1 = function (a0, a1) {
 
 function CreateLeadComponent_div_3_option_471_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵelementStart"](0, "option", 162);
+    _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵelementStart"](0, "option", 163);
     _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵtext"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵelementEnd"]();
   }
@@ -9633,7 +9654,7 @@ function CreateLeadComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵtext"](448, "Action");
     _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵtemplate"](449, CreateLeadComponent_div_3_tr_449_Template, 12, 4, "tr", 144);
+    _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵtemplate"](449, CreateLeadComponent_div_3_tr_449_Template, 13, 5, "tr", 144);
     _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵelementEnd"]();
@@ -11080,7 +11101,7 @@ CreateLeadComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_
   },
   decls: 94,
   vars: 9,
-  consts: [[4, "ngIf"], [3, "gridData", "dataChanged", 4, "ngIf"], ["id", "content", "class", "app-content", "role", "main", 4, "ngIf"], ["id", "exampleModalCenter1", "tabindex", "-1", "role", "dialog", "aria-labelledby", "exampleModalCenterTitle", "aria-hidden", "true", 1, "modal", "fade"], ["role", "document", 1, "modal-dialog", "modal-dialog-centered"], [1, "modal-content"], [1, "modal-header"], ["type", "button", "data-dismiss", "modal", 1, "close", "m-t-xs"], [1, "modal-title", "font-weight-600", "text-20"], [1, "modal-body"], [1, "details"], [3, "formGroup"], [1, "row"], ["type", "hidden", "formControlName", "type", "value", "Product"], [1, "col-md-12"], [1, "form-group"], [1, "text-danger"], ["formControlName", "productname", "type", "text", "placeholder", "", 1, "form-control"], ["class", "text-danger text-left mb-1 errorcontrols", 4, "ngIf"], [1, "col-md-6"], ["formControlName", "PartNo", "type", "text", "placeholder", "", 1, "form-control"], ["formControlName", "CCNNo", "type", "text", "placeholder", "", 1, "form-control"], ["formControlName", "UnitPrice", "type", "Number", "placeholder", "", 1, "form-control"], ["formControlName", "UOM", "type", "text", "placeholder", "", 1, "form-control"], ["formControlName", "Category", "type", "text", "placeholder", "", 1, "form-control"], ["formControlName", "OEM", "type", "text", "placeholder", "", 1, "form-control"], ["formControlName", "OEMProductCode", "type", "text", 1, "form-control"], ["formControlName", "HSNCode", "type", "text", "placeholder", "", 1, "form-control"], ["formControlName", "GST", "type", "Number", "placeholder", "", 1, "form-control"], [1, "control-label", "font-weight-600"], ["type", "button", "id", "closemodal", "data-dismiss", "modal", 1, "btn", "btn-dark"], [1, "btn", "btn-danger", 3, "click"], [3, "gridData", "dataChanged"], ["id", "content", "role", "main", 1, "app-content"], [1, "app-content-body"], [1, "top"], [1, "row", "t-main"], [1, "col-sm-6", "col-xs-12", "t-main-1"], [1, "m-n", "t-main1"], [1, "col-sm-6", "text-right", "poppins"], ["aria-label", "breadcrumb"], [1, "breadcrumb", "t-main", 2, "cursor", "pointer"], ["aria-current", "page", "routerLink", "/", 1, "breadcrumb-item", "active", 2, "font-size", "11px"], ["aria-current", "page", 1, "breadcrumb-item", "active", 2, "font-size", "11px"], ["aria-current", "page", "routerLink", "/lead", 1, "breadcrumb-item", "active", 2, "font-size", "11px"], ["aria-current", "page", "routerLink", "/create-lead", 1, "breadcrumb-item", "active", 2, "font-size", "11px", "color", "red"], ["ng-controller", "FormDemoCtr5", 1, "wrapper-md"], [1, "col-sm-12"], [1, "panel", "panel-default"], [1, "panel-heading", "font-bold"], [1, "panel-body"], [1, "col-md-4", "form-group"], ["type", "text", "placeholder", "", "formControlName", "lead_id", 1, "form-control"], ["formControlName", "lead_owner", 3, "placeholder", "settings", "ngModel", "data", "ngModelChange", "onSelect"], [1, "form-group", "col-md-4"], [1, "input-group"], [1, "input-group-addon", 2, "color", "gray", "font-size", "20px", "background", "white", "border-right", "0px"], [1, "fa", "fa-building"], ["formControlName", "selected_company", 3, "placeholder", "settings", "data", "onSelect"], [1, "input-group-addon", 2, "color", "red", "font-size", "20px", "background", "white", "border-radius", "0px"], ["routerLink", "/create-account", 2, "width", "100%"], [1, "clearfix"], [1, "input-group-addon", 2, "color", "gray", "font-size", "20px", "background", "white", "border-radius", "0px", "border-right", "0px"], [1, "fa", "fa-user"], ["formControlName", "selected_contact", 3, "placeholder", "settings", "data", "ngModel", "onSelect", "ngModelChange"], ["routerLink", "/create-contact"], ["formControlName", "lead_source", "id", "lead_source", 1, "form-control"], ["value", "", "selected", "", "disabled", ""], ["value", "Inbound OEM"], ["value", "Inbound Direct Customer"], ["value", "Inbound Advertisement"], ["value", "Outbound Cold Call"], ["value", "Outbound Routine"], ["value", "Website"], ["value", "Others"], ["type", "text", "placeholder", "Enter  Lead Title", "formControlName", "lead_title", 1, "form-control"], ["formControlName", "lead_type", "id", "lead_type", 1, "form-control"], ["value", "Project"], ["value", "Solution"], ["value", "Standard"], ["type", "text", "placeholder", "Enter Your Referral", "formControlName", "referral", 1, "form-control"], [1, "fa", "fa-rupee"], ["type", "number", "placeholder", "Enter Your Estimated Value", "formControlName", "estimated_value", 1, "form-control"], ["formControlName", "lead_status_stage", "id", "lead_status_stage", 1, "form-control"], ["value", "Information Required"], ["value", "Quote to be Prepared"], ["value", "Price/Quote Awaited from OEM"], ["value", "Lost"], ["type", "text", 1, "form-control", 3, "value"], [1, "col-md-3", "control-label"], ["type", "text", "placeholder", "", "formControlName", "", 1, "form-control", 3, "value"], [1, "col-md-12", "form-group"], ["type", "text", "placeholder", "Remark", "formControlName", "remark", 1, "form-control"], [2, "text-align", "right"], [1, "add-group", 3, "click"], ["id", "productListDropdown", 1, "example-wrapper"], ["kendoTreeListExpandable", "", 3, "data", "fetchChildren", "hasChildren", "pageable", "pageSize", "sortable", "sort", "navigable"], [3, "width"], ["kendoTreeListCellTemplate", ""], ["field", "productname", "title", "Product Name", 3, "expandable", "width"], ["field", "type", "title", "Type", 3, "width"], ["title", "GST", 3, "width"], ["title", "Unit Price", "field", "UnitPrice", 3, "width"], ["title", "Quantity", "field", "quantity", 3, "width"], ["title", "Discount(%)", "field", "discount", 3, "width"], ["title", "Amount", 3, "width"], [1, "product_footer"], [1, "pull-left"], [1, "pull-right", "fw600"], [1, "totalSumValue"], [1, "pull-right"], [1, "fa", "fa-rupee", "text-danger"], ["class", "pull-right", 4, "ngIf"], [1, "pull-left", "fw600"], ["class", "pull-right fw600", 4, "ngIf"], ["id", "myModalgroup2", "role", "dialog", 1, "modal", "fade"], [1, "modal-dialog"], ["type", "button", "data-dismiss", "modal", 1, "close"], [1, "modal-title"], ["type", "text", "placeholder", "Enter Name", 1, "form-control", 3, "value", "input"], [1, "col-md-4"], ["type", "text", "placeholder", "Enter HSN Code", 1, "form-control", 3, "value", "input"], ["type", "number", "placeholder", "Enter GST ", 1, "form-control", 3, "value", "input"], ["type", "text", "placeholder", "Enter UOM", 1, "form-control", 3, "value", "input"], [1, "modal-footer"], ["type", "button", "id", "closenameinp", "data-dismiss", "modal", 1, "btn", "btn-default"], ["type", "button", 1, "btn", "btn-primary", 3, "click"], ["id", "add-product", "role", "dialog", 1, "modal", "fade"], ["formControlName", "type", 1, "form-control"], ["disabled", "", "value", ""], ["value", "Product"], ["value", "Service"], ["formControlName", "UnitPrice", "type", "text", "placeholder", "", 1, "form-control"], ["formControlName", "OEMProductCode", "type", "text", "placeholder", "", 1, "form-control"], ["formControlName", "GST", "type", "text", "placeholder", "", 1, "form-control"], ["type", "text", "placeholder", "Enter Note", "formControlName", "notes", 1, "form-control"], [1, "col-md-10"], [2, "text-align", "right", "padding-right", "18px"], ["onclick", "$('#file').click()", 2, "cursor", "pointer"], ["aria-hidden", "true", 1, "fa", "fa-paperclip"], ["accept", "application/pdf,image/*", "type", "file", "multiple", "", "encType", "multipart/form-data", "placeholder", "Uplode your Company Logo", "id", "file", "formControlName", "attach_file", 1, "form-control", 2, "font-size", "12px", "border-right", "0px", "display", "none", 3, "change"], [1, "col-md-12", 2, "padding", "0px"], [1, "table"], [2, "background", "#FFE5E5"], [4, "ngFor", "ngForOf"], ["id", "exampleModal", "tabindex", "-1", "role", "dialog", "aria-labelledby", "exampleModalLabel", "aria-hidden", "true", 1, "modal", "fade"], ["role", "document", 1, "modal-dialog"], ["id", "exampleModalLabel", 1, "modal-title"], ["type", "button", "data-dismiss", "modal", "aria-label", "Close", 1, "close"], ["aria-hidden", "true"], ["formControlName", "quote_location", "id", "quote_location", 1, "form-control", 3, "change"], [3, "value", 4, "ngFor", "ngForOf"], ["type", "button", "data-dismiss", "modal", 1, "btn", "btn-dark"], [2, "text-align", "right", "margin", "10px 0px"], [1, "btn", "btn-dark", 3, "click"], [1, "btn", "btn-primary", 3, "click"], ["type", "hidden", "data-toggle", "modal", "data-target", "#exampleModal", "id", "openmodal", 1, "btn", "btn-primary"], [1, "text-danger", "text-left", "mb-1", "errorcontrols"], ["type", "checkbox", "name", "dataItem.id", 3, "change", 4, "ngIf"], ["type", "checkbox", "name", "dataItem.id", 3, "change"], [2, "color", "blue"], ["aria-hidden", "true", 1, "fa", "fa-trash", 2, "cursor", "pointer", 3, "click"], [3, "value"]],
+  consts: [[4, "ngIf"], [3, "gridData", "dataChanged", 4, "ngIf"], ["id", "content", "class", "app-content", "role", "main", 4, "ngIf"], ["id", "exampleModalCenter1", "tabindex", "-1", "role", "dialog", "aria-labelledby", "exampleModalCenterTitle", "aria-hidden", "true", 1, "modal", "fade"], ["role", "document", 1, "modal-dialog", "modal-dialog-centered"], [1, "modal-content"], [1, "modal-header"], ["type", "button", "data-dismiss", "modal", 1, "close", "m-t-xs"], [1, "modal-title", "font-weight-600", "text-20"], [1, "modal-body"], [1, "details"], [3, "formGroup"], [1, "row"], ["type", "hidden", "formControlName", "type", "value", "Product"], [1, "col-md-12"], [1, "form-group"], [1, "text-danger"], ["formControlName", "productname", "type", "text", "placeholder", "", 1, "form-control"], ["class", "text-danger text-left mb-1 errorcontrols", 4, "ngIf"], [1, "col-md-6"], ["formControlName", "PartNo", "type", "text", "placeholder", "", 1, "form-control"], ["formControlName", "CCNNo", "type", "text", "placeholder", "", 1, "form-control"], ["formControlName", "UnitPrice", "type", "Number", "placeholder", "", 1, "form-control"], ["formControlName", "UOM", "type", "text", "placeholder", "", 1, "form-control"], ["formControlName", "Category", "type", "text", "placeholder", "", 1, "form-control"], ["formControlName", "OEM", "type", "text", "placeholder", "", 1, "form-control"], ["formControlName", "OEMProductCode", "type", "text", 1, "form-control"], ["formControlName", "HSNCode", "type", "text", "placeholder", "", 1, "form-control"], ["formControlName", "GST", "type", "Number", "placeholder", "", 1, "form-control"], [1, "control-label", "font-weight-600"], ["type", "button", "id", "closemodal", "data-dismiss", "modal", 1, "btn", "btn-dark"], [1, "btn", "btn-danger", 3, "click"], [3, "gridData", "dataChanged"], ["id", "content", "role", "main", 1, "app-content"], [1, "app-content-body"], [1, "top"], [1, "row", "t-main"], [1, "col-sm-6", "col-xs-12", "t-main-1"], [1, "m-n", "t-main1"], [1, "col-sm-6", "text-right", "poppins"], ["aria-label", "breadcrumb"], [1, "breadcrumb", "t-main", 2, "cursor", "pointer"], ["aria-current", "page", "routerLink", "/", 1, "breadcrumb-item", "active", 2, "font-size", "11px"], ["aria-current", "page", 1, "breadcrumb-item", "active", 2, "font-size", "11px"], ["aria-current", "page", "routerLink", "/lead", 1, "breadcrumb-item", "active", 2, "font-size", "11px"], ["aria-current", "page", "routerLink", "/create-lead", 1, "breadcrumb-item", "active", 2, "font-size", "11px", "color", "red"], ["ng-controller", "FormDemoCtr5", 1, "wrapper-md"], [1, "col-sm-12"], [1, "panel", "panel-default"], [1, "panel-heading", "font-bold"], [1, "panel-body"], [1, "col-md-4", "form-group"], ["type", "text", "placeholder", "", "formControlName", "lead_id", 1, "form-control"], ["formControlName", "lead_owner", 3, "placeholder", "settings", "ngModel", "data", "ngModelChange", "onSelect"], [1, "form-group", "col-md-4"], [1, "input-group"], [1, "input-group-addon", 2, "color", "gray", "font-size", "20px", "background", "white", "border-right", "0px"], [1, "fa", "fa-building"], ["formControlName", "selected_company", 3, "placeholder", "settings", "data", "onSelect"], [1, "input-group-addon", 2, "color", "red", "font-size", "20px", "background", "white", "border-radius", "0px"], ["routerLink", "/create-account", 2, "width", "100%"], [1, "clearfix"], [1, "input-group-addon", 2, "color", "gray", "font-size", "20px", "background", "white", "border-radius", "0px", "border-right", "0px"], [1, "fa", "fa-user"], ["formControlName", "selected_contact", 3, "placeholder", "settings", "data", "ngModel", "onSelect", "ngModelChange"], ["routerLink", "/create-contact"], ["formControlName", "lead_source", "id", "lead_source", 1, "form-control"], ["value", "", "selected", "", "disabled", ""], ["value", "Inbound OEM"], ["value", "Inbound Direct Customer"], ["value", "Inbound Advertisement"], ["value", "Outbound Cold Call"], ["value", "Outbound Routine"], ["value", "Website"], ["value", "Others"], ["type", "text", "placeholder", "Enter  Lead Title", "formControlName", "lead_title", 1, "form-control"], ["formControlName", "lead_type", "id", "lead_type", 1, "form-control"], ["value", "Project"], ["value", "Solution"], ["value", "Standard"], ["type", "text", "placeholder", "Enter Your Referral", "formControlName", "referral", 1, "form-control"], [1, "fa", "fa-rupee"], ["type", "number", "placeholder", "Enter Your Estimated Value", "formControlName", "estimated_value", 1, "form-control"], ["formControlName", "lead_status_stage", "id", "lead_status_stage", 1, "form-control"], ["value", "Information Required"], ["value", "Quote to be Prepared"], ["value", "Price/Quote Awaited from OEM"], ["value", "Lost"], ["type", "text", 1, "form-control", 3, "value"], [1, "col-md-3", "control-label"], ["type", "text", "placeholder", "", "formControlName", "", 1, "form-control", 3, "value"], [1, "col-md-12", "form-group"], ["type", "text", "placeholder", "Remark", "formControlName", "remark", 1, "form-control"], [2, "text-align", "right"], [1, "add-group", 3, "click"], ["id", "productListDropdown", 1, "example-wrapper"], ["kendoTreeListExpandable", "", 3, "data", "fetchChildren", "hasChildren", "pageable", "pageSize", "sortable", "sort", "navigable"], [3, "width"], ["kendoTreeListCellTemplate", ""], ["field", "productname", "title", "Product Name", 3, "expandable", "width"], ["field", "type", "title", "Type", 3, "width"], ["title", "GST", 3, "width"], ["title", "Unit Price", "field", "UnitPrice", 3, "width"], ["title", "Quantity", "field", "quantity", 3, "width"], ["title", "Discount(%)", "field", "discount", 3, "width"], ["title", "Amount", 3, "width"], [1, "product_footer"], [1, "pull-left"], [1, "pull-right", "fw600"], [1, "totalSumValue"], [1, "pull-right"], [1, "fa", "fa-rupee", "text-danger"], ["class", "pull-right", 4, "ngIf"], [1, "pull-left", "fw600"], ["class", "pull-right fw600", 4, "ngIf"], ["id", "myModalgroup2", "role", "dialog", 1, "modal", "fade"], [1, "modal-dialog"], ["type", "button", "data-dismiss", "modal", 1, "close"], [1, "modal-title"], ["type", "text", "placeholder", "Enter Name", 1, "form-control", 3, "value", "input"], [1, "col-md-4"], ["type", "text", "placeholder", "Enter HSN Code", 1, "form-control", 3, "value", "input"], ["type", "number", "placeholder", "Enter GST ", 1, "form-control", 3, "value", "input"], ["type", "text", "placeholder", "Enter UOM", 1, "form-control", 3, "value", "input"], [1, "modal-footer"], ["type", "button", "id", "closenameinp", "data-dismiss", "modal", 1, "btn", "btn-default"], ["type", "button", 1, "btn", "btn-primary", 3, "click"], ["id", "add-product", "role", "dialog", 1, "modal", "fade"], ["formControlName", "type", 1, "form-control"], ["disabled", "", "value", ""], ["value", "Product"], ["value", "Service"], ["formControlName", "UnitPrice", "type", "text", "placeholder", "", 1, "form-control"], ["formControlName", "OEMProductCode", "type", "text", "placeholder", "", 1, "form-control"], ["formControlName", "GST", "type", "text", "placeholder", "", 1, "form-control"], ["type", "text", "placeholder", "Enter Note", "formControlName", "notes", 1, "form-control"], [1, "col-md-10"], [2, "text-align", "right", "padding-right", "18px"], ["onclick", "$('#file').click()", 2, "cursor", "pointer"], ["aria-hidden", "true", 1, "fa", "fa-paperclip"], ["accept", "application/pdf,image/*", "type", "file", "multiple", "", "encType", "multipart/form-data", "placeholder", "Uplode your Company Logo", "id", "file", "formControlName", "attach_file", 1, "form-control", 2, "font-size", "12px", "border-right", "0px", "display", "none", 3, "change"], [1, "col-md-12", 2, "padding", "0px"], [1, "table"], [2, "background", "#FFE5E5"], [4, "ngFor", "ngForOf"], ["id", "exampleModal", "tabindex", "-1", "role", "dialog", "aria-labelledby", "exampleModalLabel", "aria-hidden", "true", 1, "modal", "fade"], ["role", "document", 1, "modal-dialog"], ["id", "exampleModalLabel", 1, "modal-title"], ["type", "button", "data-dismiss", "modal", "aria-label", "Close", 1, "close"], ["aria-hidden", "true"], ["formControlName", "quote_location", "id", "quote_location", 1, "form-control", 3, "change"], [3, "value", 4, "ngFor", "ngForOf"], ["type", "button", "data-dismiss", "modal", 1, "btn", "btn-dark"], [2, "text-align", "right", "margin", "10px 0px"], [1, "btn", "btn-dark", 3, "click"], [1, "btn", "btn-primary", 3, "click"], ["type", "hidden", "data-toggle", "modal", "data-target", "#exampleModal", "id", "openmodal", 1, "btn", "btn-primary"], [1, "text-danger", "text-left", "mb-1", "errorcontrols"], ["type", "checkbox", "name", "dataItem.id", 3, "change", 4, "ngIf"], ["type", "checkbox", "name", "dataItem.id", 3, "change"], [2, "color", "blue"], ["target", "_blank", 3, "href"], ["aria-hidden", "true", 1, "fa", "fa-trash", 2, "cursor", "pointer", 3, "click"], [3, "value"]],
   template: function CreateLeadComponent_Template(rf, ctx) {
     if (rf & 1) {
       _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵtemplate"](0, CreateLeadComponent_app_header_0_Template, 1, 0, "app-header", 0);
@@ -11725,24 +11746,34 @@ function CreateQuoteComponent_div_3_tr_340_Template(rf, ctx) {
 
 function CreateQuoteComponent_div_3_tr_399_Template(rf, ctx) {
   if (rf & 1) {
+    const _r57 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
+
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "tr");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](1, "th");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](2, "p", 190);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](3, "a", 191);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](4);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](4, "th");
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](5);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](6, "th");
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](5, "th");
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](6);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](8, "th");
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](9);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](7, "th");
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](8);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](10, "th");
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](11, "i", 191);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](12, "i", 192);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](9, "th");
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](10);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](11, "th");
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](12, "i", 192);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function CreateQuoteComponent_div_3_tr_399_Template_i_click_12_listener() {
+      const restoredCtx = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r57);
+      const i_r55 = restoredCtx.index;
+      const ctx_r56 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](2);
+      return ctx_r56.removeAttachment(i_r55);
+    });
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
   }
@@ -11750,6 +11781,8 @@ function CreateQuoteComponent_div_3_tr_399_Template(rf, ctx) {
   if (rf & 2) {
     const file_r54 = ctx.$implicit;
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵadvance"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵpropertyInterpolate"]("href", file_r54.img_url, _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵsanitizeUrl"]);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵadvance"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtextInterpolate"](file_r54.name);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵadvance"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtextInterpolate"](file_r54.attached_by);
@@ -12026,7 +12059,7 @@ function CreateQuoteComponent_div_3_div_632_Template(rf, ctx) {
 
 function CreateQuoteComponent_div_3_Template(rf, ctx) {
   if (rf & 1) {
-    const _r67 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
+    const _r70 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
 
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 4);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](1, "div", 5);
@@ -12086,13 +12119,13 @@ function CreateQuoteComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](38, "ng-multiselect-dropdown", 27);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("ngModelChange", function CreateQuoteComponent_div_3_Template_ng_multiselect_dropdown_ngModelChange_38_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r67);
-      const ctx_r66 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
-      return ctx_r66.selectedUser = $event;
+      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r70);
+      const ctx_r69 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
+      return ctx_r69.selectedUser = $event;
     })("onSelect", function CreateQuoteComponent_div_3_Template_ng_multiselect_dropdown_onSelect_38_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r67);
-      const ctx_r68 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
-      return ctx_r68.handleOwnerChange($event);
+      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r70);
+      const ctx_r71 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
+      return ctx_r71.handleOwnerChange($event);
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](39, CreateQuoteComponent_div_3_div_39_Template, 2, 1, "div", 28);
@@ -12110,9 +12143,9 @@ function CreateQuoteComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](48, "ng-multiselect-dropdown", 33);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("onSelect", function CreateQuoteComponent_div_3_Template_ng_multiselect_dropdown_onSelect_48_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r67);
-      const ctx_r69 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
-      return ctx_r69.onItemSelect($event);
+      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r70);
+      const ctx_r72 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
+      return ctx_r72.onItemSelect($event);
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](49, "span", 34);
@@ -12137,9 +12170,9 @@ function CreateQuoteComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](62, "ng-multiselect-dropdown", 39);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("onSelect", function CreateQuoteComponent_div_3_Template_ng_multiselect_dropdown_onSelect_62_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r67);
-      const ctx_r70 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
-      return ctx_r70.onContactSelect($event);
+      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r70);
+      const ctx_r73 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
+      return ctx_r73.onContactSelect($event);
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](63, "span", 34);
@@ -12264,9 +12297,9 @@ function CreateQuoteComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](142, "ng-multiselect-dropdown", 61);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("onSelect", function CreateQuoteComponent_div_3_Template_ng_multiselect_dropdown_onSelect_142_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r67);
-      const ctx_r71 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
-      return ctx_r71.handleLocationChange($event);
+      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r70);
+      const ctx_r74 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
+      return ctx_r74.handleLocationChange($event);
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](143, CreateQuoteComponent_div_3_div_143_Template, 2, 1, "div", 28);
@@ -12418,9 +12451,9 @@ function CreateQuoteComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](237, "div", 68);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](238, "button", 69);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function CreateQuoteComponent_div_3_Template_button_click_238_listener() {
-      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r67);
-      const ctx_r72 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
-      return ctx_r72.setItem();
+      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r70);
+      const ctx_r75 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
+      return ctx_r75.setItem();
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](239, "ADD Items");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
@@ -12505,9 +12538,9 @@ function CreateQuoteComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](295, "div", 98);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](296, "input", 99);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("input", function CreateQuoteComponent_div_3_Template_input_input_296_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r67);
-      const ctx_r73 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
-      return ctx_r73.inputName($event);
+      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r70);
+      const ctx_r76 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
+      return ctx_r76.inputName($event);
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
@@ -12518,9 +12551,9 @@ function CreateQuoteComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](299, "div", 98);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](300, "input", 101);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("input", function CreateQuoteComponent_div_3_Template_input_input_300_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r67);
-      const ctx_r74 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
-      return ctx_r74.inputhsn($event);
+      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r70);
+      const ctx_r77 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
+      return ctx_r77.inputhsn($event);
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
@@ -12529,9 +12562,9 @@ function CreateQuoteComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](302, "div", 98);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](303, "input", 102);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("input", function CreateQuoteComponent_div_3_Template_input_input_303_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r67);
-      const ctx_r75 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
-      return ctx_r75.inputgst($event);
+      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r70);
+      const ctx_r78 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
+      return ctx_r78.inputgst($event);
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
@@ -12540,9 +12573,9 @@ function CreateQuoteComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](305, "div", 98);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](306, "input", 103);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("input", function CreateQuoteComponent_div_3_Template_input_input_306_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r67);
-      const ctx_r76 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
-      return ctx_r76.inputuom($event);
+      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r70);
+      const ctx_r79 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
+      return ctx_r79.inputuom($event);
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
@@ -12555,9 +12588,9 @@ function CreateQuoteComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](310, "button", 106);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function CreateQuoteComponent_div_3_Template_button_click_310_listener() {
-      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r67);
-      const ctx_r77 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
-      return ctx_r77.checkAddGroup();
+      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r70);
+      const ctx_r80 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
+      return ctx_r80.checkAddGroup();
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](311, "Save");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
@@ -12586,9 +12619,9 @@ function CreateQuoteComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](326, "input", 114);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("input", function CreateQuoteComponent_div_3_Template_input_input_326_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r67);
-      const ctx_r78 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
-      return ctx_r78.inputName($event);
+      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r70);
+      const ctx_r81 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
+      return ctx_r81.inputName($event);
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
@@ -12646,9 +12679,9 @@ function CreateQuoteComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](360, "button", 106);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function CreateQuoteComponent_div_3_Template_button_click_360_listener() {
-      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r67);
-      const ctx_r79 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
-      return ctx_r79.mergeSelection();
+      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r70);
+      const ctx_r82 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
+      return ctx_r82.mergeSelection();
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](361, "Merge Selected Products");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
@@ -12692,9 +12725,9 @@ function CreateQuoteComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](382, "input", 124);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("change", function CreateQuoteComponent_div_3_Template_input_change_382_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r67);
-      const ctx_r80 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
-      return ctx_r80.handleAttachmentUpload($event);
+      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r70);
+      const ctx_r83 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
+      return ctx_r83.handleAttachmentUpload($event);
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
@@ -12720,7 +12753,7 @@ function CreateQuoteComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](398, "th");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](399, CreateQuoteComponent_div_3_tr_399_Template, 13, 4, "tr", 117);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](399, CreateQuoteComponent_div_3_tr_399_Template, 13, 5, "tr", 117);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
@@ -12965,9 +12998,9 @@ function CreateQuoteComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](552, "div", 161);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](553, "input", 162);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function CreateQuoteComponent_div_3_Template_input_click_553_listener() {
-      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r67);
-      const ctx_r81 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
-      return ctx_r81.handleCheckbox("7 Days");
+      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r70);
+      const ctx_r84 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
+      return ctx_r84.handleCheckbox("7 Days");
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](554, " 7 Days ");
@@ -12975,9 +13008,9 @@ function CreateQuoteComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](555, "div", 161);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](556, "input", 162);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function CreateQuoteComponent_div_3_Template_input_click_556_listener() {
-      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r67);
-      const ctx_r82 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
-      return ctx_r82.handleCheckbox("15 Days");
+      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r70);
+      const ctx_r85 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
+      return ctx_r85.handleCheckbox("15 Days");
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](557, " 15 Days ");
@@ -12985,9 +13018,9 @@ function CreateQuoteComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](558, "div", 161);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](559, "input", 162);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function CreateQuoteComponent_div_3_Template_input_click_559_listener() {
-      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r67);
-      const ctx_r83 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
-      return ctx_r83.handleCheckbox("30 Days");
+      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r70);
+      const ctx_r86 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
+      return ctx_r86.handleCheckbox("30 Days");
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](560, " 30 Days ");
@@ -12995,9 +13028,9 @@ function CreateQuoteComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](561, "div", 161);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](562, "input", 162);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function CreateQuoteComponent_div_3_Template_input_click_562_listener() {
-      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r67);
-      const ctx_r84 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
-      return ctx_r84.handleCheckbox("60 Days");
+      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r70);
+      const ctx_r87 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
+      return ctx_r87.handleCheckbox("60 Days");
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](563, " 60 Days ");
@@ -13005,9 +13038,9 @@ function CreateQuoteComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](564, "div", 161);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](565, "input", 162);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function CreateQuoteComponent_div_3_Template_input_click_565_listener() {
-      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r67);
-      const ctx_r85 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
-      return ctx_r85.handleCheckbox("90 Days");
+      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r70);
+      const ctx_r88 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
+      return ctx_r88.handleCheckbox("90 Days");
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](566, " 90 Days ");
@@ -13015,9 +13048,9 @@ function CreateQuoteComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](567, "div", 161);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](568, "input", 162);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function CreateQuoteComponent_div_3_Template_input_click_568_listener() {
-      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r67);
-      const ctx_r86 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
-      return ctx_r86.handleCheckbox("Other");
+      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r70);
+      const ctx_r89 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
+      return ctx_r89.handleCheckbox("Other");
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](569, " Other ");
@@ -13031,25 +13064,25 @@ function CreateQuoteComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](573, "div", 163);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](574, "button", 164);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function CreateQuoteComponent_div_3_Template_button_click_574_listener() {
-      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r67);
-      const ctx_r87 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
-      return ctx_r87.handleBack();
+      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r70);
+      const ctx_r90 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
+      return ctx_r90.handleBack();
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](575, "Cancel");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](576, "button", 165);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function CreateQuoteComponent_div_3_Template_button_click_576_listener() {
-      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r67);
-      const ctx_r88 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
-      return ctx_r88.SubmitForm();
+      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r70);
+      const ctx_r91 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
+      return ctx_r91.SubmitForm();
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](577, "Save");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](578, "button", 166);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function CreateQuoteComponent_div_3_Template_button_click_578_listener() {
-      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r67);
-      const ctx_r89 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
-      return ctx_r89.handleDealConvert();
+      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r70);
+      const ctx_r92 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
+      return ctx_r92.handleDealConvert();
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](579, "Convert To Deal");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
@@ -13197,9 +13230,9 @@ function CreateQuoteComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](668, "button", 165);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function CreateQuoteComponent_div_3_Template_button_click_668_listener() {
-      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r67);
-      const ctx_r90 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
-      return ctx_r90.handleSubmit();
+      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r70);
+      const ctx_r93 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
+      return ctx_r93.handleSubmit();
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](669, "Save");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
@@ -13338,7 +13371,7 @@ function CreateQuoteComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵadvance"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtextInterpolate"](ctx_r3.groupAmount);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵadvance"](43);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵproperty"]("ngForOf", ctx_r3.show_files);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵproperty"]("ngForOf", ctx_r3.files_url);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵadvance"](21);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵproperty"]("ngIf", ctx_r3.f.inco_terms.errors && ctx_r3.f.inco_terms.errors.required && ctx_r3.isValidFormSubmitted);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵadvance"](25);
@@ -13782,6 +13815,11 @@ class CreateQuoteComponent {
 
   handleLocationChange(e) {
     console.log(e);
+  }
+
+  removeAttachment(index) {
+    console.log(index);
+    this.files_url.splice(index, 1);
   }
 
   handleOwnerChange(e) {
@@ -14524,7 +14562,7 @@ CreateQuoteComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE
   selectors: [["app-create-quote"]],
   decls: 4,
   vars: 4,
-  consts: [[4, "ngIf"], [3, "gridData", "dataChanged", 4, "ngIf"], ["id", "content", "class", "app-content", "role", "main", 4, "ngIf"], [3, "gridData", "dataChanged"], ["id", "content", "role", "main", 1, "app-content"], [1, "app-content-body"], [1, "top"], [1, "row", "t-main"], [1, "col-sm-6", "col-xs-12", "t-main-1"], [1, "m-n", "t-main1"], [1, "col-sm-6", "text-right", "poppins"], ["aria-label", "breadcrumb"], [1, "breadcrumb", "t-main", 2, "cursor", "pointer"], ["aria-current", "page", "routerLink", "/", 1, "breadcrumb-item", "active", 2, "font-size", "11px"], ["aria-current", "page", 1, "breadcrumb-item", "active", 2, "font-size", "11px"], ["aria-current", "page", "routerLink", "/quote", 1, "breadcrumb-item", "active", 2, "font-size", "11px"], ["aria-current", "page", "routerLink", "/create-quote", 1, "breadcrumb-item", "active", 2, "font-size", "11px", "color", "red"], [3, "formGroup"], ["ng-controller", "FormDemoCtrl", 1, "wrapper-md"], [1, "row"], [1, "col-sm-12"], [1, "panel", "panel-default"], [1, "panel-heading"], [1, "panel-body"], [1, "col-md-4", "form-group"], [1, "text-danger"], ["type", "text", "placeholder", "Enter Your deal ID", "formControlName", "quote_id", 1, "form-control", 3, "value"], ["formControlName", "quote_owner", 3, "placeholder", "settings", "ngModel", "data", "ngModelChange", "onSelect"], ["class", "text-danger text-left mb-1 errorcontrols", 4, "ngIf"], [1, "form-group", "col-md-4"], [1, "input-group"], [1, "input-group-addon", 2, "color", "gray", "font-size", "20px", "background", "white", "border-right", "0px"], [1, "fa", "fa-building"], ["formControlName", "account", 3, "placeholder", "settings", "data", "onSelect"], [1, "input-group-addon", 2, "color", "red", "font-size", "20px", "background", "white", "border-radius", "0px"], ["routerLink", "/create-account"], [1, "clearfix"], [1, "input-group-addon", 2, "color", "gray", "font-size", "20px", "background", "white", "border-radius", "0px", "border-right", "0px"], [1, "fa", "fa-user"], ["formControlName", "contact", 3, "placeholder", "settings", "data", "onSelect"], ["routerLink", "/create-contact"], ["formControlName", "quote_source", "id", "quote_source", 1, "form-control"], ["value", "", "selected", "", "disabled", ""], ["value", "Inbound OEM"], ["value", "Inbound Direct Customer"], ["value", "Inbound Advertisement"], ["value", "Outbound Cold Call"], ["value", "Outbound Routine"], ["value", "Website"], ["value", "Others"], ["type", "text", "placeholder", "Enter Your DealTitle", "formControlName", "quote_title", 1, "form-control"], ["formControlName", "quote_type", "id", "quote_type", 1, "form-control"], ["value", "Project"], ["value", "Solution"], ["value", "Standard"], ["type", "text", "placeholder", "Enter Your Referral", "formControlName", "referral", 1, "form-control"], ["type", "number", "placeholder", "Enter Your Referral", "formControlName", "estimated_value", 1, "form-control"], ["formControlName", "quote_status", "id", " quote_status", 1, "form-control"], ["value", "Information Required"], ["value", "Deal to be Prepared"], ["value", "Lost"], ["formControlName", "quote_location", 3, "placeholder", "settings", "data", "onSelect"], ["formControlName", "sales_person", 3, "placeholder", "settings", "data"], [1, "panel-heading", "font-bold"], ["type", "text", 1, "form-control", 3, "value"], ["type", "text", "placeholder", "", 1, "form-control", 3, "value"], [1, "col-md-12", "form-group"], ["type", "text", "placeholder", "Remark", "formControlName", "remark", 1, "form-control"], [2, "text-align", "right"], [1, "add-group", 3, "click"], ["id", "productListDropdown", 1, "example-wrapper"], ["kendoTreeListExpandable", "", 3, "data", "fetchChildren", "hasChildren", "pageable", "pageSize", "sortable", "sort", "navigable"], [3, "width"], ["kendoTreeListCellTemplate", ""], ["field", "productname", "title", "Product Name", 3, "expandable", "width"], ["field", "type", "title", "Type", 3, "width"], ["title", "GST", 3, "width"], ["title", "Unit Price", "field", "UnitPrice", 3, "width"], ["title", "Quantity", "field", "quantity", 3, "width"], ["title", "Discount(%)", "field", "discount", 3, "width"], ["title", "Amount", 3, "width"], [1, "product_footer"], [1, "pull-left"], [1, "pull-right", "fw600"], [1, "totalSumValue"], [1, "pull-right"], [1, "fa", "fa-rupee", "text-danger"], ["class", "pull-right", 4, "ngIf"], [1, "pull-left", "fw600"], ["class", "pull-right fw600", 4, "ngIf"], ["id", "myModalgroup2", "role", "dialog", 1, "modal", "fade"], [1, "modal-dialog"], [1, "modal-content"], [1, "modal-header"], ["type", "button", "data-dismiss", "modal", 1, "close"], [1, "modal-title"], [1, "modal-body"], [1, "col-md-12"], [1, "form-group"], ["type", "text", "placeholder", "Enter Name", 1, "form-control", 3, "value", "input"], [1, "col-md-4"], ["type", "text", "placeholder", "Enter HSN Code", "formControlName", "Enter HSN Code", 1, "form-control", 3, "value", "input"], ["type", "text", "placeholder", "Enter GST", "type", "number", "formControlName", "", 1, "form-control", 3, "value", "input"], ["type", "text", "placeholder", "Enter UOM", 1, "form-control", 3, "value", "input"], [1, "modal-footer"], ["type", "button", "id", "closenameinp", "data-dismiss", "modal", 1, "btn", "btn-default"], ["type", "button", 1, "btn", "btn-primary", 3, "click"], ["type", "hidden", "id", "showmodal", "data-toggle", "modal", "data-target", "#myModal"], ["id", "myModal", "tabindex", "-1", "role", "dialog", "aria-labelledby", "productLabel", "aria-hidden", "true", 1, "modal", "fade"], ["role", "document", 1, "modal-dialog"], ["id", "productLabel", 1, "modal-title"], ["type", "button", "data-dismiss", "modal", "aria-label", "Close", 1, "close"], ["aria-hidden", "true"], [1, "modal-body", 2, "min-height", "200px"], ["type", "text", 1, "form-control", 3, "value", "input"], [1, "table"], ["scope", "col"], [4, "ngFor", "ngForOf"], ["type", "button", "id", "closebtn", "data-dismiss", "modal", 1, "btn", "btn-dark"], ["type", "text", "placeholder", "Enter Note", "formControlName", "note", 1, "form-control"], [1, "col-md-10"], [2, "text-align", "right", "padding-right", "18px"], ["onclick", "$('#file').click()", 2, "cursor", "pointer"], ["aria-hidden", "true", 1, "fa", "fa-paperclip"], ["accept", "application/pdf,image/*", "type", "file", "multiple", "", "encType", "multipart/form-data", "placeholder", "Uplode your Company Logo", "id", "file", "formControlName", "attachments", 1, "form-control", 2, "font-size", "12px", "border-right", "0px", "display", "none", 3, "change"], [1, "col-md-12", 2, "padding", "0px"], [2, "background", "#FFE5E5"], ["formControlName", "inco_terms", "id", "inco_terms", 1, "form-control"], ["value", "DOD - Door delivery to your plant"], ["value", "FOB Lucknow"], ["value", "FOB Rudrapur"], ["formControlName", "p_t", "id", "p_t", 1, "form-control"], ["value", "100% within 30 days of GR"], ["value", "100% within 7 days of GR"], ["value", "100% immediately against delivery"], ["value", "100% against delivery on COD Basis"], ["value", "100% against Pro forma Invoice before dispatch"], ["value", " 90% within 30 days of GR 10% after I&C & Others"], ["formControlName", "p_f", "id", "p_f", 1, "form-control"], ["value", "Not applicable"], ["value", "Inclusive"], ["value", "Extra @2%"], ["value", "Extra  @3%"], ["formControlName", "freight", "id", "freight", 1, "form-control"], ["value", "Extra as per actuals to  your account"], ["value", "Dispatch  on 'To Pay' basis"], ["formControlName", "taxes", "id", "taxes", 1, "form-control"], ["value", "Extra as applicable"], ["type", "text", "placeholder", "Enter Others", "formControlName", "other_charges", 1, "form-control"], ["formControlName", "delivery", "id", "delivery", 1, "form-control"], ["value", "1-2 weeks"], ["value", "3-4 weeks"], ["value", "4-6 weeks"], ["value", "6-8 weeks"], ["value", "8-10 weeks"], ["value", "10-12 weeks"], ["value", "12-16 weeks"], ["formControlName", "warrenty", "id", "warrenty", 1, "form-control"], ["value", "Not Applicable"], ["value", "6 months (from date of  sale)"], ["value", "12 months (from  date of sale)"], [1, "col-md-2", "deal_div", 2, "border", "1px solid black"], ["type", "radio", "name", "validity", 2, "font-size", "12px", 3, "click"], [2, "text-align", "right", "margin", "10px 0px"], [1, "btn", "btn-dark", 3, "click"], [1, "btn", "btn-danger", 3, "click"], [1, "btn", "btn-primary", 3, "click"], ["id", "exampleModalCenter1", "tabindex", "-1", "role", "dialog", "aria-labelledby", "exampleModalCenterTitle", "aria-hidden", "true", 1, "modal", "fade"], ["role", "document", 1, "modal-dialog", "modal-dialog-centered"], ["type", "button", "data-dismiss", "modal", 1, "close", "m-t-xs"], [1, "modal-title", "font-weight-600", "text-20"], [1, "details"], ["type", "hidden", "formControlName", "type", "value", "Product"], ["formControlName", "productname", "type", "text", "placeholder", "", 1, "form-control"], [1, "col-md-6"], ["formControlName", "PartNo", "type", "text", "placeholder", "", 1, "form-control"], ["formControlName", "CCNNo", "type", "text", "placeholder", "", 1, "form-control"], ["formControlName", "UnitPrice", "type", "Number", "placeholder", "", 1, "form-control"], ["formControlName", "UOM", "type", "text", "placeholder", "", 1, "form-control"], ["formControlName", "Category", "type", "text", "placeholder", "", 1, "form-control"], ["formControlName", "OEM", "type", "text", "placeholder", "", 1, "form-control"], ["formControlName", "OEMProductCode", "type", "text", 1, "form-control"], ["formControlName", "HSNCode", "type", "text", "placeholder", "", 1, "form-control"], ["formControlName", "GST", "type", "Number", "placeholder", "", 1, "form-control"], [1, "control-label", "font-weight-600"], ["type", "button", "id", "closemodal", "data-dismiss", "modal", 1, "btn", "btn-dark"], [1, "text-danger", "text-left", "mb-1", "errorcontrols"], ["type", "checkbox", "name", "dataItem.id", 3, "change", 4, "ngIf"], ["type", "checkbox", "name", "dataItem.id", 3, "change"], [1, "fa", "fa-rupee"], [2, "color", "blue"], ["aria-hidden", "true", 1, "fa", "fa-pencil-square-o"], ["aria-hidden", "true", 1, "fa", "fa-trash"]],
+  consts: [[4, "ngIf"], [3, "gridData", "dataChanged", 4, "ngIf"], ["id", "content", "class", "app-content", "role", "main", 4, "ngIf"], [3, "gridData", "dataChanged"], ["id", "content", "role", "main", 1, "app-content"], [1, "app-content-body"], [1, "top"], [1, "row", "t-main"], [1, "col-sm-6", "col-xs-12", "t-main-1"], [1, "m-n", "t-main1"], [1, "col-sm-6", "text-right", "poppins"], ["aria-label", "breadcrumb"], [1, "breadcrumb", "t-main", 2, "cursor", "pointer"], ["aria-current", "page", "routerLink", "/", 1, "breadcrumb-item", "active", 2, "font-size", "11px"], ["aria-current", "page", 1, "breadcrumb-item", "active", 2, "font-size", "11px"], ["aria-current", "page", "routerLink", "/quote", 1, "breadcrumb-item", "active", 2, "font-size", "11px"], ["aria-current", "page", "routerLink", "/create-quote", 1, "breadcrumb-item", "active", 2, "font-size", "11px", "color", "red"], [3, "formGroup"], ["ng-controller", "FormDemoCtrl", 1, "wrapper-md"], [1, "row"], [1, "col-sm-12"], [1, "panel", "panel-default"], [1, "panel-heading"], [1, "panel-body"], [1, "col-md-4", "form-group"], [1, "text-danger"], ["type", "text", "placeholder", "Enter Your deal ID", "formControlName", "quote_id", 1, "form-control", 3, "value"], ["formControlName", "quote_owner", 3, "placeholder", "settings", "ngModel", "data", "ngModelChange", "onSelect"], ["class", "text-danger text-left mb-1 errorcontrols", 4, "ngIf"], [1, "form-group", "col-md-4"], [1, "input-group"], [1, "input-group-addon", 2, "color", "gray", "font-size", "20px", "background", "white", "border-right", "0px"], [1, "fa", "fa-building"], ["formControlName", "account", 3, "placeholder", "settings", "data", "onSelect"], [1, "input-group-addon", 2, "color", "red", "font-size", "20px", "background", "white", "border-radius", "0px"], ["routerLink", "/create-account"], [1, "clearfix"], [1, "input-group-addon", 2, "color", "gray", "font-size", "20px", "background", "white", "border-radius", "0px", "border-right", "0px"], [1, "fa", "fa-user"], ["formControlName", "contact", 3, "placeholder", "settings", "data", "onSelect"], ["routerLink", "/create-contact"], ["formControlName", "quote_source", "id", "quote_source", 1, "form-control"], ["value", "", "selected", "", "disabled", ""], ["value", "Inbound OEM"], ["value", "Inbound Direct Customer"], ["value", "Inbound Advertisement"], ["value", "Outbound Cold Call"], ["value", "Outbound Routine"], ["value", "Website"], ["value", "Others"], ["type", "text", "placeholder", "Enter Your DealTitle", "formControlName", "quote_title", 1, "form-control"], ["formControlName", "quote_type", "id", "quote_type", 1, "form-control"], ["value", "Project"], ["value", "Solution"], ["value", "Standard"], ["type", "text", "placeholder", "Enter Your Referral", "formControlName", "referral", 1, "form-control"], ["type", "number", "placeholder", "Enter Your Referral", "formControlName", "estimated_value", 1, "form-control"], ["formControlName", "quote_status", "id", " quote_status", 1, "form-control"], ["value", "Information Required"], ["value", "Deal to be Prepared"], ["value", "Lost"], ["formControlName", "quote_location", 3, "placeholder", "settings", "data", "onSelect"], ["formControlName", "sales_person", 3, "placeholder", "settings", "data"], [1, "panel-heading", "font-bold"], ["type", "text", 1, "form-control", 3, "value"], ["type", "text", "placeholder", "", 1, "form-control", 3, "value"], [1, "col-md-12", "form-group"], ["type", "text", "placeholder", "Remark", "formControlName", "remark", 1, "form-control"], [2, "text-align", "right"], [1, "add-group", 3, "click"], ["id", "productListDropdown", 1, "example-wrapper"], ["kendoTreeListExpandable", "", 3, "data", "fetchChildren", "hasChildren", "pageable", "pageSize", "sortable", "sort", "navigable"], [3, "width"], ["kendoTreeListCellTemplate", ""], ["field", "productname", "title", "Product Name", 3, "expandable", "width"], ["field", "type", "title", "Type", 3, "width"], ["title", "GST", 3, "width"], ["title", "Unit Price", "field", "UnitPrice", 3, "width"], ["title", "Quantity", "field", "quantity", 3, "width"], ["title", "Discount(%)", "field", "discount", 3, "width"], ["title", "Amount", 3, "width"], [1, "product_footer"], [1, "pull-left"], [1, "pull-right", "fw600"], [1, "totalSumValue"], [1, "pull-right"], [1, "fa", "fa-rupee", "text-danger"], ["class", "pull-right", 4, "ngIf"], [1, "pull-left", "fw600"], ["class", "pull-right fw600", 4, "ngIf"], ["id", "myModalgroup2", "role", "dialog", 1, "modal", "fade"], [1, "modal-dialog"], [1, "modal-content"], [1, "modal-header"], ["type", "button", "data-dismiss", "modal", 1, "close"], [1, "modal-title"], [1, "modal-body"], [1, "col-md-12"], [1, "form-group"], ["type", "text", "placeholder", "Enter Name", 1, "form-control", 3, "value", "input"], [1, "col-md-4"], ["type", "text", "placeholder", "Enter HSN Code", "formControlName", "Enter HSN Code", 1, "form-control", 3, "value", "input"], ["type", "text", "placeholder", "Enter GST", "type", "number", "formControlName", "", 1, "form-control", 3, "value", "input"], ["type", "text", "placeholder", "Enter UOM", 1, "form-control", 3, "value", "input"], [1, "modal-footer"], ["type", "button", "id", "closenameinp", "data-dismiss", "modal", 1, "btn", "btn-default"], ["type", "button", 1, "btn", "btn-primary", 3, "click"], ["type", "hidden", "id", "showmodal", "data-toggle", "modal", "data-target", "#myModal"], ["id", "myModal", "tabindex", "-1", "role", "dialog", "aria-labelledby", "productLabel", "aria-hidden", "true", 1, "modal", "fade"], ["role", "document", 1, "modal-dialog"], ["id", "productLabel", 1, "modal-title"], ["type", "button", "data-dismiss", "modal", "aria-label", "Close", 1, "close"], ["aria-hidden", "true"], [1, "modal-body", 2, "min-height", "200px"], ["type", "text", 1, "form-control", 3, "value", "input"], [1, "table"], ["scope", "col"], [4, "ngFor", "ngForOf"], ["type", "button", "id", "closebtn", "data-dismiss", "modal", 1, "btn", "btn-dark"], ["type", "text", "placeholder", "Enter Note", "formControlName", "note", 1, "form-control"], [1, "col-md-10"], [2, "text-align", "right", "padding-right", "18px"], ["onclick", "$('#file').click()", 2, "cursor", "pointer"], ["aria-hidden", "true", 1, "fa", "fa-paperclip"], ["accept", "application/pdf,image/*", "type", "file", "multiple", "", "encType", "multipart/form-data", "placeholder", "Uplode your Company Logo", "id", "file", "formControlName", "attachments", 1, "form-control", 2, "font-size", "12px", "border-right", "0px", "display", "none", 3, "change"], [1, "col-md-12", 2, "padding", "0px"], [2, "background", "#FFE5E5"], ["formControlName", "inco_terms", "id", "inco_terms", 1, "form-control"], ["value", "DOD - Door delivery to your plant"], ["value", "FOB Lucknow"], ["value", "FOB Rudrapur"], ["formControlName", "p_t", "id", "p_t", 1, "form-control"], ["value", "100% within 30 days of GR"], ["value", "100% within 7 days of GR"], ["value", "100% immediately against delivery"], ["value", "100% against delivery on COD Basis"], ["value", "100% against Pro forma Invoice before dispatch"], ["value", " 90% within 30 days of GR 10% after I&C & Others"], ["formControlName", "p_f", "id", "p_f", 1, "form-control"], ["value", "Not applicable"], ["value", "Inclusive"], ["value", "Extra @2%"], ["value", "Extra  @3%"], ["formControlName", "freight", "id", "freight", 1, "form-control"], ["value", "Extra as per actuals to  your account"], ["value", "Dispatch  on 'To Pay' basis"], ["formControlName", "taxes", "id", "taxes", 1, "form-control"], ["value", "Extra as applicable"], ["type", "text", "placeholder", "Enter Others", "formControlName", "other_charges", 1, "form-control"], ["formControlName", "delivery", "id", "delivery", 1, "form-control"], ["value", "1-2 weeks"], ["value", "3-4 weeks"], ["value", "4-6 weeks"], ["value", "6-8 weeks"], ["value", "8-10 weeks"], ["value", "10-12 weeks"], ["value", "12-16 weeks"], ["formControlName", "warrenty", "id", "warrenty", 1, "form-control"], ["value", "Not Applicable"], ["value", "6 months (from date of  sale)"], ["value", "12 months (from  date of sale)"], [1, "col-md-2", "deal_div", 2, "border", "1px solid black"], ["type", "radio", "name", "validity", 2, "font-size", "12px", 3, "click"], [2, "text-align", "right", "margin", "10px 0px"], [1, "btn", "btn-dark", 3, "click"], [1, "btn", "btn-danger", 3, "click"], [1, "btn", "btn-primary", 3, "click"], ["id", "exampleModalCenter1", "tabindex", "-1", "role", "dialog", "aria-labelledby", "exampleModalCenterTitle", "aria-hidden", "true", 1, "modal", "fade"], ["role", "document", 1, "modal-dialog", "modal-dialog-centered"], ["type", "button", "data-dismiss", "modal", 1, "close", "m-t-xs"], [1, "modal-title", "font-weight-600", "text-20"], [1, "details"], ["type", "hidden", "formControlName", "type", "value", "Product"], ["formControlName", "productname", "type", "text", "placeholder", "", 1, "form-control"], [1, "col-md-6"], ["formControlName", "PartNo", "type", "text", "placeholder", "", 1, "form-control"], ["formControlName", "CCNNo", "type", "text", "placeholder", "", 1, "form-control"], ["formControlName", "UnitPrice", "type", "Number", "placeholder", "", 1, "form-control"], ["formControlName", "UOM", "type", "text", "placeholder", "", 1, "form-control"], ["formControlName", "Category", "type", "text", "placeholder", "", 1, "form-control"], ["formControlName", "OEM", "type", "text", "placeholder", "", 1, "form-control"], ["formControlName", "OEMProductCode", "type", "text", 1, "form-control"], ["formControlName", "HSNCode", "type", "text", "placeholder", "", 1, "form-control"], ["formControlName", "GST", "type", "Number", "placeholder", "", 1, "form-control"], [1, "control-label", "font-weight-600"], ["type", "button", "id", "closemodal", "data-dismiss", "modal", 1, "btn", "btn-dark"], [1, "text-danger", "text-left", "mb-1", "errorcontrols"], ["type", "checkbox", "name", "dataItem.id", 3, "change", 4, "ngIf"], ["type", "checkbox", "name", "dataItem.id", 3, "change"], [1, "fa", "fa-rupee"], [2, "color", "blue"], ["target", "_blank", 3, "href"], ["aria-hidden", "true", 1, "fa", "fa-trash", 2, "cursor", "pointer", 3, "click"]],
   template: function CreateQuoteComponent_Template(rf, ctx) {
     if (rf & 1) {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](0, CreateQuoteComponent_app_header_0_Template, 1, 0, "app-header", 0);
@@ -17733,24 +17771,34 @@ function DealEditComponent_div_3_tr_326_Template(rf, ctx) {
 
 function DealEditComponent_div_3_tr_385_Template(rf, ctx) {
   if (rf & 1) {
+    const _r46 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵgetCurrentView"]();
+
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](0, "tr");
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](1, "th");
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](2, "p", 211);
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](3, "a", 212);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](4);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](4, "th");
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](5);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](6, "th");
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](5, "th");
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](6);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](8, "th");
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](9);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](7, "th");
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](8);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](10, "th");
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelement"](11, "i", 212);
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelement"](12, "i", 213);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](9, "th");
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](10);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](11, "th");
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](12, "i", 213);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵlistener"]("click", function DealEditComponent_div_3_tr_385_Template_i_click_12_listener() {
+      const restoredCtx = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r46);
+      const i_r44 = restoredCtx.index;
+      const ctx_r45 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"](2);
+      return ctx_r45.removeAttachment(i_r44);
+    });
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
   }
@@ -17758,6 +17806,8 @@ function DealEditComponent_div_3_tr_385_Template(rf, ctx) {
   if (rf & 2) {
     const file_r43 = ctx.$implicit;
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵadvance"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵpropertyInterpolate"]("href", file_r43.img_url, _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵsanitizeUrl"]);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵadvance"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtextInterpolate"](file_r43.name);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵadvance"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtextInterpolate1"]("", file_r43.attached_by, " ");
@@ -17962,7 +18012,7 @@ function DealEditComponent_div_3_div_650_Template(rf, ctx) {
 
 function DealEditComponent_div_3_Template(rf, ctx) {
   if (rf & 1) {
-    const _r53 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵgetCurrentView"]();
+    const _r56 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵgetCurrentView"]();
 
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](0, "div", 4);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](1, "div", 5);
@@ -18022,13 +18072,13 @@ function DealEditComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](38, "ng-multiselect-dropdown", 27);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵlistener"]("ngModelChange", function DealEditComponent_div_3_Template_ng_multiselect_dropdown_ngModelChange_38_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r53);
-      const ctx_r52 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
-      return ctx_r52.selectedUser = $event;
+      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r56);
+      const ctx_r55 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
+      return ctx_r55.selectedUser = $event;
     })("onSelect", function DealEditComponent_div_3_Template_ng_multiselect_dropdown_onSelect_38_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r53);
-      const ctx_r54 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
-      return ctx_r54.handleOwnerChange($event);
+      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r56);
+      const ctx_r57 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
+      return ctx_r57.handleOwnerChange($event);
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
@@ -18045,13 +18095,13 @@ function DealEditComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](47, "ng-multiselect-dropdown", 32);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵlistener"]("ngModelChange", function DealEditComponent_div_3_Template_ng_multiselect_dropdown_ngModelChange_47_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r53);
-      const ctx_r55 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
-      return ctx_r55.selectedCompany = $event;
+      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r56);
+      const ctx_r58 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
+      return ctx_r58.selectedCompany = $event;
     })("onSelect", function DealEditComponent_div_3_Template_ng_multiselect_dropdown_onSelect_47_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r53);
-      const ctx_r56 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
-      return ctx_r56.onItemSelect($event);
+      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r56);
+      const ctx_r59 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
+      return ctx_r59.onItemSelect($event);
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](48, "span", 33);
@@ -18075,13 +18125,13 @@ function DealEditComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](60, "ng-multiselect-dropdown", 38);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵlistener"]("ngModelChange", function DealEditComponent_div_3_Template_ng_multiselect_dropdown_ngModelChange_60_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r53);
-      const ctx_r57 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
-      return ctx_r57.selectedContact = $event;
+      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r56);
+      const ctx_r60 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
+      return ctx_r60.selectedContact = $event;
     })("onSelect", function DealEditComponent_div_3_Template_ng_multiselect_dropdown_onSelect_60_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r53);
-      const ctx_r58 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
-      return ctx_r58.onContactSelect($event);
+      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r56);
+      const ctx_r61 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
+      return ctx_r61.onContactSelect($event);
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](61, "span", 33);
@@ -18100,9 +18150,9 @@ function DealEditComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](69, "select", 40);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵlistener"]("change", function DealEditComponent_div_3_Template_select_change_69_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r53);
-      const ctx_r59 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
-      return ctx_r59.handleChange($event, "deal_source");
+      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r56);
+      const ctx_r62 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
+      return ctx_r62.handleChange($event, "deal_source");
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](70, "option", 41);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](71, " Deal Source ");
@@ -18139,9 +18189,9 @@ function DealEditComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](91, "input", 49);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵlistener"]("change", function DealEditComponent_div_3_Template_input_change_91_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r53);
-      const ctx_r60 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
-      return ctx_r60.handleChange($event, "deal_title");
+      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r56);
+      const ctx_r63 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
+      return ctx_r63.handleChange($event, "deal_title");
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtemplate"](92, DealEditComponent_div_3_div_92_Template, 2, 1, "div", 50);
@@ -18156,9 +18206,9 @@ function DealEditComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](99, "select", 51);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵlistener"]("change", function DealEditComponent_div_3_Template_select_change_99_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r53);
-      const ctx_r61 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
-      return ctx_r61.handleChange($event, "deal_type");
+      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r56);
+      const ctx_r64 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
+      return ctx_r64.handleChange($event, "deal_type");
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](100, "option", 52);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](101, " Deal Type ");
@@ -18181,9 +18231,9 @@ function DealEditComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](112, "input", 56);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵlistener"]("change", function DealEditComponent_div_3_Template_input_change_112_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r53);
-      const ctx_r62 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
-      return ctx_r62.handleChange($event, "referral");
+      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r56);
+      const ctx_r65 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
+      return ctx_r65.handleChange($event, "referral");
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
@@ -18193,9 +18243,9 @@ function DealEditComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](116, "input", 57);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵlistener"]("change", function DealEditComponent_div_3_Template_input_change_116_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r53);
-      const ctx_r63 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
-      return ctx_r63.handleChange($event, "deal_estimated_value");
+      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r56);
+      const ctx_r66 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
+      return ctx_r66.handleChange($event, "deal_estimated_value");
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
@@ -18229,13 +18279,13 @@ function DealEditComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](136, "ng-multiselect-dropdown", 61);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵlistener"]("ngModelChange", function DealEditComponent_div_3_Template_ng_multiselect_dropdown_ngModelChange_136_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r53);
-      const ctx_r64 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
-      return ctx_r64.selectedBranch = $event;
+      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r56);
+      const ctx_r67 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
+      return ctx_r67.selectedBranch = $event;
     })("onSelect", function DealEditComponent_div_3_Template_ng_multiselect_dropdown_onSelect_136_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r53);
-      const ctx_r65 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
-      return ctx_r65.handleLocationChange($event);
+      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r56);
+      const ctx_r68 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
+      return ctx_r68.handleLocationChange($event);
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtemplate"](137, DealEditComponent_div_3_div_137_Template, 2, 1, "div", 50);
@@ -18249,9 +18299,9 @@ function DealEditComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](143, "ng-multiselect-dropdown", 62);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵlistener"]("ngModelChange", function DealEditComponent_div_3_Template_ng_multiselect_dropdown_ngModelChange_143_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r53);
-      const ctx_r66 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
-      return ctx_r66.dealData.sales_person = $event;
+      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r56);
+      const ctx_r69 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
+      return ctx_r69.dealData.sales_person = $event;
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtemplate"](144, DealEditComponent_div_3_div_144_Template, 2, 1, "div", 50);
@@ -18377,9 +18427,9 @@ function DealEditComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](223, "div", 79);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](224, "button", 80);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵlistener"]("click", function DealEditComponent_div_3_Template_button_click_224_listener() {
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r53);
-      const ctx_r67 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
-      return ctx_r67.setItem();
+      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r56);
+      const ctx_r70 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
+      return ctx_r70.setItem();
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](225, "ADD Items");
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
@@ -18464,9 +18514,9 @@ function DealEditComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](281, "div", 109);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](282, "input", 110);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵlistener"]("input", function DealEditComponent_div_3_Template_input_input_282_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r53);
-      const ctx_r68 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
-      return ctx_r68.inputName($event);
+      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r56);
+      const ctx_r71 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
+      return ctx_r71.inputName($event);
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
@@ -18477,9 +18527,9 @@ function DealEditComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](285, "div", 109);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](286, "input", 112);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵlistener"]("input", function DealEditComponent_div_3_Template_input_input_286_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r53);
-      const ctx_r69 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
-      return ctx_r69.inputhsn($event);
+      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r56);
+      const ctx_r72 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
+      return ctx_r72.inputhsn($event);
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
@@ -18488,9 +18538,9 @@ function DealEditComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](288, "div", 109);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](289, "input", 113);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵlistener"]("input", function DealEditComponent_div_3_Template_input_input_289_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r53);
-      const ctx_r70 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
-      return ctx_r70.inputgst($event);
+      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r56);
+      const ctx_r73 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
+      return ctx_r73.inputgst($event);
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
@@ -18499,9 +18549,9 @@ function DealEditComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](291, "div", 109);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](292, "input", 114);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵlistener"]("input", function DealEditComponent_div_3_Template_input_input_292_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r53);
-      const ctx_r71 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
-      return ctx_r71.inputuom($event);
+      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r56);
+      const ctx_r74 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
+      return ctx_r74.inputuom($event);
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
@@ -18514,9 +18564,9 @@ function DealEditComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](296, "button", 117);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵlistener"]("click", function DealEditComponent_div_3_Template_button_click_296_listener() {
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r53);
-      const ctx_r72 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
-      return ctx_r72.checkAddGroup();
+      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r56);
+      const ctx_r75 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
+      return ctx_r75.checkAddGroup();
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](297, "Save");
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
@@ -18545,9 +18595,9 @@ function DealEditComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](312, "input", 126);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵlistener"]("input", function DealEditComponent_div_3_Template_input_input_312_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r53);
-      const ctx_r73 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
-      return ctx_r73.inputName($event);
+      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r56);
+      const ctx_r76 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
+      return ctx_r76.inputName($event);
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
@@ -18605,9 +18655,9 @@ function DealEditComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](346, "button", 117);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵlistener"]("click", function DealEditComponent_div_3_Template_button_click_346_listener() {
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r53);
-      const ctx_r74 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
-      return ctx_r74.mergeSelection();
+      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r56);
+      const ctx_r77 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
+      return ctx_r77.mergeSelection();
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](347, "Merge Selected Products");
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
@@ -18651,9 +18701,9 @@ function DealEditComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](368, "input", 136);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵlistener"]("change", function DealEditComponent_div_3_Template_input_change_368_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r53);
-      const ctx_r75 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
-      return ctx_r75.handleAttachmentUpload($event);
+      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r56);
+      const ctx_r78 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
+      return ctx_r78.handleAttachmentUpload($event);
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
@@ -18679,7 +18729,7 @@ function DealEditComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelement"](384, "th");
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtemplate"](385, DealEditComponent_div_3_tr_385_Template, 13, 4, "tr", 129);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtemplate"](385, DealEditComponent_div_3_tr_385_Template, 13, 5, "tr", 129);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
@@ -18952,9 +19002,9 @@ function DealEditComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](553, "div", 175);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](554, "input", 176);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵlistener"]("click", function DealEditComponent_div_3_Template_input_click_554_listener() {
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r53);
-      const ctx_r76 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
-      return ctx_r76.handleCheckbox("7 Days");
+      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r56);
+      const ctx_r79 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
+      return ctx_r79.handleCheckbox("7 Days");
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](555, " 7 Days ");
@@ -18962,9 +19012,9 @@ function DealEditComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](556, "div", 175);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](557, "input", 177);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵlistener"]("click", function DealEditComponent_div_3_Template_input_click_557_listener() {
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r53);
-      const ctx_r77 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
-      return ctx_r77.handleCheckbox("15 Days");
+      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r56);
+      const ctx_r80 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
+      return ctx_r80.handleCheckbox("15 Days");
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](558, " 15 Days ");
@@ -18972,9 +19022,9 @@ function DealEditComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](559, "div", 175);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](560, "input", 178);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵlistener"]("click", function DealEditComponent_div_3_Template_input_click_560_listener() {
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r53);
-      const ctx_r78 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
-      return ctx_r78.handleCheckbox("30 Days");
+      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r56);
+      const ctx_r81 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
+      return ctx_r81.handleCheckbox("30 Days");
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](561, " 30 Days ");
@@ -18982,9 +19032,9 @@ function DealEditComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](562, "div", 175);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](563, "input", 179);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵlistener"]("click", function DealEditComponent_div_3_Template_input_click_563_listener() {
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r53);
-      const ctx_r79 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
-      return ctx_r79.handleCheckbox("60 Days");
+      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r56);
+      const ctx_r82 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
+      return ctx_r82.handleCheckbox("60 Days");
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](564, " 60 Days ");
@@ -18992,9 +19042,9 @@ function DealEditComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](565, "div", 175);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](566, "input", 180);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵlistener"]("click", function DealEditComponent_div_3_Template_input_click_566_listener() {
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r53);
-      const ctx_r80 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
-      return ctx_r80.handleCheckbox("90 Days");
+      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r56);
+      const ctx_r83 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
+      return ctx_r83.handleCheckbox("90 Days");
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](567, " 90 Days ");
@@ -19044,17 +19094,17 @@ function DealEditComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](593, "div", 185);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](594, "button", 186);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵlistener"]("click", function DealEditComponent_div_3_Template_button_click_594_listener() {
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r53);
-      const ctx_r81 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
-      return ctx_r81.handleBack();
+      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r56);
+      const ctx_r84 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
+      return ctx_r84.handleBack();
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](595, "Cancel");
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](596, "button", 187);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵlistener"]("click", function DealEditComponent_div_3_Template_button_click_596_listener() {
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r53);
-      const ctx_r82 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
-      return ctx_r82.submitForm();
+      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r56);
+      const ctx_r85 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
+      return ctx_r85.submitForm();
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](597, "Update");
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
@@ -19204,9 +19254,9 @@ function DealEditComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](686, "button", 187);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵlistener"]("click", function DealEditComponent_div_3_Template_button_click_686_listener() {
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r53);
-      const ctx_r83 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
-      return ctx_r83.handleSubmit();
+      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r56);
+      const ctx_r86 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
+      return ctx_r86.handleSubmit();
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](687, "Save");
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
@@ -19351,7 +19401,7 @@ function DealEditComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵadvance"](13);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵpropertyInterpolate"]("value", ctx_r3.dealData == null ? null : ctx_r3.dealData.note);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵadvance"](30);
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵproperty"]("ngForOf", ctx_r3.show_files);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵproperty"]("ngForOf", ctx_r3.files_url);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵadvance"](10);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵpropertyInterpolate"]("value", ctx_r3.dealData == null ? null : ctx_r3.dealData.sales_order_no);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵadvance"](1);
@@ -20004,6 +20054,11 @@ class DealEditComponent {
     return data;
   }
 
+  removeAttachment(index) {
+    console.log(index);
+    this.files_url.splice(index, 1);
+  }
+
   mergeSelection() {
     var _a;
 
@@ -20585,7 +20640,7 @@ DealEditComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_12
   selectors: [["app-deal-edit"]],
   decls: 4,
   vars: 4,
-  consts: [[4, "ngIf"], [3, "gridData", "dataChanged", 4, "ngIf"], ["id", "content", "class", "app-content", "role", "main", 4, "ngIf"], [3, "gridData", "dataChanged"], ["id", "content", "role", "main", 1, "app-content"], [1, "app-content-body"], [1, "top"], [1, "row", "t-main"], [1, "col-sm-6", "col-xs-12", "t-main-1"], [1, "m-n", "t-main1"], [1, "col-sm-6", "text-right", "poppins"], ["aria-label", "breadcrumb"], [1, "breadcrumb", "t-main", 2, "cursor", "pointer"], ["aria-current", "page", "routerLink", "/", 1, "breadcrumb-item", "active", 2, "font-size", "11px"], ["aria-current", "page", 1, "breadcrumb-item", "active", 2, "font-size", "11px"], ["aria-current", "page", "routerLink", "/deal", 1, "breadcrumb-item", "active", 2, "font-size", "11px"], ["aria-current", "page", 1, "breadcrumb-item", "active", 2, "font-size", "11px", "color", "red"], [3, "formGroup"], ["ng-controller", "FormDemoCtrl", 1, "wrapper-md"], [1, "row"], [1, "col-sm-12"], [1, "panel", "panel-default"], [1, "panel-heading"], [1, "panel-body"], [1, "col-md-4", "form-group"], [1, "text-danger"], ["type", "text", "placeholder", "Enter Your deal ID", "formControlName", "deal_id", 1, "form-control", 3, "value"], ["formControlName", "deal_owner", 3, "placeholder", "settings", "ngModel", "data", "ngModelChange", "onSelect"], [1, "form-group", "col-md-4"], [1, "input-group"], [1, "input-group-addon", 2, "color", "gray", "font-size", "20px", "background", "white", "border-right", "0px"], [1, "fa", "fa-building"], ["formControlName", "selected_company", 3, "settings", "data", "ngModel", "ngModelChange", "onSelect"], [1, "input-group-addon", 2, "color", "red", "font-size", "20px", "background", "white", "border-radius", "0px"], ["routerLink", "/create-account"], [1, "clearfix"], [1, "input-group-addon", 2, "color", "gray", "font-size", "20px", "background", "white", "border-radius", "0px", "border-right", "0px"], [1, "fa", "fa-user"], ["formControlName", "selected_contact", 3, "settings", "data", "ngModel", "ngModelChange", "onSelect"], ["routerLink", "/create-contact"], ["formControlName", "deal_source", 1, "form-control", 3, "value", "change"], ["value", "", "disabled", ""], ["value", "Inbound OEM"], ["value", "Inbound Direct Customer"], ["value", "Inbound Advertisement"], ["value", "Outbound Cold Call"], ["value", "Outbound Routine"], ["value", "Website"], ["value", "Others"], ["type", "text", "formControlName", "deal_title", "placeholder", "Enter Your DealTitle", 1, "form-control", 3, "value", "change"], ["class", "text-danger text-left mb-1 errorcontrols", 4, "ngIf"], ["formControlName", "deal_type", 1, "form-control", 3, "value", "change"], ["value", "", "selected", "", "disabled", ""], ["value", "Project"], ["value", "Solution"], ["value", "Standard"], ["type", "text", "placeholder", "Enter Your Referral", "formControlName", "referral", 1, "form-control", 3, "value", "change"], ["type", "number", "placeholder", "Enter Your Estimated Value", "formControlName", "deal_estimated_value", 1, "form-control", 3, "value", "change"], ["formControlName", "deal_status_stage", "id", "deal_status_stage", 1, "form-control", 3, "value"], ["value", "Information Required"], ["value", "Lost"], ["formControlName", "deal_location", 3, "placeholder", "settings", "ngModel", "data", "ngModelChange", "onSelect"], ["formControlName", "sales_person", 3, "placeholder", "settings", "data", "ngModel", "ngModelChange"], [1, "panel-heading", "font-bold"], ["type", "text", "placeholder", "Company Industry", 1, "form-control", 3, "value"], ["type", "text", "placeholder", "Company Country", 1, "form-control", 3, "value"], ["type", "text", "placeholder", "Company State", 1, "form-control", 3, "value"], ["type", "text", "placeholder", "Company City", 1, "form-control", 3, "value"], ["type", "text", "placeholder", "Company Location", 1, "form-control", 3, "value"], ["type", "text", "placeholder", "Company GST", 1, "form-control", 3, "value"], ["type", "text", "placeholder", "Company PAN", 1, "form-control", 3, "value"], ["type", "text", "placeholder", "Company TAN", 1, "form-control", 3, "value"], ["type", "text", "placeholder", "Company CIN", 1, "form-control", 3, "value"], ["type", "text", "placeholder", "Contact Role", 1, "form-control", 3, "value"], ["type", "text", "placeholder", "Contact Name", 1, "form-control", 3, "value"], ["type", "text", "placeholder", "Contact Phone", 1, "form-control", 3, "value"], ["type", "text", "placeholder", "Contact Mobile", 1, "form-control", 3, "value"], [1, "col-md-3", "control-label"], ["type", "text", "placeholder", "Contact Email", 1, "form-control", 3, "value"], [2, "text-align", "right"], [1, "add-group", 3, "click"], ["id", "productListDropdown", 1, "example-wrapper"], ["kendoTreeListExpandable", "", 3, "data", "fetchChildren", "hasChildren", "pageable", "pageSize", "sortable", "sort", "navigable"], [3, "width"], ["kendoTreeListCellTemplate", ""], ["field", "productname", "title", "Product Name", 3, "expandable", "width"], ["field", "type", "title", "Type", 3, "width"], ["title", "GST", 3, "width"], ["title", "Unit Price", "field", "UnitPrice", 3, "width"], ["title", "Quantity", "field", "quantity", 3, "width"], ["title", "Discount(%)", "field", "discount", 3, "width"], ["title", "Amount", 3, "width"], [1, "product_footer"], [1, "pull-left"], [1, "pull-right", "fw600"], [1, "totalSumValue"], [1, "pull-right"], [1, "fa", "fa-rupee", "text-danger"], ["class", "pull-right", 4, "ngIf"], [1, "pull-left", "fw600"], ["class", "pull-right fw600", 4, "ngIf"], ["id", "myModalgroup2", "role", "dialog", 1, "modal", "fade"], [1, "modal-dialog"], [1, "modal-content"], [1, "modal-header"], ["type", "button", "data-dismiss", "modal", 1, "close"], [1, "modal-title"], [1, "modal-body"], [1, "col-md-12"], [1, "form-group"], ["type", "text", "placeholder", "Enter Name", 1, "form-control", 3, "value", "input"], [1, "col-md-4"], ["type", "text", "placeholder", "Enter HSN Code", 1, "form-control", 3, "value", "input"], ["type", "text", "placeholder", "Enter GST", "type", "number", 1, "form-control", 3, "value", "input"], ["type", "text", "placeholder", "Enter UOM", 1, "form-control", 3, "value", "input"], [1, "modal-footer"], ["type", "button", "id", "closenameinp", "data-dismiss", "modal", 1, "btn", "btn-default"], ["type", "button", 1, "btn", "btn-primary", 3, "click"], ["type", "hidden", "id", "showmodal", "data-toggle", "modal", "data-target", "#myModal"], ["id", "myModal", "tabindex", "-1", "role", "dialog", "aria-labelledby", "productLabel", "aria-hidden", "true", 1, "modal", "fade"], ["role", "document", 1, "modal-dialog"], ["id", "productLabel", 1, "modal-title"], ["type", "button", "data-dismiss", "modal", "aria-label", "Close", 1, "close"], ["aria-hidden", "true"], [1, "modal-body", 2, "min-height", "200px"], [1, "col-md-12", "form-group"], ["type", "text", 1, "form-control", 3, "value", "input"], [1, "table"], ["scope", "col"], [4, "ngFor", "ngForOf"], ["type", "button", "id", "closebtn", "data-dismiss", "modal", 1, "btn", "btn-dark"], ["type", "text", "placeholder", "Enter Note", "formControlName", "note", 1, "form-control", 3, "value"], [1, "col-md-10"], [2, "text-align", "right", "padding-right", "18px"], ["onclick", "$('#file').click()", 2, "cursor", "pointer"], ["aria-hidden", "true", 1, "fa", "fa-paperclip"], ["accept", "application/pdf,image/*", "type", "file", "multiple", "", "encType", "multipart/form-data", "placeholder", "Uplode your Company Logo", "id", "file", "formControlName", "attachments", 1, "form-control", 2, "font-size", "12px", "border-right", "0px", "display", "none", 3, "change"], [1, "col-md-12", 2, "padding", "0px"], [2, "background", "#FFE5E5"], ["type", "text", "placeholder", "Enter Order Sales number", "formControlName", "sales_order_no", 1, "form-control", 3, "value"], ["formControlName", "p_f", "id", "p_f", 1, "form-control"], ["value", "DOD - Door delivery to your plant"], ["value", "FOB Lucknow"], ["value", "FOB Rudrapur"], ["formControlName", "p_t", "id", "p_t", 1, "form-control"], ["value", "100% within 30 days of GR"], ["value", "100% within 7 days of GR"], ["value", "100% immediately against delivery"], ["value", "100% against delivery on COD Basis"], ["value", "100% against Pro forma Invoice before dispatch"], ["value", " 90% within 30 days of GR 10% after I&C & Others"], ["type", "text", "placeholder", "remark", "formControlName", "remark", 1, "form-control", 3, "value"], ["formControlName", "p_f", "id", "p_f", 1, "form-control", 3, "value"], ["value", "Not applicable"], ["value", "Inclusive"], ["value", "Extra @2%"], ["value", "Extra  @3%"], ["formControlName", "freight", "id", "freight", 1, "form-control", 3, "value"], ["value", "Extra as per actuals to  your account"], ["value", "Dispatch  on 'To Pay' basis"], ["formControlName", "taxes", 1, "form-control", 3, "value"], ["value", "Extra as applicable"], ["type", "text", "placeholder", "Enter Others", "formControlName", "other_charges", 1, "form-control", 3, "value"], ["formControlName", "delivery", "id", "delivery", 1, "form-control", 3, "value"], ["value", "1-2 weeks"], ["value", "3-4 weeks"], ["value", "4-6 weeks"], ["value", "6-8 weeks"], ["value", "8-10 weeks"], ["value", "10-12 weeks"], ["value", "12-16 weeks"], ["formControlName", "warranty", "id", "warranty", 1, "form-control", 3, "value"], ["value", "Not Applicable"], ["value", "6 months (from date of  sale)"], ["value", "12 months (from  date of sale)"], [1, "col-md-1", "deal_div", 2, "border", "1px solid black"], ["type", "radio", "name", "validity", "value", "7 Days", 2, "font-size", "12px", 3, "checked", "click"], ["type", "radio", "name", "validity", "value", "15 Days", 2, "font-size", "12px", 3, "checked", "click"], ["type", "radio", "name", "validity", "value", "30 Days", 2, "font-size", "12px", 3, "checked", "click"], ["type", "radio", "name", "validity", "value", "60 Days", 2, "font-size", "12px", 3, "checked", "click"], ["type", "radio", "name", "validity", "value", "90 Days", 2, "font-size", "12px", 3, "checked", "click"], [2, "border", "2px dashed red"], [1, "col-md-6", "form-group"], [1, "col-md-9"], ["disabled", "", 1, "form-control", 3, "value"], [2, "text-align", "right", "margin", "10px 0px"], [1, "btn", "btn-dark", 3, "click"], [1, "btn", "btn-danger", 3, "click"], ["id", "exampleModalCenter1", "tabindex", "-1", "role", "dialog", "aria-labelledby", "exampleModalCenterTitle", "aria-hidden", "true", 1, "modal", "fade"], ["role", "document", 1, "modal-dialog", "modal-dialog-centered"], ["type", "button", "data-dismiss", "modal", 1, "close", "m-t-xs"], [1, "modal-title", "font-weight-600", "text-20"], [1, "details"], ["type", "hidden", "formControlName", "type", "value", "Product"], ["formControlName", "productname", "type", "text", "placeholder", "", 1, "form-control"], [1, "col-md-6"], ["formControlName", "PartNo", "type", "text", "placeholder", "", 1, "form-control"], ["formControlName", "CCNNo", "type", "text", "placeholder", "", 1, "form-control"], ["formControlName", "UnitPrice", "type", "Number", "placeholder", "", 1, "form-control"], ["formControlName", "UOM", "type", "text", "placeholder", "", 1, "form-control"], ["formControlName", "Category", "type", "text", "placeholder", "", 1, "form-control"], ["formControlName", "OEM", "type", "text", "placeholder", "", 1, "form-control"], ["formControlName", "OEMProductCode", "type", "text", 1, "form-control"], ["formControlName", "HSNCode", "type", "text", "placeholder", "", 1, "form-control"], ["formControlName", "GST", "type", "Number", "placeholder", "", 1, "form-control"], [1, "control-label", "font-weight-600"], ["type", "button", "id", "closemodal", "data-dismiss", "modal", 1, "btn", "btn-dark"], [1, "text-danger", "text-left", "mb-1", "errorcontrols"], ["type", "checkbox", "name", "dataItem.id", 3, "change", 4, "ngIf"], ["type", "checkbox", "name", "dataItem.id", 3, "change"], [1, "fa", "fa-rupee"], [2, "color", "blue"], ["aria-hidden", "true", 1, "fa", "fa-pencil-square-o"], ["aria-hidden", "true", 1, "fa", "fa-trash"]],
+  consts: [[4, "ngIf"], [3, "gridData", "dataChanged", 4, "ngIf"], ["id", "content", "class", "app-content", "role", "main", 4, "ngIf"], [3, "gridData", "dataChanged"], ["id", "content", "role", "main", 1, "app-content"], [1, "app-content-body"], [1, "top"], [1, "row", "t-main"], [1, "col-sm-6", "col-xs-12", "t-main-1"], [1, "m-n", "t-main1"], [1, "col-sm-6", "text-right", "poppins"], ["aria-label", "breadcrumb"], [1, "breadcrumb", "t-main", 2, "cursor", "pointer"], ["aria-current", "page", "routerLink", "/", 1, "breadcrumb-item", "active", 2, "font-size", "11px"], ["aria-current", "page", 1, "breadcrumb-item", "active", 2, "font-size", "11px"], ["aria-current", "page", "routerLink", "/deal", 1, "breadcrumb-item", "active", 2, "font-size", "11px"], ["aria-current", "page", 1, "breadcrumb-item", "active", 2, "font-size", "11px", "color", "red"], [3, "formGroup"], ["ng-controller", "FormDemoCtrl", 1, "wrapper-md"], [1, "row"], [1, "col-sm-12"], [1, "panel", "panel-default"], [1, "panel-heading"], [1, "panel-body"], [1, "col-md-4", "form-group"], [1, "text-danger"], ["type", "text", "placeholder", "Enter Your deal ID", "formControlName", "deal_id", 1, "form-control", 3, "value"], ["formControlName", "deal_owner", 3, "placeholder", "settings", "ngModel", "data", "ngModelChange", "onSelect"], [1, "form-group", "col-md-4"], [1, "input-group"], [1, "input-group-addon", 2, "color", "gray", "font-size", "20px", "background", "white", "border-right", "0px"], [1, "fa", "fa-building"], ["formControlName", "selected_company", 3, "settings", "data", "ngModel", "ngModelChange", "onSelect"], [1, "input-group-addon", 2, "color", "red", "font-size", "20px", "background", "white", "border-radius", "0px"], ["routerLink", "/create-account"], [1, "clearfix"], [1, "input-group-addon", 2, "color", "gray", "font-size", "20px", "background", "white", "border-radius", "0px", "border-right", "0px"], [1, "fa", "fa-user"], ["formControlName", "selected_contact", 3, "settings", "data", "ngModel", "ngModelChange", "onSelect"], ["routerLink", "/create-contact"], ["formControlName", "deal_source", 1, "form-control", 3, "value", "change"], ["value", "", "disabled", ""], ["value", "Inbound OEM"], ["value", "Inbound Direct Customer"], ["value", "Inbound Advertisement"], ["value", "Outbound Cold Call"], ["value", "Outbound Routine"], ["value", "Website"], ["value", "Others"], ["type", "text", "formControlName", "deal_title", "placeholder", "Enter Your DealTitle", 1, "form-control", 3, "value", "change"], ["class", "text-danger text-left mb-1 errorcontrols", 4, "ngIf"], ["formControlName", "deal_type", 1, "form-control", 3, "value", "change"], ["value", "", "selected", "", "disabled", ""], ["value", "Project"], ["value", "Solution"], ["value", "Standard"], ["type", "text", "placeholder", "Enter Your Referral", "formControlName", "referral", 1, "form-control", 3, "value", "change"], ["type", "number", "placeholder", "Enter Your Estimated Value", "formControlName", "deal_estimated_value", 1, "form-control", 3, "value", "change"], ["formControlName", "deal_status_stage", "id", "deal_status_stage", 1, "form-control", 3, "value"], ["value", "Information Required"], ["value", "Lost"], ["formControlName", "deal_location", 3, "placeholder", "settings", "ngModel", "data", "ngModelChange", "onSelect"], ["formControlName", "sales_person", 3, "placeholder", "settings", "data", "ngModel", "ngModelChange"], [1, "panel-heading", "font-bold"], ["type", "text", "placeholder", "Company Industry", 1, "form-control", 3, "value"], ["type", "text", "placeholder", "Company Country", 1, "form-control", 3, "value"], ["type", "text", "placeholder", "Company State", 1, "form-control", 3, "value"], ["type", "text", "placeholder", "Company City", 1, "form-control", 3, "value"], ["type", "text", "placeholder", "Company Location", 1, "form-control", 3, "value"], ["type", "text", "placeholder", "Company GST", 1, "form-control", 3, "value"], ["type", "text", "placeholder", "Company PAN", 1, "form-control", 3, "value"], ["type", "text", "placeholder", "Company TAN", 1, "form-control", 3, "value"], ["type", "text", "placeholder", "Company CIN", 1, "form-control", 3, "value"], ["type", "text", "placeholder", "Contact Role", 1, "form-control", 3, "value"], ["type", "text", "placeholder", "Contact Name", 1, "form-control", 3, "value"], ["type", "text", "placeholder", "Contact Phone", 1, "form-control", 3, "value"], ["type", "text", "placeholder", "Contact Mobile", 1, "form-control", 3, "value"], [1, "col-md-3", "control-label"], ["type", "text", "placeholder", "Contact Email", 1, "form-control", 3, "value"], [2, "text-align", "right"], [1, "add-group", 3, "click"], ["id", "productListDropdown", 1, "example-wrapper"], ["kendoTreeListExpandable", "", 3, "data", "fetchChildren", "hasChildren", "pageable", "pageSize", "sortable", "sort", "navigable"], [3, "width"], ["kendoTreeListCellTemplate", ""], ["field", "productname", "title", "Product Name", 3, "expandable", "width"], ["field", "type", "title", "Type", 3, "width"], ["title", "GST", 3, "width"], ["title", "Unit Price", "field", "UnitPrice", 3, "width"], ["title", "Quantity", "field", "quantity", 3, "width"], ["title", "Discount(%)", "field", "discount", 3, "width"], ["title", "Amount", 3, "width"], [1, "product_footer"], [1, "pull-left"], [1, "pull-right", "fw600"], [1, "totalSumValue"], [1, "pull-right"], [1, "fa", "fa-rupee", "text-danger"], ["class", "pull-right", 4, "ngIf"], [1, "pull-left", "fw600"], ["class", "pull-right fw600", 4, "ngIf"], ["id", "myModalgroup2", "role", "dialog", 1, "modal", "fade"], [1, "modal-dialog"], [1, "modal-content"], [1, "modal-header"], ["type", "button", "data-dismiss", "modal", 1, "close"], [1, "modal-title"], [1, "modal-body"], [1, "col-md-12"], [1, "form-group"], ["type", "text", "placeholder", "Enter Name", 1, "form-control", 3, "value", "input"], [1, "col-md-4"], ["type", "text", "placeholder", "Enter HSN Code", 1, "form-control", 3, "value", "input"], ["type", "text", "placeholder", "Enter GST", "type", "number", 1, "form-control", 3, "value", "input"], ["type", "text", "placeholder", "Enter UOM", 1, "form-control", 3, "value", "input"], [1, "modal-footer"], ["type", "button", "id", "closenameinp", "data-dismiss", "modal", 1, "btn", "btn-default"], ["type", "button", 1, "btn", "btn-primary", 3, "click"], ["type", "hidden", "id", "showmodal", "data-toggle", "modal", "data-target", "#myModal"], ["id", "myModal", "tabindex", "-1", "role", "dialog", "aria-labelledby", "productLabel", "aria-hidden", "true", 1, "modal", "fade"], ["role", "document", 1, "modal-dialog"], ["id", "productLabel", 1, "modal-title"], ["type", "button", "data-dismiss", "modal", "aria-label", "Close", 1, "close"], ["aria-hidden", "true"], [1, "modal-body", 2, "min-height", "200px"], [1, "col-md-12", "form-group"], ["type", "text", 1, "form-control", 3, "value", "input"], [1, "table"], ["scope", "col"], [4, "ngFor", "ngForOf"], ["type", "button", "id", "closebtn", "data-dismiss", "modal", 1, "btn", "btn-dark"], ["type", "text", "placeholder", "Enter Note", "formControlName", "note", 1, "form-control", 3, "value"], [1, "col-md-10"], [2, "text-align", "right", "padding-right", "18px"], ["onclick", "$('#file').click()", 2, "cursor", "pointer"], ["aria-hidden", "true", 1, "fa", "fa-paperclip"], ["accept", "application/pdf,image/*", "type", "file", "multiple", "", "encType", "multipart/form-data", "placeholder", "Uplode your Company Logo", "id", "file", "formControlName", "attachments", 1, "form-control", 2, "font-size", "12px", "border-right", "0px", "display", "none", 3, "change"], [1, "col-md-12", 2, "padding", "0px"], [2, "background", "#FFE5E5"], ["type", "text", "placeholder", "Enter Order Sales number", "formControlName", "sales_order_no", 1, "form-control", 3, "value"], ["formControlName", "p_f", "id", "p_f", 1, "form-control"], ["value", "DOD - Door delivery to your plant"], ["value", "FOB Lucknow"], ["value", "FOB Rudrapur"], ["formControlName", "p_t", "id", "p_t", 1, "form-control"], ["value", "100% within 30 days of GR"], ["value", "100% within 7 days of GR"], ["value", "100% immediately against delivery"], ["value", "100% against delivery on COD Basis"], ["value", "100% against Pro forma Invoice before dispatch"], ["value", " 90% within 30 days of GR 10% after I&C & Others"], ["type", "text", "placeholder", "remark", "formControlName", "remark", 1, "form-control", 3, "value"], ["formControlName", "p_f", "id", "p_f", 1, "form-control", 3, "value"], ["value", "Not applicable"], ["value", "Inclusive"], ["value", "Extra @2%"], ["value", "Extra  @3%"], ["formControlName", "freight", "id", "freight", 1, "form-control", 3, "value"], ["value", "Extra as per actuals to  your account"], ["value", "Dispatch  on 'To Pay' basis"], ["formControlName", "taxes", 1, "form-control", 3, "value"], ["value", "Extra as applicable"], ["type", "text", "placeholder", "Enter Others", "formControlName", "other_charges", 1, "form-control", 3, "value"], ["formControlName", "delivery", "id", "delivery", 1, "form-control", 3, "value"], ["value", "1-2 weeks"], ["value", "3-4 weeks"], ["value", "4-6 weeks"], ["value", "6-8 weeks"], ["value", "8-10 weeks"], ["value", "10-12 weeks"], ["value", "12-16 weeks"], ["formControlName", "warranty", "id", "warranty", 1, "form-control", 3, "value"], ["value", "Not Applicable"], ["value", "6 months (from date of  sale)"], ["value", "12 months (from  date of sale)"], [1, "col-md-1", "deal_div", 2, "border", "1px solid black"], ["type", "radio", "name", "validity", "value", "7 Days", 2, "font-size", "12px", 3, "checked", "click"], ["type", "radio", "name", "validity", "value", "15 Days", 2, "font-size", "12px", 3, "checked", "click"], ["type", "radio", "name", "validity", "value", "30 Days", 2, "font-size", "12px", 3, "checked", "click"], ["type", "radio", "name", "validity", "value", "60 Days", 2, "font-size", "12px", 3, "checked", "click"], ["type", "radio", "name", "validity", "value", "90 Days", 2, "font-size", "12px", 3, "checked", "click"], [2, "border", "2px dashed red"], [1, "col-md-6", "form-group"], [1, "col-md-9"], ["disabled", "", 1, "form-control", 3, "value"], [2, "text-align", "right", "margin", "10px 0px"], [1, "btn", "btn-dark", 3, "click"], [1, "btn", "btn-danger", 3, "click"], ["id", "exampleModalCenter1", "tabindex", "-1", "role", "dialog", "aria-labelledby", "exampleModalCenterTitle", "aria-hidden", "true", 1, "modal", "fade"], ["role", "document", 1, "modal-dialog", "modal-dialog-centered"], ["type", "button", "data-dismiss", "modal", 1, "close", "m-t-xs"], [1, "modal-title", "font-weight-600", "text-20"], [1, "details"], ["type", "hidden", "formControlName", "type", "value", "Product"], ["formControlName", "productname", "type", "text", "placeholder", "", 1, "form-control"], [1, "col-md-6"], ["formControlName", "PartNo", "type", "text", "placeholder", "", 1, "form-control"], ["formControlName", "CCNNo", "type", "text", "placeholder", "", 1, "form-control"], ["formControlName", "UnitPrice", "type", "Number", "placeholder", "", 1, "form-control"], ["formControlName", "UOM", "type", "text", "placeholder", "", 1, "form-control"], ["formControlName", "Category", "type", "text", "placeholder", "", 1, "form-control"], ["formControlName", "OEM", "type", "text", "placeholder", "", 1, "form-control"], ["formControlName", "OEMProductCode", "type", "text", 1, "form-control"], ["formControlName", "HSNCode", "type", "text", "placeholder", "", 1, "form-control"], ["formControlName", "GST", "type", "Number", "placeholder", "", 1, "form-control"], [1, "control-label", "font-weight-600"], ["type", "button", "id", "closemodal", "data-dismiss", "modal", 1, "btn", "btn-dark"], [1, "text-danger", "text-left", "mb-1", "errorcontrols"], ["type", "checkbox", "name", "dataItem.id", 3, "change", 4, "ngIf"], ["type", "checkbox", "name", "dataItem.id", 3, "change"], [1, "fa", "fa-rupee"], [2, "color", "blue"], ["target", "_blank", 3, "href"], ["aria-hidden", "true", 1, "fa", "fa-trash", 2, "cursor", "pointer", 3, "click"]],
   template: function DealEditComponent_Template(rf, ctx) {
     if (rf & 1) {
       _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtemplate"](0, DealEditComponent_app_header_0_Template, 1, 0, "app-header", 0);
@@ -21031,21 +21086,23 @@ function LeadEditComponent_div_3_tr_386_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵelementStart"](0, "tr");
     _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵelementStart"](1, "th");
     _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵelementStart"](2, "p", 160);
-    _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵtext"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵelementStart"](3, "a", 161);
+    _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵtext"](4);
     _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵelementStart"](4, "th");
-    _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵtext"](5);
     _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵelementStart"](6, "th");
-    _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵtext"](7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵelementStart"](5, "th");
+    _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵtext"](6);
     _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵelementStart"](8, "th");
-    _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵtext"](9);
+    _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵelementStart"](7, "th");
+    _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵtext"](8);
     _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵelementStart"](10, "th");
-    _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵelementStart"](11, "i", 161);
-    _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵlistener"]("click", function LeadEditComponent_div_3_tr_386_Template_i_click_11_listener() {
+    _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵelementStart"](9, "th");
+    _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵtext"](10);
+    _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵelementStart"](11, "th");
+    _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵelementStart"](12, "i", 162);
+    _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵlistener"]("click", function LeadEditComponent_div_3_tr_386_Template_i_click_12_listener() {
       const restoredCtx = _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵrestoreView"](_r49);
       const i_r47 = restoredCtx.index;
       const ctx_r48 = _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵnextContext"](2);
@@ -21059,6 +21116,8 @@ function LeadEditComponent_div_3_tr_386_Template(rf, ctx) {
   if (rf & 2) {
     const file_r46 = ctx.$implicit;
     _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵadvance"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵpropertyInterpolate"]("href", file_r46.img_url, _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵsanitizeUrl"]);
+    _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵadvance"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵtextInterpolate"](file_r46.name);
     _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵadvance"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵtextInterpolate"](file_r46.attached_by);
@@ -21097,7 +21156,7 @@ function LeadEditComponent_div_3_button_419_Template(rf, ctx) {
   if (rf & 1) {
     const _r52 = _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵgetCurrentView"]();
 
-    _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵelementStart"](0, "button", 162);
+    _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵelementStart"](0, "button", 163);
     _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵlistener"]("click", function LeadEditComponent_div_3_button_419_Template_button_click_0_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵrestoreView"](_r52);
       const ctx_r51 = _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵnextContext"](2);
@@ -21112,7 +21171,7 @@ function LeadEditComponent_div_3_div_426_div_1_Template(rf, ctx) {
   if (rf & 1) {
     const _r58 = _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵgetCurrentView"]();
 
-    _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵelementStart"](0, "div", 164);
+    _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵelementStart"](0, "div", 165);
     _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵlistener"]("click", function LeadEditComponent_div_3_div_426_div_1_Template_div_click_0_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵrestoreView"](_r58);
       const data_r53 = _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵnextContext"]().$implicit;
@@ -21149,7 +21208,7 @@ function LeadEditComponent_div_3_div_426_div_2_Template(rf, ctx) {
   if (rf & 1) {
     const _r62 = _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵgetCurrentView"]();
 
-    _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵelementStart"](0, "div", 164);
+    _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵelementStart"](0, "div", 165);
     _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵlistener"]("click", function LeadEditComponent_div_3_div_426_div_2_Template_div_click_0_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵrestoreView"](_r62);
       const data_r53 = _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵnextContext"]().$implicit;
@@ -21166,8 +21225,8 @@ function LeadEditComponent_div_3_div_426_div_2_Template(rf, ctx) {
 function LeadEditComponent_div_3_div_426_Template(rf, ctx) {
   if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵelementStart"](0, "div");
-    _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵtemplate"](1, LeadEditComponent_div_3_div_426_div_1_Template, 10, 6, "div", 163);
-    _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵtemplate"](2, LeadEditComponent_div_3_div_426_div_2_Template, 3, 0, "div", 163);
+    _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵtemplate"](1, LeadEditComponent_div_3_div_426_div_1_Template, 10, 6, "div", 164);
+    _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵtemplate"](2, LeadEditComponent_div_3_div_426_div_2_Template, 3, 0, "div", 164);
     _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵelementEnd"]();
   }
 
@@ -21986,7 +22045,7 @@ function LeadEditComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵelement"](385, "th");
     _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵtemplate"](386, LeadEditComponent_div_3_tr_386_Template, 12, 4, "tr", 116);
+    _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵtemplate"](386, LeadEditComponent_div_3_tr_386_Template, 13, 5, "tr", 116);
     _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵelementEnd"]();
@@ -22633,21 +22692,16 @@ class LeadEditComponent {
           lead_id: this.lead_id
         });
       });
-    }
+    } // for(let file of e.target.files){
+    //   console.log("show file")
+    //   this.show_files.push({
+    //     name:file.name,
+    //     size:file.size,
+    //     attached_by:this.loggedInUser,
+    //     upload_date:date.toLocaleString("en-IN",{day:"numeric",month:'short',year:'numeric'})
+    //   })
+    // }
 
-    for (let file of e.target.files) {
-      console.log("show file");
-      this.show_files.push({
-        name: file.name,
-        size: file.size,
-        attached_by: this.loggedInUser,
-        upload_date: date.toLocaleString("en-IN", {
-          day: "numeric",
-          month: 'short',
-          year: 'numeric'
-        })
-      });
-    }
   }
 
   handleBranchAdd(e) {
@@ -23636,7 +23690,7 @@ LeadEditComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_15
   selectors: [["app-lead-edit"]],
   decls: 4,
   vars: 4,
-  consts: [[4, "ngIf"], [3, "gridData", "dataChanged", 4, "ngIf"], ["id", "content", "class", "app-content", "role", "main", 4, "ngIf"], [3, "gridData", "dataChanged"], ["id", "content", "role", "main", 1, "app-content"], [1, "app-content-body"], [1, "top"], [1, "row", "t-main"], [1, "col-sm-6", "col-xs-12", "t-main-1"], [1, "m-n", "t-main1"], [1, "col-sm-6", "text-right", "poppins"], ["aria-label", "breadcrumb"], [1, "breadcrumb", "t-main", 2, "cursor", "pointer"], ["aria-current", "page", "routerLink", "/", 1, "breadcrumb-item", "active", 2, "font-size", "11px"], ["aria-current", "page", 1, "breadcrumb-item", "active", 2, "font-size", "11px"], ["aria-current", "page", "routerLink", "/lead", 1, "breadcrumb-item", "active", 2, "font-size", "11px"], ["aria-current", "page", "routerLink", "/edit-lead", 1, "breadcrumb-item", "active", 2, "font-size", "11px", "color", "red"], ["ng-controller", "FormDemoCtr5", 1, "wrapper-md"], [3, "formGroup"], [1, "row"], [1, "col-sm-10"], [1, "panel", "panel-default"], [1, "panel-heading", "font-bold"], [1, "panel-body"], [1, "col-md-4", "form-group"], [1, "text-danger"], ["type", "text", "placeholder", "", "formControlName", "lead_id", 1, "form-control", 3, "value"], ["formControlName", "lead_owner", 3, "placeholder", "settings", "ngModel", "data", "ngModelChange", "onSelect"], ["class", "text-danger text-left mb-1 errorcontrols", 4, "ngIf"], [1, "form-group", "col-md-4"], [1, "input-group"], [1, "input-group-addon", 2, "color", "gray", "font-size", "20px", "background", "white", "border-right", "0px"], [1, "fa", "fa-building"], ["formControlName", "selected_company", 3, "placeholder", "settings", "data", "ngModel", "ngModelChange", "onSelect"], [1, "input-group-addon", 2, "color", "red", "font-size", "20px", "background", "white", "border-radius", "0px"], ["routerLink", "/create-account"], [1, "clearfix"], [1, "input-group-addon", 2, "color", "gray", "font-size", "20px", "background", "white", "border-radius", "0px", "border-right", "0px"], [1, "fa", "fa-user"], ["formControlName", "selected_contact", 3, "placeholder", "settings", "data", "ngModel", "ngModelChange", "onSelect"], ["routerLink", "/create-contact"], ["formControlName", "lead_source", "id", "lead_source", 1, "form-control", 3, "value", "change"], ["value", "", "selected", "", "disabled", ""], ["value", "Inbound OEM"], ["value", "Inbound Direct Customer"], ["value", "Inbound Advertisement"], ["value", "Outbound Cold Call"], ["value", "Outbound Routine"], ["value", "Website"], ["value", "Others"], ["type", "text", "placeholder", "Enter  Lead Title", "formControlName", "lead_title", 1, "form-control", 3, "value", "change"], ["formControlName", "lead_type", "id", "lead_type", 1, "form-control", 3, "value", "change"], ["value", "Project"], ["value", "Solution"], ["value", "Standard"], ["type", "text", "placeholder", "Enter Your Referral", "formControlName", "referral", 1, "form-control", 3, "value", "change"], ["type", "number", "placeholder", "Enter Your Estimated Value", "formControlName", "estimated_value", 1, "form-control", 3, "value", "change"], ["formControlName", "lead_status_stage", "id", "lead_status_stage", "required", "", 1, "form-control", 3, "value", "change"], ["value", "Information Required"], ["value", "Quote to be Prepared"], ["value", "Price/Quote Awaited from OEM"], ["value", "Lost"], [1, "col-sm-12"], ["type", "text", 1, "form-control", 3, "value"], ["type", "text", "placeholder", "", "formControlName", "", 1, "form-control", 3, "value"], [1, "col-md-12", "form-group"], ["type", "text", "placeholder", "Remark", "formControlName", "remark", 1, "form-control", 3, "value"], [2, "text-align", "right"], [1, "add-group", 3, "click"], ["id", "productListDropdown", 1, "example-wrapper"], ["kendoTreeListExpandable", "", 3, "data", "fetchChildren", "hasChildren", "pageable", "pageSize", "sortable", "sort", "navigable"], [3, "width"], ["kendoTreeListCellTemplate", ""], ["field", "productname", "title", "Product Name", 3, "expandable", "width"], ["field", "type", "title", "Type", 3, "width"], ["title", "GST", 3, "width"], ["title", "Unit Price", "field", "UnitPrice", 3, "width"], ["title", "Quantity", "field", "quantity", 3, "width"], ["title", "Discount(%)", "field", "discount", 3, "width"], ["title", "Amount", 3, "width"], [1, "product_footer"], [1, "pull-left"], [1, "pull-right", "fw600"], [1, "totalSumValue"], [1, "pull-right"], [1, "fa", "fa-rupee", "text-danger"], ["class", "pull-right", 4, "ngIf"], [1, "pull-left", "fw600"], ["class", "pull-right fw600", 4, "ngIf"], ["id", "myModalgroup2", "role", "dialog", 1, "modal", "fade"], [1, "modal-dialog"], [1, "modal-content"], [1, "modal-header"], ["type", "button", "data-dismiss", "modal", 1, "close"], [1, "modal-title"], [1, "modal-body"], [1, "col-md-12"], [1, "form-group"], ["type", "text", "placeholder", "Enter Name", 1, "form-control", 3, "value", "input"], [1, "col-md-4"], ["type", "text", "placeholder", "Enter HSN Code", "formControlName", "Enter HSN Code", 1, "form-control", 3, "value", "input"], ["type", "text", "placeholder", "Enter GST", "formControlName", "", 1, "form-control", 3, "value", "input"], ["type", "text", "placeholder", "Enter UOM", 1, "form-control", 3, "value", "input"], [1, "modal-footer"], ["type", "button", "id", "closenameinp", "data-dismiss", "modal", 1, "btn", "btn-default"], ["type", "button", 1, "btn", "btn-primary", 3, "click"], ["type", "hidden", "id", "showmodal", "data-toggle", "modal", "data-target", "#myModal"], ["id", "myModal", "tabindex", "-1", "role", "dialog", "aria-labelledby", "productLabel", "aria-hidden", "true", 1, "modal", "fade"], ["role", "document", 1, "modal-dialog"], ["id", "productLabel", 1, "modal-title"], ["type", "button", "data-dismiss", "modal", "aria-label", "Close", 1, "close"], ["aria-hidden", "true"], [1, "modal-body", 2, "min-height", "200px"], ["type", "text", 1, "form-control", 3, "value", "input"], [1, "table"], ["scope", "col"], [4, "ngFor", "ngForOf"], ["type", "button", "id", "closebtn", "data-dismiss", "modal", 1, "btn", "btn-dark"], ["type", "text", "placeholder", "Enter Note", "formControlName", "notes", 1, "form-control", 3, "value"], [1, "col-md-10"], [2, "text-align", "right", "padding-right", "18px"], ["onclick", "$('#file').click()", 2, "cursor", "pointer"], ["aria-hidden", "true", 1, "fa", "fa-paperclip"], ["accept", "application/pdf,image/*", "type", "file", "multiple", "", "encType", "multipart/form-data", "placeholder", "Uplode your Company Logo", "id", "file", "formControlName", "attachments", 1, "form-control", 2, "font-size", "12px", "border-right", "0px", "display", "none", 3, "change"], [1, "col-md-12", 2, "padding", "0px"], [2, "background", "#FFE5E5"], ["id", "exampleModal2", "tabindex", "-1", "role", "dialog", "aria-labelledby", "exampleModalLabel", "aria-hidden", "true", 1, "modal", "fade"], ["id", "exampleModalLabel", 1, "modal-title"], ["formControlName", "quote_location", 3, "placeholder", "settings", "data", "onSelect"], ["type", "button", "data-dismiss", "modal", 1, "btn", "btn-dark"], [2, "text-align", "right", "margin", "10px 0px"], ["type", "cancel", 1, "btn", "btn-dark", 3, "click"], ["type", "submit", 1, "btn", "btn-danger", 3, "click"], ["class", "btn btn-primary", 3, "click", 4, "ngIf"], ["type", "hidden", "data-toggle", "modal", "data-target", "#exampleModal2", "id", "openmodal2"], [1, "col-sm-2"], ["id", "exampleModalCenter1", "tabindex", "-1", "role", "dialog", "aria-labelledby", "exampleModalCenterTitle", "aria-hidden", "true", 1, "modal", "fade"], ["role", "document", 1, "modal-dialog", "modal-dialog-centered"], ["type", "button", "data-dismiss", "modal", 1, "close", "m-t-xs"], [1, "modal-title", "font-weight-600", "text-20"], [1, "details"], ["type", "hidden", "formControlName", "type", "value", "Product"], ["formControlName", "productname", "type", "text", "placeholder", "", 1, "form-control"], [1, "col-md-6"], ["formControlName", "PartNo", "type", "text", "placeholder", "", 1, "form-control"], ["formControlName", "CCNNo", "type", "text", "placeholder", "", 1, "form-control"], ["formControlName", "UnitPrice", "type", "Number", "placeholder", "", 1, "form-control"], ["formControlName", "UOM", "type", "text", "placeholder", "", 1, "form-control"], ["formControlName", "Category", "type", "text", "placeholder", "", 1, "form-control"], ["formControlName", "OEM", "type", "text", "placeholder", "", 1, "form-control"], ["formControlName", "OEMProductCode", "type", "text", 1, "form-control"], ["formControlName", "HSNCode", "type", "text", "placeholder", "", 1, "form-control"], ["formControlName", "GST", "type", "Number", "placeholder", "", 1, "form-control"], [1, "control-label", "font-weight-600"], ["type", "button", "id", "closemodal", "data-dismiss", "modal", 1, "btn", "btn-dark"], [1, "btn", "btn-danger", 3, "click"], [1, "text-danger", "text-left", "mb-1", "errorcontrols"], ["type", "checkbox", "name", "dataItem.id", 3, "change", 4, "ngIf"], ["type", "checkbox", "name", "dataItem.id", 3, "change"], [1, "fa", "fa-rupee"], [2, "color", "blue"], ["aria-hidden", "true", 1, "fa", "fa-trash", 2, "cursor", "pointer", 3, "click"], [1, "btn", "btn-primary", 3, "click"], ["style", "cursor: pointer; border: 1px solid grey; margin: 5px 0; padding: 5px;", 3, "click", 4, "ngIf"], [2, "cursor", "pointer", "border", "1px solid grey", "margin", "5px 0", "padding", "5px", 3, "click"]],
+  consts: [[4, "ngIf"], [3, "gridData", "dataChanged", 4, "ngIf"], ["id", "content", "class", "app-content", "role", "main", 4, "ngIf"], [3, "gridData", "dataChanged"], ["id", "content", "role", "main", 1, "app-content"], [1, "app-content-body"], [1, "top"], [1, "row", "t-main"], [1, "col-sm-6", "col-xs-12", "t-main-1"], [1, "m-n", "t-main1"], [1, "col-sm-6", "text-right", "poppins"], ["aria-label", "breadcrumb"], [1, "breadcrumb", "t-main", 2, "cursor", "pointer"], ["aria-current", "page", "routerLink", "/", 1, "breadcrumb-item", "active", 2, "font-size", "11px"], ["aria-current", "page", 1, "breadcrumb-item", "active", 2, "font-size", "11px"], ["aria-current", "page", "routerLink", "/lead", 1, "breadcrumb-item", "active", 2, "font-size", "11px"], ["aria-current", "page", "routerLink", "/edit-lead", 1, "breadcrumb-item", "active", 2, "font-size", "11px", "color", "red"], ["ng-controller", "FormDemoCtr5", 1, "wrapper-md"], [3, "formGroup"], [1, "row"], [1, "col-sm-10"], [1, "panel", "panel-default"], [1, "panel-heading", "font-bold"], [1, "panel-body"], [1, "col-md-4", "form-group"], [1, "text-danger"], ["type", "text", "placeholder", "", "formControlName", "lead_id", 1, "form-control", 3, "value"], ["formControlName", "lead_owner", 3, "placeholder", "settings", "ngModel", "data", "ngModelChange", "onSelect"], ["class", "text-danger text-left mb-1 errorcontrols", 4, "ngIf"], [1, "form-group", "col-md-4"], [1, "input-group"], [1, "input-group-addon", 2, "color", "gray", "font-size", "20px", "background", "white", "border-right", "0px"], [1, "fa", "fa-building"], ["formControlName", "selected_company", 3, "placeholder", "settings", "data", "ngModel", "ngModelChange", "onSelect"], [1, "input-group-addon", 2, "color", "red", "font-size", "20px", "background", "white", "border-radius", "0px"], ["routerLink", "/create-account"], [1, "clearfix"], [1, "input-group-addon", 2, "color", "gray", "font-size", "20px", "background", "white", "border-radius", "0px", "border-right", "0px"], [1, "fa", "fa-user"], ["formControlName", "selected_contact", 3, "placeholder", "settings", "data", "ngModel", "ngModelChange", "onSelect"], ["routerLink", "/create-contact"], ["formControlName", "lead_source", "id", "lead_source", 1, "form-control", 3, "value", "change"], ["value", "", "selected", "", "disabled", ""], ["value", "Inbound OEM"], ["value", "Inbound Direct Customer"], ["value", "Inbound Advertisement"], ["value", "Outbound Cold Call"], ["value", "Outbound Routine"], ["value", "Website"], ["value", "Others"], ["type", "text", "placeholder", "Enter  Lead Title", "formControlName", "lead_title", 1, "form-control", 3, "value", "change"], ["formControlName", "lead_type", "id", "lead_type", 1, "form-control", 3, "value", "change"], ["value", "Project"], ["value", "Solution"], ["value", "Standard"], ["type", "text", "placeholder", "Enter Your Referral", "formControlName", "referral", 1, "form-control", 3, "value", "change"], ["type", "number", "placeholder", "Enter Your Estimated Value", "formControlName", "estimated_value", 1, "form-control", 3, "value", "change"], ["formControlName", "lead_status_stage", "id", "lead_status_stage", "required", "", 1, "form-control", 3, "value", "change"], ["value", "Information Required"], ["value", "Quote to be Prepared"], ["value", "Price/Quote Awaited from OEM"], ["value", "Lost"], [1, "col-sm-12"], ["type", "text", 1, "form-control", 3, "value"], ["type", "text", "placeholder", "", "formControlName", "", 1, "form-control", 3, "value"], [1, "col-md-12", "form-group"], ["type", "text", "placeholder", "Remark", "formControlName", "remark", 1, "form-control", 3, "value"], [2, "text-align", "right"], [1, "add-group", 3, "click"], ["id", "productListDropdown", 1, "example-wrapper"], ["kendoTreeListExpandable", "", 3, "data", "fetchChildren", "hasChildren", "pageable", "pageSize", "sortable", "sort", "navigable"], [3, "width"], ["kendoTreeListCellTemplate", ""], ["field", "productname", "title", "Product Name", 3, "expandable", "width"], ["field", "type", "title", "Type", 3, "width"], ["title", "GST", 3, "width"], ["title", "Unit Price", "field", "UnitPrice", 3, "width"], ["title", "Quantity", "field", "quantity", 3, "width"], ["title", "Discount(%)", "field", "discount", 3, "width"], ["title", "Amount", 3, "width"], [1, "product_footer"], [1, "pull-left"], [1, "pull-right", "fw600"], [1, "totalSumValue"], [1, "pull-right"], [1, "fa", "fa-rupee", "text-danger"], ["class", "pull-right", 4, "ngIf"], [1, "pull-left", "fw600"], ["class", "pull-right fw600", 4, "ngIf"], ["id", "myModalgroup2", "role", "dialog", 1, "modal", "fade"], [1, "modal-dialog"], [1, "modal-content"], [1, "modal-header"], ["type", "button", "data-dismiss", "modal", 1, "close"], [1, "modal-title"], [1, "modal-body"], [1, "col-md-12"], [1, "form-group"], ["type", "text", "placeholder", "Enter Name", 1, "form-control", 3, "value", "input"], [1, "col-md-4"], ["type", "text", "placeholder", "Enter HSN Code", "formControlName", "Enter HSN Code", 1, "form-control", 3, "value", "input"], ["type", "text", "placeholder", "Enter GST", "formControlName", "", 1, "form-control", 3, "value", "input"], ["type", "text", "placeholder", "Enter UOM", 1, "form-control", 3, "value", "input"], [1, "modal-footer"], ["type", "button", "id", "closenameinp", "data-dismiss", "modal", 1, "btn", "btn-default"], ["type", "button", 1, "btn", "btn-primary", 3, "click"], ["type", "hidden", "id", "showmodal", "data-toggle", "modal", "data-target", "#myModal"], ["id", "myModal", "tabindex", "-1", "role", "dialog", "aria-labelledby", "productLabel", "aria-hidden", "true", 1, "modal", "fade"], ["role", "document", 1, "modal-dialog"], ["id", "productLabel", 1, "modal-title"], ["type", "button", "data-dismiss", "modal", "aria-label", "Close", 1, "close"], ["aria-hidden", "true"], [1, "modal-body", 2, "min-height", "200px"], ["type", "text", 1, "form-control", 3, "value", "input"], [1, "table"], ["scope", "col"], [4, "ngFor", "ngForOf"], ["type", "button", "id", "closebtn", "data-dismiss", "modal", 1, "btn", "btn-dark"], ["type", "text", "placeholder", "Enter Note", "formControlName", "notes", 1, "form-control", 3, "value"], [1, "col-md-10"], [2, "text-align", "right", "padding-right", "18px"], ["onclick", "$('#file').click()", 2, "cursor", "pointer"], ["aria-hidden", "true", 1, "fa", "fa-paperclip"], ["accept", "application/pdf,image/*", "type", "file", "multiple", "", "encType", "multipart/form-data", "placeholder", "Uplode your Company Logo", "id", "file", "formControlName", "attachments", 1, "form-control", 2, "font-size", "12px", "border-right", "0px", "display", "none", 3, "change"], [1, "col-md-12", 2, "padding", "0px"], [2, "background", "#FFE5E5"], ["id", "exampleModal2", "tabindex", "-1", "role", "dialog", "aria-labelledby", "exampleModalLabel", "aria-hidden", "true", 1, "modal", "fade"], ["id", "exampleModalLabel", 1, "modal-title"], ["formControlName", "quote_location", 3, "placeholder", "settings", "data", "onSelect"], ["type", "button", "data-dismiss", "modal", 1, "btn", "btn-dark"], [2, "text-align", "right", "margin", "10px 0px"], ["type", "cancel", 1, "btn", "btn-dark", 3, "click"], ["type", "submit", 1, "btn", "btn-danger", 3, "click"], ["class", "btn btn-primary", 3, "click", 4, "ngIf"], ["type", "hidden", "data-toggle", "modal", "data-target", "#exampleModal2", "id", "openmodal2"], [1, "col-sm-2"], ["id", "exampleModalCenter1", "tabindex", "-1", "role", "dialog", "aria-labelledby", "exampleModalCenterTitle", "aria-hidden", "true", 1, "modal", "fade"], ["role", "document", 1, "modal-dialog", "modal-dialog-centered"], ["type", "button", "data-dismiss", "modal", 1, "close", "m-t-xs"], [1, "modal-title", "font-weight-600", "text-20"], [1, "details"], ["type", "hidden", "formControlName", "type", "value", "Product"], ["formControlName", "productname", "type", "text", "placeholder", "", 1, "form-control"], [1, "col-md-6"], ["formControlName", "PartNo", "type", "text", "placeholder", "", 1, "form-control"], ["formControlName", "CCNNo", "type", "text", "placeholder", "", 1, "form-control"], ["formControlName", "UnitPrice", "type", "Number", "placeholder", "", 1, "form-control"], ["formControlName", "UOM", "type", "text", "placeholder", "", 1, "form-control"], ["formControlName", "Category", "type", "text", "placeholder", "", 1, "form-control"], ["formControlName", "OEM", "type", "text", "placeholder", "", 1, "form-control"], ["formControlName", "OEMProductCode", "type", "text", 1, "form-control"], ["formControlName", "HSNCode", "type", "text", "placeholder", "", 1, "form-control"], ["formControlName", "GST", "type", "Number", "placeholder", "", 1, "form-control"], [1, "control-label", "font-weight-600"], ["type", "button", "id", "closemodal", "data-dismiss", "modal", 1, "btn", "btn-dark"], [1, "btn", "btn-danger", 3, "click"], [1, "text-danger", "text-left", "mb-1", "errorcontrols"], ["type", "checkbox", "name", "dataItem.id", 3, "change", 4, "ngIf"], ["type", "checkbox", "name", "dataItem.id", 3, "change"], [1, "fa", "fa-rupee"], [2, "color", "blue"], ["target", "_blank", 3, "href"], ["aria-hidden", "true", 1, "fa", "fa-trash", 2, "cursor", "pointer", 3, "click"], [1, "btn", "btn-primary", 3, "click"], ["style", "cursor: pointer; border: 1px solid grey; margin: 5px 0; padding: 5px;", 3, "click", 4, "ngIf"], [2, "cursor", "pointer", "border", "1px solid grey", "margin", "5px 0", "padding", "5px", 3, "click"]],
   template: function LeadEditComponent_Template(rf, ctx) {
     if (rf & 1) {
       _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵtemplate"](0, LeadEditComponent_app_header_0_Template, 1, 0, "app-header", 0);
@@ -25509,24 +25563,34 @@ function QuoteEditComponent_div_3_tr_340_Template(rf, ctx) {
 
 function QuoteEditComponent_div_3_tr_399_Template(rf, ctx) {
   if (rf & 1) {
+    const _r57 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
+
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "tr");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](1, "th");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](2, "p", 199);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](3, "a", 200);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](4);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](4, "th");
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](5);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](6, "th");
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](5, "th");
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](6);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](8, "th");
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](9);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](7, "th");
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](8);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](10, "th");
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](11, "i", 200);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](12, "i", 201);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](9, "th");
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](10);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](11, "th");
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](12, "i", 201);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function QuoteEditComponent_div_3_tr_399_Template_i_click_12_listener() {
+      const restoredCtx = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r57);
+      const i_r55 = restoredCtx.index;
+      const ctx_r56 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](2);
+      return ctx_r56.removeAttachment(i_r55);
+    });
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
   }
@@ -25534,6 +25598,8 @@ function QuoteEditComponent_div_3_tr_399_Template(rf, ctx) {
   if (rf & 2) {
     const file_r54 = ctx.$implicit;
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵadvance"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵpropertyInterpolate"]("href", file_r54.img_url, _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵsanitizeUrl"]);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵadvance"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtextInterpolate"](file_r54.name);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵadvance"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtextInterpolate"](file_r54.attached_by);
@@ -25714,13 +25780,13 @@ function QuoteEditComponent_div_3_div_546_Template(rf, ctx) {
 
 function QuoteEditComponent_div_3_button_597_Template(rf, ctx) {
   if (rf & 1) {
-    const _r63 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
+    const _r66 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
 
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "button", 202);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function QuoteEditComponent_div_3_button_597_Template_button_click_0_listener() {
-      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r63);
-      const ctx_r62 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](2);
-      return ctx_r62.handleDealConvert();
+      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r66);
+      const ctx_r65 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](2);
+      return ctx_r65.handleDealConvert();
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](1, "Convert To Deal");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
@@ -25729,14 +25795,14 @@ function QuoteEditComponent_div_3_button_597_Template(rf, ctx) {
 
 function QuoteEditComponent_div_3_div_603_div_1_Template(rf, ctx) {
   if (rf & 1) {
-    const _r69 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
+    const _r72 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
 
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 204);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function QuoteEditComponent_div_3_div_603_div_1_Template_div_click_0_listener() {
-      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r69);
-      const data_r64 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]().$implicit;
-      const ctx_r67 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](2);
-      return ctx_r67.handleHistoryView(data_r64._id);
+      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r72);
+      const data_r67 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]().$implicit;
+      const ctx_r70 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](2);
+      return ctx_r70.handleHistoryView(data_r67._id);
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](1, "span");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](2);
@@ -25754,26 +25820,26 @@ function QuoteEditComponent_div_3_div_603_div_1_Template(rf, ctx) {
   }
 
   if (rf & 2) {
-    const data_r64 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]().$implicit;
+    const data_r67 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]().$implicit;
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtextInterpolate"](data_r64 == null ? null : data_r64.modified_by);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtextInterpolate"](data_r67 == null ? null : data_r67.modified_by);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵadvance"](3);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtextInterpolate"](data_r64 == null ? null : data_r64.modified_date_time == null ? null : data_r64.modified_date_time.split("T")[0]);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtextInterpolate"](data_r67 == null ? null : data_r67.modified_date_time == null ? null : data_r67.modified_date_time.split("T")[0]);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵadvance"](3);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵpipeBind2"](9, 3, data_r64 == null ? null : data_r64.modified_date_time, "H:mm:ss"));
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵpipeBind2"](9, 3, data_r67 == null ? null : data_r67.modified_date_time, "H:mm:ss"));
   }
 }
 
 function QuoteEditComponent_div_3_div_603_div_2_Template(rf, ctx) {
   if (rf & 1) {
-    const _r73 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
+    const _r76 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
 
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 204);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function QuoteEditComponent_div_3_div_603_div_2_Template_div_click_0_listener() {
-      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r73);
-      const data_r64 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]().$implicit;
-      const ctx_r71 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](2);
-      return ctx_r71.handleHistoryView(data_r64._id);
+      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r76);
+      const data_r67 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]().$implicit;
+      const ctx_r74 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](2);
+      return ctx_r74.handleHistoryView(data_r67._id);
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](1, "p");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](2, "First View");
@@ -25791,11 +25857,11 @@ function QuoteEditComponent_div_3_div_603_Template(rf, ctx) {
   }
 
   if (rf & 2) {
-    const data_r64 = ctx.$implicit;
+    const data_r67 = ctx.$implicit;
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵproperty"]("ngIf", data_r64.modified_date_time);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵproperty"]("ngIf", data_r67.modified_date_time);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵproperty"]("ngIf", !data_r64.modified_date_time);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵproperty"]("ngIf", !data_r67.modified_date_time);
   }
 }
 
@@ -25897,7 +25963,7 @@ function QuoteEditComponent_div_3_div_656_Template(rf, ctx) {
 
 function QuoteEditComponent_div_3_Template(rf, ctx) {
   if (rf & 1) {
-    const _r79 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
+    const _r82 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
 
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 4);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](1, "div", 5);
@@ -25962,13 +26028,13 @@ function QuoteEditComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](42, "ng-multiselect-dropdown", 28);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("ngModelChange", function QuoteEditComponent_div_3_Template_ng_multiselect_dropdown_ngModelChange_42_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r79);
-      const ctx_r78 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
-      return ctx_r78.selectedUser = $event;
+      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r82);
+      const ctx_r81 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
+      return ctx_r81.selectedUser = $event;
     })("onSelect", function QuoteEditComponent_div_3_Template_ng_multiselect_dropdown_onSelect_42_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r79);
-      const ctx_r80 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
-      return ctx_r80.handleOwnerChange($event);
+      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r82);
+      const ctx_r83 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
+      return ctx_r83.handleOwnerChange($event);
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
@@ -25985,13 +26051,13 @@ function QuoteEditComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](51, "ng-multiselect-dropdown", 33);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("ngModelChange", function QuoteEditComponent_div_3_Template_ng_multiselect_dropdown_ngModelChange_51_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r79);
-      const ctx_r81 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
-      return ctx_r81.selectedCompany = $event;
+      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r82);
+      const ctx_r84 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
+      return ctx_r84.selectedCompany = $event;
     })("onSelect", function QuoteEditComponent_div_3_Template_ng_multiselect_dropdown_onSelect_51_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r79);
-      const ctx_r82 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
-      return ctx_r82.onItemSelect($event);
+      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r82);
+      const ctx_r85 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
+      return ctx_r85.onItemSelect($event);
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](52, "span", 34);
@@ -26016,13 +26082,13 @@ function QuoteEditComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](65, "ng-multiselect-dropdown", 40);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("ngModelChange", function QuoteEditComponent_div_3_Template_ng_multiselect_dropdown_ngModelChange_65_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r79);
-      const ctx_r83 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
-      return ctx_r83.selectedContact = $event;
+      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r82);
+      const ctx_r86 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
+      return ctx_r86.selectedContact = $event;
     })("onSelect", function QuoteEditComponent_div_3_Template_ng_multiselect_dropdown_onSelect_65_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r79);
-      const ctx_r84 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
-      return ctx_r84.onContactSelect($event);
+      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r82);
+      const ctx_r87 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
+      return ctx_r87.onContactSelect($event);
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](66, "span", 34);
@@ -26042,9 +26108,9 @@ function QuoteEditComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](75, "select", 42);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("change", function QuoteEditComponent_div_3_Template_select_change_75_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r79);
-      const ctx_r85 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
-      return ctx_r85.handleChange($event, "quote_source");
+      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r82);
+      const ctx_r88 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
+      return ctx_r88.handleChange($event, "quote_source");
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](76, "option", 43);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](77, " Quote Source ");
@@ -26082,9 +26148,9 @@ function QuoteEditComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](98, "input", 51);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("change", function QuoteEditComponent_div_3_Template_input_change_98_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r79);
-      const ctx_r86 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
-      return ctx_r86.handleChange($event, "quote_title");
+      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r82);
+      const ctx_r89 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
+      return ctx_r89.handleChange($event, "quote_title");
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](99, QuoteEditComponent_div_3_div_99_Template, 2, 1, "div", 36);
@@ -26096,9 +26162,9 @@ function QuoteEditComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](104, "select", 52);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("change", function QuoteEditComponent_div_3_Template_select_change_104_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r79);
-      const ctx_r87 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
-      return ctx_r87.handleChange($event, "quote_type");
+      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r82);
+      const ctx_r90 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
+      return ctx_r90.handleChange($event, "quote_type");
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](105, "option", 43);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](106, " Quote Type ");
@@ -26121,9 +26187,9 @@ function QuoteEditComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](117, "input", 56);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("change", function QuoteEditComponent_div_3_Template_input_change_117_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r79);
-      const ctx_r88 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
-      return ctx_r88.handleChange($event, "referral");
+      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r82);
+      const ctx_r91 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
+      return ctx_r91.handleChange($event, "referral");
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
@@ -26133,9 +26199,9 @@ function QuoteEditComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](121, "input", 57);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("change", function QuoteEditComponent_div_3_Template_input_change_121_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r79);
-      const ctx_r89 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
-      return ctx_r89.handleChange($event, "estimated_value");
+      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r82);
+      const ctx_r92 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
+      return ctx_r92.handleChange($event, "estimated_value");
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
@@ -26149,9 +26215,9 @@ function QuoteEditComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](128, "select", 58);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("change", function QuoteEditComponent_div_3_Template_select_change_128_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r79);
-      const ctx_r90 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
-      return ctx_r90.handleChange($event, "quote_status");
+      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r82);
+      const ctx_r93 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
+      return ctx_r93.handleChange($event, "quote_status");
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](129, "option", 59);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](130, "Quote Status ");
@@ -26177,13 +26243,13 @@ function QuoteEditComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](143, "ng-multiselect-dropdown", 63);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("ngModelChange", function QuoteEditComponent_div_3_Template_ng_multiselect_dropdown_ngModelChange_143_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r79);
-      const ctx_r91 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
-      return ctx_r91.selectedBranch = $event;
+      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r82);
+      const ctx_r94 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
+      return ctx_r94.selectedBranch = $event;
     })("onSelect", function QuoteEditComponent_div_3_Template_ng_multiselect_dropdown_onSelect_143_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r79);
-      const ctx_r92 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
-      return ctx_r92.handleLocationChange($event);
+      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r82);
+      const ctx_r95 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
+      return ctx_r95.handleLocationChange($event);
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](144, QuoteEditComponent_div_3_div_144_Template, 2, 1, "div", 36);
@@ -26197,9 +26263,9 @@ function QuoteEditComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](150, "ng-multiselect-dropdown", 64);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("ngModelChange", function QuoteEditComponent_div_3_Template_ng_multiselect_dropdown_ngModelChange_150_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r79);
-      const ctx_r93 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
-      return ctx_r93.quoteData.sales_person = $event;
+      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r82);
+      const ctx_r96 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
+      return ctx_r96.quoteData.sales_person = $event;
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](151, QuoteEditComponent_div_3_div_151_Template, 2, 1, "div", 36);
@@ -26340,9 +26406,9 @@ function QuoteEditComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](237, "div", 71);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](238, "button", 72);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function QuoteEditComponent_div_3_Template_button_click_238_listener() {
-      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r79);
-      const ctx_r94 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
-      return ctx_r94.setItem();
+      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r82);
+      const ctx_r97 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
+      return ctx_r97.setItem();
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](239, "ADD Items");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
@@ -26427,9 +26493,9 @@ function QuoteEditComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](295, "div", 101);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](296, "input", 102);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("input", function QuoteEditComponent_div_3_Template_input_input_296_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r79);
-      const ctx_r95 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
-      return ctx_r95.inputName($event);
+      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r82);
+      const ctx_r98 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
+      return ctx_r98.inputName($event);
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
@@ -26440,9 +26506,9 @@ function QuoteEditComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](299, "div", 101);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](300, "input", 104);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("input", function QuoteEditComponent_div_3_Template_input_input_300_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r79);
-      const ctx_r96 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
-      return ctx_r96.inputhsn($event);
+      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r82);
+      const ctx_r99 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
+      return ctx_r99.inputhsn($event);
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
@@ -26451,9 +26517,9 @@ function QuoteEditComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](302, "div", 101);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](303, "input", 105);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("input", function QuoteEditComponent_div_3_Template_input_input_303_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r79);
-      const ctx_r97 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
-      return ctx_r97.inputgst($event);
+      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r82);
+      const ctx_r100 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
+      return ctx_r100.inputgst($event);
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
@@ -26462,9 +26528,9 @@ function QuoteEditComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](305, "div", 101);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](306, "input", 106);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("input", function QuoteEditComponent_div_3_Template_input_input_306_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r79);
-      const ctx_r98 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
-      return ctx_r98.inputuom($event);
+      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r82);
+      const ctx_r101 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
+      return ctx_r101.inputuom($event);
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
@@ -26477,9 +26543,9 @@ function QuoteEditComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](310, "button", 109);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function QuoteEditComponent_div_3_Template_button_click_310_listener() {
-      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r79);
-      const ctx_r99 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
-      return ctx_r99.checkAddGroup();
+      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r82);
+      const ctx_r102 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
+      return ctx_r102.checkAddGroup();
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](311, "Save");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
@@ -26508,9 +26574,9 @@ function QuoteEditComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](326, "input", 117);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("input", function QuoteEditComponent_div_3_Template_input_input_326_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r79);
-      const ctx_r100 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
-      return ctx_r100.inputName($event);
+      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r82);
+      const ctx_r103 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
+      return ctx_r103.inputName($event);
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
@@ -26568,9 +26634,9 @@ function QuoteEditComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](360, "button", 109);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function QuoteEditComponent_div_3_Template_button_click_360_listener() {
-      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r79);
-      const ctx_r101 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
-      return ctx_r101.mergeSelection();
+      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r82);
+      const ctx_r104 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
+      return ctx_r104.mergeSelection();
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](361, "Merge Selected Products");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
@@ -26614,9 +26680,9 @@ function QuoteEditComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](382, "input", 127);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("change", function QuoteEditComponent_div_3_Template_input_change_382_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r79);
-      const ctx_r102 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
-      return ctx_r102.handleAttachmentUpload($event);
+      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r82);
+      const ctx_r105 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
+      return ctx_r105.handleAttachmentUpload($event);
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
@@ -26642,7 +26708,7 @@ function QuoteEditComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](398, "th");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](399, QuoteEditComponent_div_3_tr_399_Template, 13, 4, "tr", 120);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](399, QuoteEditComponent_div_3_tr_399_Template, 13, 5, "tr", 120);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
@@ -26887,9 +26953,9 @@ function QuoteEditComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](552, "div", 164);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](553, "input", 165);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function QuoteEditComponent_div_3_Template_input_click_553_listener() {
-      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r79);
-      const ctx_r103 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
-      return ctx_r103.handleCheckbox("7 Days");
+      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r82);
+      const ctx_r106 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
+      return ctx_r106.handleCheckbox("7 Days");
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](554, " 7 Days ");
@@ -26897,9 +26963,9 @@ function QuoteEditComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](555, "div", 164);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](556, "input", 165);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function QuoteEditComponent_div_3_Template_input_click_556_listener() {
-      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r79);
-      const ctx_r104 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
-      return ctx_r104.handleCheckbox("15 Days");
+      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r82);
+      const ctx_r107 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
+      return ctx_r107.handleCheckbox("15 Days");
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](557, " 15 Days ");
@@ -26907,9 +26973,9 @@ function QuoteEditComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](558, "div", 164);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](559, "input", 165);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function QuoteEditComponent_div_3_Template_input_click_559_listener() {
-      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r79);
-      const ctx_r105 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
-      return ctx_r105.handleCheckbox("30 Days");
+      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r82);
+      const ctx_r108 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
+      return ctx_r108.handleCheckbox("30 Days");
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](560, " 30 Days ");
@@ -26917,9 +26983,9 @@ function QuoteEditComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](561, "div", 164);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](562, "input", 165);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function QuoteEditComponent_div_3_Template_input_click_562_listener() {
-      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r79);
-      const ctx_r106 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
-      return ctx_r106.handleCheckbox("60 Days");
+      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r82);
+      const ctx_r109 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
+      return ctx_r109.handleCheckbox("60 Days");
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](563, " 60 Days ");
@@ -26927,9 +26993,9 @@ function QuoteEditComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](564, "div", 164);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](565, "input", 165);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function QuoteEditComponent_div_3_Template_input_click_565_listener() {
-      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r79);
-      const ctx_r107 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
-      return ctx_r107.handleCheckbox("90 Days");
+      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r82);
+      const ctx_r110 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
+      return ctx_r110.handleCheckbox("90 Days");
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](566, " 90 Days ");
@@ -26979,17 +27045,17 @@ function QuoteEditComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](592, "div", 170);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](593, "button", 171);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function QuoteEditComponent_div_3_Template_button_click_593_listener() {
-      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r79);
-      const ctx_r108 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
-      return ctx_r108.handleBack();
+      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r82);
+      const ctx_r111 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
+      return ctx_r111.handleBack();
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](594, "Cancel");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](595, "button", 172);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function QuoteEditComponent_div_3_Template_button_click_595_listener() {
-      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r79);
-      const ctx_r109 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
-      return ctx_r109.SubmitForm();
+      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r82);
+      const ctx_r112 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
+      return ctx_r112.SubmitForm();
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](596, "Update");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
@@ -27149,9 +27215,9 @@ function QuoteEditComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](692, "button", 194);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function QuoteEditComponent_div_3_Template_button_click_692_listener() {
-      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r79);
-      const ctx_r110 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
-      return ctx_r110.handleSubmit();
+      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r82);
+      const ctx_r113 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
+      return ctx_r113.handleSubmit();
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](693, "Save");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
@@ -27306,7 +27372,7 @@ function QuoteEditComponent_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵadvance"](13);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵpropertyInterpolate"]("value", ctx_r3.quoteData == null ? null : ctx_r3.quoteData.note);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵadvance"](30);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵproperty"]("ngForOf", ctx_r3.show_files);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵproperty"]("ngForOf", ctx_r3.files_url);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵadvance"](21);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵproperty"]("ngIf", ctx_r3.f.inco_terms.errors && ctx_r3.f.inco_terms.errors.required && ctx_r3.isValidFormSubmitted);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵadvance"](25);
@@ -27693,9 +27759,9 @@ class QuoteEditComponent {
       this.totalAmount += parseInt(item.amount);
       this.totalQuantity += parseInt(item.quantity);
     });
-    this.showbtn = data.result[0].product_services.length > 1 ? true : false;
-    this.show_files = data.result[0].attachments; // this.files_url=data.result[0].attachments
+    this.showbtn = data.result[0].product_services.length > 1 ? true : false; // this.show_files=data.result[0].attachments
 
+    this.files_url = data.result[0].attachments;
     this.pmtTerm = data.result[0].payment_terms;
     this.selectedUser = data.result[0].quote_owner[0];
     console.log(this.selectedUser, '---owner');
@@ -27890,6 +27956,11 @@ class QuoteEditComponent {
 
   get f() {
     return this.quoteForm.controls;
+  }
+
+  removeAttachment(index) {
+    console.log(index);
+    this.files_url.splice(index, 1);
   }
 
   handleFilter(value1) {
@@ -28567,7 +28638,7 @@ QuoteEditComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_1
   selectors: [["app-quote-edit"]],
   decls: 4,
   vars: 4,
-  consts: [[4, "ngIf"], [3, "gridData", "dataChanged", 4, "ngIf"], ["id", "content", "class", "app-content", "role", "main", 4, "ngIf"], [3, "gridData", "dataChanged"], ["id", "content", "role", "main", 1, "app-content"], [1, "app-content-body"], [1, "top"], [1, "row", "t-main"], [1, "col-sm-6", "col-xs-12", "t-main-1"], [1, "m-n", "t-main1"], [1, "col-sm-6", "text-right", "poppins"], ["aria-label", "breadcrumb"], [1, "breadcrumb", "t-main", 2, "cursor", "pointer"], ["aria-current", "page", "routerLink", "/", 1, "breadcrumb-item", "active", 2, "font-size", "11px"], ["aria-current", "page", 1, "breadcrumb-item", "active", 2, "font-size", "11px"], ["aria-current", "page", "routerLink", "/quote", 1, "breadcrumb-item", "active", 2, "font-size", "11px"], ["aria-current", "page", 1, "breadcrumb-item", "active", 2, "font-size", "11px", "color", "red"], [3, "formGroup"], ["ng-controller", "FormDemoCtrl", 1, "wrapper-md"], [1, "col-sm-10"], [1, "row"], [1, "col-sm-12"], [1, "panel", "panel-default"], [1, "panel-heading"], [1, "panel-body"], [1, "col-md-4", "form-group"], [1, "text-danger"], ["type", "text", "placeholder", "Enter Your deal ID", "formControlName", "quote_id", 1, "form-control", 3, "value"], ["formControlName", "quote_owner", 3, "placeholder", "settings", "ngModel", "data", "ngModelChange", "onSelect"], [1, "form-group", "col-md-4"], [1, "input-group"], [1, "input-group-addon", 2, "color", "gray", "font-size", "20px", "background", "white", "border-right", "0px"], [1, "fa", "fa-building"], ["formControlName", "selected_company", 3, "placeholder", "settings", "data", "ngModel", "ngModelChange", "onSelect"], [1, "input-group-addon", 2, "color", "red", "font-size", "20px", "background", "white", "border-radius", "0px"], ["routerLink", "/create-account"], ["class", "text-danger text-left mb-1 errorcontrols", 4, "ngIf"], [1, "clearfix"], [1, "input-group-addon", 2, "color", "gray", "font-size", "20px", "background", "white", "border-radius", "0px", "border-right", "0px"], [1, "fa", "fa-user"], ["formControlName", "selected_contact", 3, "placeholder", "settings", "data", "ngModel", "ngModelChange", "onSelect"], ["routerLink", "/create-contact"], ["formControlName", "quote_source", 1, "form-control", 3, "value", "change"], ["value", "", "disabled", ""], ["value", "Inbound OEM"], ["value", "Inbound Direct Customer"], ["value", "Inbound Advertisement"], ["value", "Outbound Cold Call"], ["value", "Outbound Routine"], ["value", "Website"], ["value", "Others"], ["type", "text", "placeholder", "Enter Your DealTitle", "formControlName", "quote_title", 1, "form-control", 3, "value", "change"], ["formControlName", "quote_type", "id", "quote_type", 1, "form-control", 3, "value", "change"], ["value", "Project"], ["value", "Solution"], ["value", "Standard"], ["type", "text", "placeholder", "Enter Your Referral", "formControlName", "referral", 1, "form-control", 3, "value", "change"], ["type", "number", "placeholder", "Enter Your Referral", "formControlName", "estimated_value", 1, "form-control", 3, "value", "change"], ["formControlName", "quote_status", "id", " quote_status", 1, "form-control", 3, "value", "change"], ["value", "", "selected", "", "disabled", ""], ["value", "Information Required"], ["value", "Deal to be Prepared"], ["value", "Lost"], ["formControlName", "quote_location", 3, "placeholder", "settings", "ngModel", "data", "ngModelChange", "onSelect"], ["formControlName", "sales_person", 3, "placeholder", "settings", "data", "ngModel", "ngModelChange"], [1, "panel-heading", "font-bold"], ["type", "text", 1, "form-control", 3, "value"], [1, "col-md-3", "control-label"], ["type", "text", "placeholder", "", 1, "form-control", 3, "value"], [1, "col-md-12", "form-group"], ["type", "text", "placeholder", "Remark", "formControlName", "remark", 1, "form-control", 3, "value"], [2, "text-align", "right"], [1, "add-group", 3, "click"], ["id", "productListDropdown", 1, "example-wrapper"], ["kendoTreeListExpandable", "", 3, "data", "fetchChildren", "hasChildren", "pageable", "pageSize", "sortable", "sort", "navigable"], [3, "width"], ["kendoTreeListCellTemplate", ""], ["field", "productname", "title", "Product Name", 3, "expandable", "width"], ["field", "type", "title", "Type", 3, "width"], ["title", "GST", 3, "width"], ["title", "Unit Price", "field", "UnitPrice", 3, "width"], ["title", "Quantity", "field", "quantity", 3, "width"], ["title", "Discount(%)", "field", "discount", 3, "width"], ["title", "Amount", 3, "width"], [1, "product_footer"], [1, "pull-left"], [1, "pull-right", "fw600"], [1, "totalSumValue"], [1, "pull-right"], [1, "fa", "fa-rupee", "text-danger"], ["class", "pull-right", 4, "ngIf"], [1, "pull-left", "fw600"], ["class", "pull-right fw600", 4, "ngIf"], ["id", "myModalgroup2", "role", "dialog", 1, "modal", "fade"], [1, "modal-dialog"], [1, "modal-content"], [1, "modal-header"], ["type", "button", "data-dismiss", "modal", 1, "close"], [1, "modal-title"], [1, "modal-body"], [1, "col-md-12"], [1, "form-group"], ["type", "text", "placeholder", "Enter Name", 1, "form-control", 3, "value", "input"], [1, "col-md-4"], ["type", "text", "placeholder", "Enter HSN Code", 1, "form-control", 3, "value", "input"], ["type", "text", "placeholder", "Enter GST", "type", "number", "formControlName", "", 1, "form-control", 3, "value", "input"], ["type", "text", "placeholder", "Enter UOM", 1, "form-control", 3, "value", "input"], [1, "modal-footer"], ["type", "button", "id", "closenameinp", "data-dismiss", "modal", 1, "btn", "btn-default"], ["type", "button", 1, "btn", "btn-primary", 3, "click"], ["type", "hidden", "id", "showmodal", "data-toggle", "modal", "data-target", "#myModal"], ["id", "myModal", "tabindex", "-1", "role", "dialog", "aria-labelledby", "productLabel", "aria-hidden", "true", 1, "modal", "fade"], ["role", "document", 1, "modal-dialog"], ["id", "productLabel", 1, "modal-title"], ["type", "button", "data-dismiss", "modal", "aria-label", "Close", 1, "close"], ["aria-hidden", "true"], [1, "modal-body", 2, "min-height", "200px"], ["type", "text", 1, "form-control", 3, "value", "input"], [1, "table"], ["scope", "col"], [4, "ngFor", "ngForOf"], ["type", "button", "id", "closebtn", "data-dismiss", "modal", 1, "btn", "btn-dark"], ["type", "text", "placeholder", "Enter Note", "formControlName", "note", 1, "form-control", 3, "value"], [1, "col-md-10"], [2, "text-align", "right", "padding-right", "18px"], ["onclick", "$('#file').click()", 2, "cursor", "pointer"], ["aria-hidden", "true", 1, "fa", "fa-paperclip"], ["accept", "application/pdf,image/*", "type", "file", "multiple", "", "encType", "multipart/form-data", "placeholder", "Uplode your Company Logo", "id", "file", "formControlName", "attachments", 1, "form-control", 2, "font-size", "12px", "border-right", "0px", "display", "none", 3, "change"], [1, "col-md-12", 2, "padding", "0px"], [2, "background", "#FFE5E5"], ["formControlName", "inco_terms", "id", "inco_terms", 1, "form-control"], ["value", "DOD - Door delivery to your plant"], ["value", "FOB Lucknow"], ["value", "FOB Rudrapur"], ["formControlName", "p_t", "id", "p_t", 1, "form-control"], ["value", "100% within 30 days of GR"], ["value", "100% within 7 days of GR"], ["value", "100% immediately against delivery"], ["value", "100% against delivery on COD Basis"], ["value", "100% against Pro forma Invoice before dispatch"], ["value", " 90% within 30 days of GR 10% after I&C & Others"], ["formControlName", "p_f", "id", "p_f", 1, "form-control"], ["value", "Not applicable"], ["value", "Inclusive"], ["value", "Extra @2%"], ["value", "Extra  @3%"], ["formControlName", "freight", "id", "freight", 1, "form-control"], ["value", "Extra as per actuals to  your account"], ["value", "Dispatch  on 'To Pay' basis"], ["formControlName", "taxes", "id", "taxes", 1, "form-control"], ["value", "Extra as applicable"], ["type", "text", "placeholder", "Enter Others", "formControlName", "other_charges", 1, "form-control"], ["formControlName", "delivery", "id", "delivery", 1, "form-control"], ["value", "1-2 weeks"], ["value", "3-4 weeks"], ["value", "4-6 weeks"], ["value", "6-8 weeks"], ["value", "8-10 weeks"], ["value", "10-12 weeks"], ["value", "12-16 weeks"], ["formControlName", "warrenty", "id", "warrenty", 1, "form-control"], ["value", "Not Applicable"], ["value", "6 months (from date of  sale)"], ["value", "12 months (from  date of sale)"], [1, "col-md-1", "deal_div", 2, "border", "1px solid black"], ["type", "radio", "name", "validity", 2, "font-size", "12px", 3, "checked", "click"], [2, "border", "2px dashed red"], [1, "col-md-6", "form-group"], [1, "col-md-9"], ["type", "text", "disabled", "", 1, "form-control", 3, "value"], [2, "text-align", "right", "margin", "10px 0px"], ["type", "cancel", 1, "btn", "btn-dark", 3, "click"], ["type", "submit", 1, "btn", "btn-danger", 3, "click"], ["type", "submit", "class", "btn btn-primary", 3, "click", 4, "ngIf"], [1, "col-sm-2"], ["id", "exampleModalCenter1", "tabindex", "-1", "role", "dialog", "aria-labelledby", "exampleModalCenterTitle", "aria-hidden", "true", 1, "modal", "fade"], ["role", "document", 1, "modal-dialog", "modal-dialog-centered"], ["type", "button", "data-dismiss", "modal", 1, "close", "m-t-xs"], [1, "modal-title", "font-weight-600", "text-20"], [1, "details"], ["type", "hidden", "formControlName", "type", "value", "Product"], ["formControlName", "productname", "type", "text", "placeholder", "", 1, "form-control"], [1, "col-md-6"], ["formControlName", "PartNo", "type", "text", "placeholder", "", 1, "form-control"], ["formControlName", "CCNNo", "type", "text", "placeholder", "", 1, "form-control"], ["formControlName", "UnitPrice", "type", "Number", "placeholder", "", 1, "form-control"], ["formControlName", "UOM", "type", "text", "placeholder", "", 1, "form-control"], ["formControlName", "Category", "type", "text", "placeholder", "", 1, "form-control"], ["formControlName", "OEM", "type", "text", "placeholder", "", 1, "form-control"], ["formControlName", "OEMProductCode", "type", "text", 1, "form-control"], ["formControlName", "HSNCode", "type", "text", "placeholder", "", 1, "form-control"], ["formControlName", "GST", "type", "Number", "placeholder", "", 1, "form-control"], [1, "control-label", "font-weight-600"], ["type", "button", "id", "closemodal", "data-dismiss", "modal", 1, "btn", "btn-dark"], [1, "btn", "btn-danger", 3, "click"], [1, "text-danger", "text-left", "mb-1", "errorcontrols"], ["type", "checkbox", "name", "dataItem.id", 3, "change", 4, "ngIf"], ["type", "checkbox", "name", "dataItem.id", 3, "change"], [1, "fa", "fa-rupee"], [2, "color", "blue"], ["aria-hidden", "true", 1, "fa", "fa-pencil-square-o"], ["aria-hidden", "true", 1, "fa", "fa-trash"], ["type", "submit", 1, "btn", "btn-primary", 3, "click"], ["style", "cursor: pointer; border: 1px solid grey; margin: 5px 0; padding: 5px;", 3, "click", 4, "ngIf"], [2, "cursor", "pointer", "border", "1px solid grey", "margin", "5px 0", "padding", "5px", 3, "click"]],
+  consts: [[4, "ngIf"], [3, "gridData", "dataChanged", 4, "ngIf"], ["id", "content", "class", "app-content", "role", "main", 4, "ngIf"], [3, "gridData", "dataChanged"], ["id", "content", "role", "main", 1, "app-content"], [1, "app-content-body"], [1, "top"], [1, "row", "t-main"], [1, "col-sm-6", "col-xs-12", "t-main-1"], [1, "m-n", "t-main1"], [1, "col-sm-6", "text-right", "poppins"], ["aria-label", "breadcrumb"], [1, "breadcrumb", "t-main", 2, "cursor", "pointer"], ["aria-current", "page", "routerLink", "/", 1, "breadcrumb-item", "active", 2, "font-size", "11px"], ["aria-current", "page", 1, "breadcrumb-item", "active", 2, "font-size", "11px"], ["aria-current", "page", "routerLink", "/quote", 1, "breadcrumb-item", "active", 2, "font-size", "11px"], ["aria-current", "page", 1, "breadcrumb-item", "active", 2, "font-size", "11px", "color", "red"], [3, "formGroup"], ["ng-controller", "FormDemoCtrl", 1, "wrapper-md"], [1, "col-sm-10"], [1, "row"], [1, "col-sm-12"], [1, "panel", "panel-default"], [1, "panel-heading"], [1, "panel-body"], [1, "col-md-4", "form-group"], [1, "text-danger"], ["type", "text", "placeholder", "Enter Your deal ID", "formControlName", "quote_id", 1, "form-control", 3, "value"], ["formControlName", "quote_owner", 3, "placeholder", "settings", "ngModel", "data", "ngModelChange", "onSelect"], [1, "form-group", "col-md-4"], [1, "input-group"], [1, "input-group-addon", 2, "color", "gray", "font-size", "20px", "background", "white", "border-right", "0px"], [1, "fa", "fa-building"], ["formControlName", "selected_company", 3, "placeholder", "settings", "data", "ngModel", "ngModelChange", "onSelect"], [1, "input-group-addon", 2, "color", "red", "font-size", "20px", "background", "white", "border-radius", "0px"], ["routerLink", "/create-account"], ["class", "text-danger text-left mb-1 errorcontrols", 4, "ngIf"], [1, "clearfix"], [1, "input-group-addon", 2, "color", "gray", "font-size", "20px", "background", "white", "border-radius", "0px", "border-right", "0px"], [1, "fa", "fa-user"], ["formControlName", "selected_contact", 3, "placeholder", "settings", "data", "ngModel", "ngModelChange", "onSelect"], ["routerLink", "/create-contact"], ["formControlName", "quote_source", 1, "form-control", 3, "value", "change"], ["value", "", "disabled", ""], ["value", "Inbound OEM"], ["value", "Inbound Direct Customer"], ["value", "Inbound Advertisement"], ["value", "Outbound Cold Call"], ["value", "Outbound Routine"], ["value", "Website"], ["value", "Others"], ["type", "text", "placeholder", "Enter Your DealTitle", "formControlName", "quote_title", 1, "form-control", 3, "value", "change"], ["formControlName", "quote_type", "id", "quote_type", 1, "form-control", 3, "value", "change"], ["value", "Project"], ["value", "Solution"], ["value", "Standard"], ["type", "text", "placeholder", "Enter Your Referral", "formControlName", "referral", 1, "form-control", 3, "value", "change"], ["type", "number", "placeholder", "Enter Your Referral", "formControlName", "estimated_value", 1, "form-control", 3, "value", "change"], ["formControlName", "quote_status", "id", " quote_status", 1, "form-control", 3, "value", "change"], ["value", "", "selected", "", "disabled", ""], ["value", "Information Required"], ["value", "Deal to be Prepared"], ["value", "Lost"], ["formControlName", "quote_location", 3, "placeholder", "settings", "ngModel", "data", "ngModelChange", "onSelect"], ["formControlName", "sales_person", 3, "placeholder", "settings", "data", "ngModel", "ngModelChange"], [1, "panel-heading", "font-bold"], ["type", "text", 1, "form-control", 3, "value"], [1, "col-md-3", "control-label"], ["type", "text", "placeholder", "", 1, "form-control", 3, "value"], [1, "col-md-12", "form-group"], ["type", "text", "placeholder", "Remark", "formControlName", "remark", 1, "form-control", 3, "value"], [2, "text-align", "right"], [1, "add-group", 3, "click"], ["id", "productListDropdown", 1, "example-wrapper"], ["kendoTreeListExpandable", "", 3, "data", "fetchChildren", "hasChildren", "pageable", "pageSize", "sortable", "sort", "navigable"], [3, "width"], ["kendoTreeListCellTemplate", ""], ["field", "productname", "title", "Product Name", 3, "expandable", "width"], ["field", "type", "title", "Type", 3, "width"], ["title", "GST", 3, "width"], ["title", "Unit Price", "field", "UnitPrice", 3, "width"], ["title", "Quantity", "field", "quantity", 3, "width"], ["title", "Discount(%)", "field", "discount", 3, "width"], ["title", "Amount", 3, "width"], [1, "product_footer"], [1, "pull-left"], [1, "pull-right", "fw600"], [1, "totalSumValue"], [1, "pull-right"], [1, "fa", "fa-rupee", "text-danger"], ["class", "pull-right", 4, "ngIf"], [1, "pull-left", "fw600"], ["class", "pull-right fw600", 4, "ngIf"], ["id", "myModalgroup2", "role", "dialog", 1, "modal", "fade"], [1, "modal-dialog"], [1, "modal-content"], [1, "modal-header"], ["type", "button", "data-dismiss", "modal", 1, "close"], [1, "modal-title"], [1, "modal-body"], [1, "col-md-12"], [1, "form-group"], ["type", "text", "placeholder", "Enter Name", 1, "form-control", 3, "value", "input"], [1, "col-md-4"], ["type", "text", "placeholder", "Enter HSN Code", 1, "form-control", 3, "value", "input"], ["type", "text", "placeholder", "Enter GST", "type", "number", "formControlName", "", 1, "form-control", 3, "value", "input"], ["type", "text", "placeholder", "Enter UOM", 1, "form-control", 3, "value", "input"], [1, "modal-footer"], ["type", "button", "id", "closenameinp", "data-dismiss", "modal", 1, "btn", "btn-default"], ["type", "button", 1, "btn", "btn-primary", 3, "click"], ["type", "hidden", "id", "showmodal", "data-toggle", "modal", "data-target", "#myModal"], ["id", "myModal", "tabindex", "-1", "role", "dialog", "aria-labelledby", "productLabel", "aria-hidden", "true", 1, "modal", "fade"], ["role", "document", 1, "modal-dialog"], ["id", "productLabel", 1, "modal-title"], ["type", "button", "data-dismiss", "modal", "aria-label", "Close", 1, "close"], ["aria-hidden", "true"], [1, "modal-body", 2, "min-height", "200px"], ["type", "text", 1, "form-control", 3, "value", "input"], [1, "table"], ["scope", "col"], [4, "ngFor", "ngForOf"], ["type", "button", "id", "closebtn", "data-dismiss", "modal", 1, "btn", "btn-dark"], ["type", "text", "placeholder", "Enter Note", "formControlName", "note", 1, "form-control", 3, "value"], [1, "col-md-10"], [2, "text-align", "right", "padding-right", "18px"], ["onclick", "$('#file').click()", 2, "cursor", "pointer"], ["aria-hidden", "true", 1, "fa", "fa-paperclip"], ["accept", "application/pdf,image/*", "type", "file", "multiple", "", "encType", "multipart/form-data", "placeholder", "Uplode your Company Logo", "id", "file", "formControlName", "attachments", 1, "form-control", 2, "font-size", "12px", "border-right", "0px", "display", "none", 3, "change"], [1, "col-md-12", 2, "padding", "0px"], [2, "background", "#FFE5E5"], ["formControlName", "inco_terms", "id", "inco_terms", 1, "form-control"], ["value", "DOD - Door delivery to your plant"], ["value", "FOB Lucknow"], ["value", "FOB Rudrapur"], ["formControlName", "p_t", "id", "p_t", 1, "form-control"], ["value", "100% within 30 days of GR"], ["value", "100% within 7 days of GR"], ["value", "100% immediately against delivery"], ["value", "100% against delivery on COD Basis"], ["value", "100% against Pro forma Invoice before dispatch"], ["value", " 90% within 30 days of GR 10% after I&C & Others"], ["formControlName", "p_f", "id", "p_f", 1, "form-control"], ["value", "Not applicable"], ["value", "Inclusive"], ["value", "Extra @2%"], ["value", "Extra  @3%"], ["formControlName", "freight", "id", "freight", 1, "form-control"], ["value", "Extra as per actuals to  your account"], ["value", "Dispatch  on 'To Pay' basis"], ["formControlName", "taxes", "id", "taxes", 1, "form-control"], ["value", "Extra as applicable"], ["type", "text", "placeholder", "Enter Others", "formControlName", "other_charges", 1, "form-control"], ["formControlName", "delivery", "id", "delivery", 1, "form-control"], ["value", "1-2 weeks"], ["value", "3-4 weeks"], ["value", "4-6 weeks"], ["value", "6-8 weeks"], ["value", "8-10 weeks"], ["value", "10-12 weeks"], ["value", "12-16 weeks"], ["formControlName", "warrenty", "id", "warrenty", 1, "form-control"], ["value", "Not Applicable"], ["value", "6 months (from date of  sale)"], ["value", "12 months (from  date of sale)"], [1, "col-md-1", "deal_div", 2, "border", "1px solid black"], ["type", "radio", "name", "validity", 2, "font-size", "12px", 3, "checked", "click"], [2, "border", "2px dashed red"], [1, "col-md-6", "form-group"], [1, "col-md-9"], ["type", "text", "disabled", "", 1, "form-control", 3, "value"], [2, "text-align", "right", "margin", "10px 0px"], ["type", "cancel", 1, "btn", "btn-dark", 3, "click"], ["type", "submit", 1, "btn", "btn-danger", 3, "click"], ["type", "submit", "class", "btn btn-primary", 3, "click", 4, "ngIf"], [1, "col-sm-2"], ["id", "exampleModalCenter1", "tabindex", "-1", "role", "dialog", "aria-labelledby", "exampleModalCenterTitle", "aria-hidden", "true", 1, "modal", "fade"], ["role", "document", 1, "modal-dialog", "modal-dialog-centered"], ["type", "button", "data-dismiss", "modal", 1, "close", "m-t-xs"], [1, "modal-title", "font-weight-600", "text-20"], [1, "details"], ["type", "hidden", "formControlName", "type", "value", "Product"], ["formControlName", "productname", "type", "text", "placeholder", "", 1, "form-control"], [1, "col-md-6"], ["formControlName", "PartNo", "type", "text", "placeholder", "", 1, "form-control"], ["formControlName", "CCNNo", "type", "text", "placeholder", "", 1, "form-control"], ["formControlName", "UnitPrice", "type", "Number", "placeholder", "", 1, "form-control"], ["formControlName", "UOM", "type", "text", "placeholder", "", 1, "form-control"], ["formControlName", "Category", "type", "text", "placeholder", "", 1, "form-control"], ["formControlName", "OEM", "type", "text", "placeholder", "", 1, "form-control"], ["formControlName", "OEMProductCode", "type", "text", 1, "form-control"], ["formControlName", "HSNCode", "type", "text", "placeholder", "", 1, "form-control"], ["formControlName", "GST", "type", "Number", "placeholder", "", 1, "form-control"], [1, "control-label", "font-weight-600"], ["type", "button", "id", "closemodal", "data-dismiss", "modal", 1, "btn", "btn-dark"], [1, "btn", "btn-danger", 3, "click"], [1, "text-danger", "text-left", "mb-1", "errorcontrols"], ["type", "checkbox", "name", "dataItem.id", 3, "change", 4, "ngIf"], ["type", "checkbox", "name", "dataItem.id", 3, "change"], [1, "fa", "fa-rupee"], [2, "color", "blue"], ["target", "_blank", 3, "href"], ["aria-hidden", "true", 1, "fa", "fa-trash", 2, "cursor", "pointer", 3, "click"], ["type", "submit", 1, "btn", "btn-primary", 3, "click"], ["style", "cursor: pointer; border: 1px solid grey; margin: 5px 0; padding: 5px;", 3, "click", 4, "ngIf"], [2, "cursor", "pointer", "border", "1px solid grey", "margin", "5px 0", "padding", "5px", 3, "click"]],
   template: function QuoteEditComponent_Template(rf, ctx) {
     if (rf & 1) {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](0, QuoteEditComponent_app_header_0_Template, 1, 0, "app-header", 0);
@@ -33722,11 +33793,16 @@ class QuoteListComponent {
             if (result.isConfirmed) {
                 console.log(id);
                 let quote = this.gridData.filter((data) => data._id === id);
-                if (quote[0].open_activity == "" ||
-                    quote[0].other_charges == "" ||
-                    quote[0].p_f == "" ||
-                    quote[0].p_t == "" ||
-                    quote[0].payment_terms.length == 0) {
+                if (quote[0].quote_location.length == 0 ||
+                    quote[0].sales_person.length == 0 ||
+                    quote[0].inco_terms == '' ||
+                    quote[0].p_f == '' ||
+                    quote[0].p_t == '' ||
+                    quote[0].taxes == '' ||
+                    quote[0].delivery == '' ||
+                    quote[0].warrenty == '' ||
+                    quote[0].deal_validity == '' ||
+                    quote[0].freight == '') {
                     sweetalert2__WEBPACK_IMPORTED_MODULE_1___default().fire('Error!', 'Some Field are not filled', 'error');
                 }
                 else {
@@ -33761,11 +33837,16 @@ class QuoteListComponent {
             if (result.isConfirmed) {
                 console.log(id);
                 let quote = this.gridData.filter((data) => data._id === id);
-                if (quote[0].open_activity == "" ||
-                    quote[0].other_charges == "" ||
-                    quote[0].p_f == "" ||
-                    quote[0].p_t == "" ||
-                    quote[0].payment_terms.length == 0) {
+                if (quote[0].quote_location.length == 0 ||
+                    quote[0].sales_person.length == 0 ||
+                    quote[0].inco_terms == '' ||
+                    quote[0].p_f == '' ||
+                    quote[0].p_t == '' ||
+                    quote[0].taxes == '' ||
+                    quote[0].delivery == '' ||
+                    quote[0].warrenty == '' ||
+                    quote[0].deal_validity == '' ||
+                    quote[0].freight == '') {
                     sweetalert2__WEBPACK_IMPORTED_MODULE_1___default().fire('Error!', 'Some Field are not filled', 'error');
                 }
                 else {
