@@ -36486,14 +36486,7 @@ class ChildElementComponent {
                         : true
                     : false,
             }),
-            HSNCode: new _angular_forms__WEBPACK_IMPORTED_MODULE_1__.FormControl({
-                value: item.HSNCode,
-                disabled: this.itemdata.dataItem.type === 'Product'
-                    ? this.itemdata.dataItem.is_product
-                        ? false
-                        : true
-                    : false,
-            }),
+            HSNCode: new _angular_forms__WEBPACK_IMPORTED_MODULE_1__.FormControl(item.HSNCode),
             GST: new _angular_forms__WEBPACK_IMPORTED_MODULE_1__.FormControl(item.GST),
             UnitPrice: new _angular_forms__WEBPACK_IMPORTED_MODULE_1__.FormControl({
                 value: this.itemdata.dataItem.type === 'Product' ? item.UnitPrice : 0,
@@ -38411,12 +38404,12 @@ class SendquoteComponent {
     }
     ngOnInit() {
         this.quote_id = this._Activatedroute.snapshot.paramMap.get("id");
-        console.log(this._Activatedroute.snapshot.paramMap.get("id"));
+        // console.log(this._Activatedroute.snapshot.paramMap.get("id"))
         let qtdate = new Date();
         this.quoteDate = qtdate.toLocaleString('en-IN', { day: 'numeric', month: "short", year: 'numeric' });
         this.quote.getQuoteById(this._Activatedroute.snapshot.paramMap.get("id")).subscribe((data) => {
             var _a, _b;
-            console.log(data.result[0]);
+            // console.log(data.result[0])
             this.quoteData = data.result[0];
             let date = this.addDays(data.result[0].created_date_time, Number(data.result[0].deal_validity.split(" ")[0]));
             this.validDate = date === null || date === void 0 ? void 0 : date.toLocaleString('en-IN', { day: 'numeric', month: 'short', year: 'numeric' });
@@ -38425,7 +38418,7 @@ class SendquoteComponent {
                 this.totalAmountTax += (item.UnitPrice) * 100 / (100 + parseFloat(item.GST == "" ? 0 : item.GST));
                 // this.totalAmountTax+=((item.UnitPrice*100)/(100+parseFloat(item.GST)));
                 this.quantity += parseInt(item.quantity);
-                console.log((item.UnitPrice) * 100 / 118);
+                // console.log((item.UnitPrice)*100/118);
                 if (item.type == 'Group') {
                     this.getTaxableAmt(item.products);
                 }
@@ -38433,7 +38426,7 @@ class SendquoteComponent {
                     this.totalGST += item.amount -
                         ((item.amount * 100) /
                             (100 + parseFloat(item.GST == '' ? 0 : item.GST)));
-                    console.log(this.totalGST);
+                    //  console.log(this.totalGST);
                 }
             });
             this.account.getAccountData(data.result[0].account_id).subscribe((data) => {
@@ -38441,16 +38434,17 @@ class SendquoteComponent {
                 this.companyData = data[0];
             });
             this.contact.getContactData(data.result[0].contact_id).subscribe((data) => {
-                console.log(data);
+                // console.log(data)
                 this.contactData = data[0];
             });
             this.salesperson.getSalesPerson((_b = (_a = data.result[0]) === null || _a === void 0 ? void 0 : _a.sales_person[0]) === null || _b === void 0 ? void 0 : _b._id).subscribe((data) => {
-                console.log(data);
+                // console.log(data)
                 this.salesPersonData = data.result[0];
             });
-            console.log(data.result[0].quote_location_id);
-            this.company.getBranch(data.result[0].quote_location[0]._id).subscribe((data) => {
-                console.log(data);
+            this.company
+                .getBranch(data.result[0].quote_location[0]._id)
+                .subscribe((data) => {
+                console.log(data, 'branchDatabranchDatabranchData');
                 this.branchData = data === null || data === void 0 ? void 0 : data.result[0];
             });
         });
@@ -38498,7 +38492,7 @@ class SendquoteComponent {
         let data = this.quoteData.product_services;
         this.taxableAmount = 0;
         data.map((item) => {
-            console.log(item.GST);
+            // console.log(item.GST)
             let cal = 0;
             if (item.GST == "") {
                 cal = 0;
