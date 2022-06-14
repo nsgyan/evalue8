@@ -1,45 +1,17 @@
-<!-- <html>
-  <head>
-    <title>reCAPTCHA demo: Simple page</title>
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-  </head>
-  <body>
-    <form action="?" method="POST">
-      <div class="g-recaptcha" data-sitekey="6LfkT2sdAAAAAOnCVgfjP7xA-_5L7HgtUMNmrfuQ"></div>
-      <br/>
-      <input type="submit" value="Submit">
-    </form>
-  </body>
-</html> -->
-
-
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
- <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-<script>
-function validateForm() {
- 
-   let x = document.forms["myForm"]["g-recaptcha-response"].value;
-  if (x == "") {
-    alert("Captcha must be filled out");
-    return false;
-  }
-}
-</script>
-</head>
+  <meta charset="utf-8">
+  <title>DiyaTechnology</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<link rel="stylesheet" href="styles.css"></head>
 <body>
-
-<h2>JavaScript Validation</h2>
-
-<form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
- 
-  
-   <div id="recaptcha" class="g-recaptcha" data-sitekey="6LfkT2sdAAAAAOnCVgfjP7xA-_5L7HgtUMNmrfuQ"></div>
-
-  <input type="submit" value="Submit">
-</form>
-
-</body>
+  <app-root></app-root>
+<script src="runtime.js" type="module"></script><script src="polyfills.js" type="module"></script><script src="vendor.js" type="module"></script><script src="main.js" type="module"></script></body>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </html>
-
