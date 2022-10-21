@@ -115,7 +115,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "url": () => (/* binding */ url)
 /* harmony export */ });
 const url = 'https://app.diyatechnologies.in/dt';
-// export const url: string = 'https://epr.troology.com/dt';
+// export const url: string = 'https://dt-staging.evalue8.info/dt';
 //  export const api_key: string = '78TGY42-5HH437H-GRK0BER-4710SHF';
 const api_key = '8GWF6J1-WVG40Q4-HBWGNVY-9VXTXQ8';
 
@@ -843,6 +843,9 @@ class PrintTableComponent {
                 console.log(data, 'branchDatabranchDatabranchData');
                 this.branchData = data === null || data === void 0 ? void 0 : data.result[0];
             });
+            this.quote.getquotelogs(this._Activatedroute.snapshot.paramMap.get("id")).subscribe((data) => {
+                this.logsData = data.result;
+            });
         });
         // this.getTaxableAmount()
     }
@@ -912,7 +915,7 @@ class PrintTableComponent {
     }
 }
 PrintTableComponent.ɵfac = function PrintTableComponent_Factory(t) { return new (t || PrintTableComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_7__.ActivatedRoute), _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵdirectiveInject"](_service_account_service__WEBPACK_IMPORTED_MODULE_1__.AccountService), _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵdirectiveInject"](_service_contact_service__WEBPACK_IMPORTED_MODULE_2__.ContactService), _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵdirectiveInject"](_service_company_service__WEBPACK_IMPORTED_MODULE_3__.CompanyService), _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵdirectiveInject"](_angular_platform_browser__WEBPACK_IMPORTED_MODULE_8__.Title), _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵdirectiveInject"](_service_product_service__WEBPACK_IMPORTED_MODULE_4__.ProductService), _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵdirectiveInject"](_service_quote_form_service__WEBPACK_IMPORTED_MODULE_5__.QuoteFormService)); };
-PrintTableComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵdefineComponent"]({ type: PrintTableComponent, selectors: [["app-print-table"]], decls: 228, vars: 53, consts: [["onclick", "window.print()", 1, "printBtn"], [1, "printBtn1", 3, "click"], ["id", "body", 1, "main-content"], [1, "header-space"], [1, "quoteHeader"], [1, "quoteHeading"], [1, "borderRight"], [1, "quoteCon"], [1, "tableLeftRight", "bb"], [1, "left"], [1, "tableData", "br"], [1, "right"], [1, "tableData"], [1, "left", "br"], [1, "br"], [1, "tableData", "BuyerName"], [1, ""], [1, "tableLeftRight"], [1, "table", "caption-top"], [1, "borderTopBottom"], ["scope", "col", 1, "br", 2, "width", "1%"], ["scope", "col", 1, "br", 2, "width", "40%"], ["scope", "col", 1, "br", "textcenter", 2, "width", "13%"], ["scope", "col", 1, "br", "textcenter", 2, "width", "5%"], ["scope", "col", 1, "br", "textcenter", 2, "width", "10%"], ["scope", "col", 1, "br", "textcenter", 2, "width", "7%"], ["scope", "col", 1, "br", "textcenter", 2, "width", "25%"], ["scope", "col", 1, "amount", "textcenter", 2, "width", "10%"], ["class", "bb firstB", 4, "ngFor", "ngForOf"], [1, "bb"], ["scope", "row", 1, "br"], [1, "br", "textRight"], [1, "fBold"], [1, "br", "textcenter"], [1, "totalAmtTx", "text-right"], ["colspan", "3", 1, "terms-condition", "text-center", 2, "font-size", "1rem", "font-weight", "700", "text-transform", "uppercase"], [1, "padding"], [1, "br", 2, "width", "5%"], [1, "br", "tabletext", 2, "width", "20%"], [1, "tabletext", 2, "width", "75%"], [1, "footer-space"], [1, "TopHeader"], [1, "header"], [1, "ph1"], ["src", "assets/img/DIYA.PNG"], [1, "headerLeft"], [1, "hc"], [1, "ph2"], [1, "headerRight"], [1, "headerRightBottom"], [1, "footer"], [1, "footerText"], [1, "footerImg"], ["src", "assets/img/IR.PNG"], ["src", "assets/img/URYU.PNG"], ["src", "assets/img/TOH.PNG"], [1, "bb", "firstB"], [4, "ngIf"], [1, "textRight"], ["style", "margin-left:7% ;", "type", "i", 4, "ngIf"], ["type", "i", 2, "margin-left", "7%"], [4, "ngFor", "ngForOf"], [2, "font-size", "10px", "font-weight", "500"]], template: function PrintTableComponent_Template(rf, ctx) { if (rf & 1) {
+PrintTableComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵdefineComponent"]({ type: PrintTableComponent, selectors: [["app-print-table"]], decls: 228, vars: 54, consts: [["onclick", "window.print()", 1, "printBtn"], [1, "printBtn1", 3, "click"], ["id", "body", 1, "main-content"], [1, "header-space"], [1, "quoteHeader"], [1, "quoteHeading"], [1, "borderRight"], [1, "quoteCon"], [1, "tableLeftRight", "bb"], [1, "left"], [1, "tableData", "br"], [1, "right"], [1, "tableData"], [1, "left", "br"], [1, "br"], [1, "tableData", "BuyerName"], [1, ""], [1, "tableLeftRight"], [1, "table", "caption-top"], [1, "borderTopBottom"], ["scope", "col", 1, "br", 2, "width", "1%"], ["scope", "col", 1, "br", 2, "width", "40%"], ["scope", "col", 1, "br", "textcenter", 2, "width", "13%"], ["scope", "col", 1, "br", "textcenter", 2, "width", "5%"], ["scope", "col", 1, "br", "textcenter", 2, "width", "10%"], ["scope", "col", 1, "br", "textcenter", 2, "width", "7%"], ["scope", "col", 1, "br", "textcenter", 2, "width", "25%"], ["scope", "col", 1, "amount", "textcenter", 2, "width", "10%"], ["class", "bb firstB", 4, "ngFor", "ngForOf"], [1, "bb"], ["scope", "row", 1, "br"], [1, "br", "textRight"], [1, "fBold"], [1, "br", "textcenter"], [1, "totalAmtTx", "text-right"], ["colspan", "3", 1, "terms-condition", "text-center", 2, "font-size", "1rem", "font-weight", "700", "text-transform", "uppercase"], [1, "padding"], [1, "br", 2, "width", "5%"], [1, "br", "tabletext", 2, "width", "20%"], [1, "tabletext", 2, "width", "75%"], [1, "footer-space"], [1, "TopHeader"], [1, "header"], [1, "ph1"], ["src", "assets/img/DIYA.PNG"], [1, "headerLeft"], [1, "hc"], [1, "ph2"], [1, "headerRight"], [1, "headerRightBottom"], [1, "footer"], [1, "footerText"], [1, "footerImg"], ["src", "assets/img/IR.PNG"], ["src", "assets/img/URYU.PNG"], ["src", "assets/img/TOH.PNG"], [1, "bb", "firstB"], [4, "ngIf"], [1, "textRight"], ["style", "margin-left:7% ;", "type", "i", 4, "ngIf"], ["type", "i", 2, "margin-left", "7%"], [4, "ngFor", "ngForOf"], [2, "font-size", "10px", "font-weight", "500"]], template: function PrintTableComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "button", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](1, "Click Here To Print");
         _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
@@ -1167,13 +1170,13 @@ PrintTableComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE
         _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](9);
         _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtextInterpolate"](ctx.quantity);
         _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpipeBind2"](89, 38, ctx.decimalFormat(ctx.totalAmount), "1.2"));
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpipeBind2"](89, 39, ctx.decimalFormat(ctx.totalAmount), "1.2"));
         _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtextInterpolate1"]("Total Taxable Amount: ", _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpipeBind2"](95, 41, ctx.decimalFormat(ctx.totalAmount), "1.2"), "");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtextInterpolate1"]("Total Taxable Amount: ", _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpipeBind2"](95, 42, ctx.decimalFormat(ctx.totalAmount), "1.2"), "");
         _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtextInterpolate1"]("GST Taxes: ", _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpipeBind2"](99, 44, ctx.decimalFormat(ctx.getTaxableAmount()), "1.2"), "");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtextInterpolate1"]("GST Taxes: ", _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpipeBind2"](99, 45, ctx.decimalFormat(ctx.getTaxableAmount()), "1.2"), "");
         _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtextInterpolate1"]("Total Amount: ", _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpipeBind2"](103, 47, ctx.decimalFormat(ctx.totalAmount + ctx.getTaxableAmount()), "1.2"), "");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtextInterpolate1"]("Total Amount: ", _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpipeBind2"](103, 48, ctx.decimalFormat(ctx.totalAmount + ctx.getTaxableAmount()), "1.2"), "");
         _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](14);
         _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtextInterpolate"](ctx.quoteData == null ? null : ctx.quoteData.inco_terms);
         _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](7);
@@ -1201,9 +1204,9 @@ PrintTableComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE
         _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](4);
         _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtextInterpolate1"]("GSTIN: ", ctx.branchData == null ? null : ctx.branchData.branch_gst, "");
         _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtextInterpolate1"]("Reference No: ", ctx.quoteData == null ? null : ctx.quoteData.quote_id, "");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtextInterpolate2"]("Reference No: ", ctx.quoteData == null ? null : ctx.quoteData.quote_id, " - V", ctx.logsData.length, "");
         _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtextInterpolate1"]("Date: ", _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpipeBind2"](210, 50, ctx.quoteData == null ? null : ctx.quoteData.created_date_time, "dd-MM-yyyy"), "");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtextInterpolate1"]("Date: ", _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpipeBind2"](210, 51, ctx.quoteData == null ? null : ctx.quoteData.created_date_time, "dd-MM-yyyy"), "");
         _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](7);
         _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtextInterpolate1"]("Name: ", ctx.salesPersonData == null ? null : ctx.salesPersonData.username, "");
         _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](2);
