@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1600px) and (min-width: 599px) {
+@media only screen and (max-width: 26000px) and (min-width: 599px) {
     .decktop-nav {
         display: block;
     }
@@ -441,6 +441,44 @@
         font-style: normal;
         font-weight: 400;
         line-height: normal;
+    }
+
+    .range {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .range .range-no {
+        flex-grow: 1;
+        flex-shrink: 1;
+        color: rgba(49, 49, 49, 0.60);
+    }
+
+    .range-no span.avrage-badg {
+        padding: 4px 6px;
+        border-radius: 8px;
+        background: #F0F1F8;
+        font-size: 12px;
+        color: #4D4D4D;
+    }
+
+    .calculate-button a {
+        color: #191D29;
+        text-align: center;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        border-radius: 4px;
+        border: 1px solid #191D29;
+        background: #FFF;
+        padding: 14px 45px;
+        text-decoration: none;
+    }
+
+    .calculate-button {
+        margin: 4rem 0 3rem 0;
     }
 
 }
