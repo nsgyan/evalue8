@@ -310,9 +310,7 @@
         margin: 0%;
     }
 
-    .count-box h5 {
-        font-size: 32px !important;
-    }
+
 
     .count-box p {
         font-size: 14px !important;
@@ -553,7 +551,7 @@
     .gen-otp-banner {
         position: absolute;
         width: 100%;
-        top: 6rem;
+        top: 5.6rem;
         color: #4D4D4D;
     }
 
@@ -595,7 +593,7 @@
     }
 
     .gettuchmobile {
-        height: 344px !important;
+        /* height: 344px !important; */
         padding: 0rem 0 !important;
     }
 
