@@ -117,8 +117,8 @@
     }
 
     .benifit-thum img {
-        width: 40px;
-        height: 40px !important;
+        width: 50%;
+        height: 100% !important;
     }
 
     .trining-thum img {
