@@ -556,7 +556,7 @@
     }
 
     .gen-otp-banner p {
-    color: #FFF;
+        color: #FFF;
         font-family: Bitter;
         font-size: 24px;
         font-style: normal;
@@ -616,9 +616,18 @@
         letter-spacing: 0.48px;
     }
 
+    .get-teach-form {
+        position: fixed;
+        bottom: 24px;
+        left: 0px;
+        width: 95%;
+        right: 0px;
+        margin: auto;
+    }
+
     .get-teach-form label {
-        color: #434343;
-        font-size: 14px;
+        color: #747E7D;
+        font-size: 12px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
@@ -645,35 +654,21 @@
         letter-spacing: 0.48px;
     }
 
-    .form-check-input {
-        margin-top: 0.4em;
-        border-radius: 2px;
-        border: 1px solid #434343;
-        background: #FFF;
-        width: 13px;
-        height: 13px;
-        margin-right: 6px;
-    }
-
-    .form-check .form-check-input {
-        float: inherit;
-        margin-left: -1.5em;
-    }
 
     .get-teach-form button {
         border-radius: 8px;
         background: var(--gradient-light, linear-gradient(90deg, #00B6CB 0%, #253B95 100%));
         width: 100%;
         padding: 13px 0;
-        letter-spacing: 0.56px;
-        font-family: Manrope;
-        color: #FFF;
-        text-align: center;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
         border: none;
+        color: #FFF;
+        font-family: Manrope;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        letter-spacing: 0.56px;
+
     }
 
     .know-ering {
@@ -688,6 +683,7 @@
         color: #1A2452;
         font-family: Bitter;
         font-size: 20px;
+        margin-bottom: 16px;
         font-style: normal;
         font-weight: 800;
         line-height: normal;
@@ -825,7 +821,7 @@
         color: #fff;
         height: 48px;
         padding: 12px 20px;
-        justify-content: center;
+        justify-content: space-between;
         align-items: flex-start;
         gap: 302px;
         flex-shrink: 0;

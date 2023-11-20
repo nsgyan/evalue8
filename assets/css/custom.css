@@ -36,8 +36,14 @@
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 8px;
-    font-size: 16px;
+    font-size: 14px;
+    color: #2D3030;
     transition: border-color 0.3s ease;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.28px;
+    font-family: Manrope;
 }
 
 .form-group label {
@@ -63,4 +69,126 @@
     padding: 0 4px;
     border-radius: 8px;
     left: 8px;
+}
+
+
+
+/* checkbox css  */
+
+input[type=checkbox]+label {
+    display: block;
+    cursor: pointer;
+}
+
+input[type=checkbox] {
+    display: none;
+}
+
+input[type=checkbox]+label:before {
+    content: "\2714";
+    border: 0.1em solid;
+    border-color: #00B6CB;
+    border-radius: 0.4em;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    padding-left: 0.3em;
+    padding-bottom: 0.3em;
+    margin-right: 0.9em;
+    vertical-align: bottom;
+    color: transparent;
+    transition: .2s;
+}
+
+input[type=checkbox]+label:active:before {
+    transform: scale(0);
+}
+
+input[type=checkbox]:checked+label:before {
+    background: var(--gradient-light, linear-gradient(90deg, #00B6CB 0%, #253B95 100%));
+    border-color: linear-gradient(90deg, #00B6CB 0%, #253B95 100%);
+    color: #fff;
+}
+
+input[type=checkbox]:disabled+label:before {
+    transform: scale(1);
+    border-color: #aaa;
+}
+
+input[type=checkbox]:checked:disabled+label:before {
+    transform: scale(1);
+    background-color: #bfb;
+    border-color: #bfb;
+}
+
+/* css end */
+
+/* Custom style */
+.accordion-item {
+    border-left: none;
+    border-right: none;
+}
+
+
+
+[type=button]:not(:disabled) {
+    color: #1A2452;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    /* 157.143% */
+    letter-spacing: 0.28px;
+    text-decoration: none;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #00B0CB !important;
+    color: #FFF !important;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    padding-bottom: 0%;
+    line-height: 22px;
+    /* 157.143% */
+    letter-spacing: 0.28px;
+    box-shadow: none !important;
+    border-radius: 8px 8px 0 0 !important;
+}
+
+.accordion-button::after {
+    background-image: url(../../assets/img/pluscircle.svg) !important;
+    transform: scale(.7) !important;
+    background-size: 32px !important;
+    padding: 15px;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url(../../assets/img/minuscircle.svg) !important;
+    background-size: 32px !important;
+    padding: 15px;
+}
+
+.datagroup p {
+    color: var(--text-dark-grey, #747E7D);
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.56px;
+    margin: 0px;
+}
+
+.datagroup h6 {
+    color: var(--text-black, #2D3030);
+    margin: 0px;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.32px;
 }
