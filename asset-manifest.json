@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e868d1ab.css",
+    "main.js": "/static/js/main.321fad71.js",
+    "static/js/787.305c4690.chunk.js": "/static/js/787.305c4690.chunk.js",
+    "static/media/mission.png": "/static/media/mission.005d961ee8fced229062.png",
+    "static/media/visions.png": "/static/media/visions.f985853de0b10e4e8021.png",
+    "static/media/image1.png": "/static/media/image1.1fc6754597011d115af1.png",
+    "static/media/audeince.png": "/static/media/audeince.92204d6e6b580d107951.png",
+    "static/media/machine_space.png": "/static/media/machine_space.46978ccb930869487f47.png",
+    "static/media/founder_b.png": "/static/media/founder_b.75fae092aeb6e43563a3.png",
+    "static/media/event_a.png": "/static/media/event_a.5d0f797103b480f1bb97.png",
+    "static/media/founder_a.png": "/static/media/founder_a.9c7acec886920f009796.png",
+    "static/media/poppins-devanagari-400-normal.woff": "/static/media/poppins-devanagari-400-normal.0e11b62db931f85340d4.woff",
+    "static/media/poppins-devanagari-400-normal.woff2": "/static/media/poppins-devanagari-400-normal.64d5f06ee726edd58ca3.woff2",
+    "static/media/poppins-latin-400-normal.woff": "/static/media/poppins-latin-400-normal.cda9c93f49237f11c766.woff",
+    "static/media/poppins-latin-400-normal.woff2": "/static/media/poppins-latin-400-normal.405055dd680fa1dcdfa2.woff2",
+    "static/media/poppins-latin-ext-400-normal.woff": "/static/media/poppins-latin-ext-400-normal.8cc52669c8e8a6735699.woff",
+    "static/media/poppins-latin-ext-400-normal.woff2": "/static/media/poppins-latin-ext-400-normal.4f38b4331448d2313adc.woff2",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/prevArrow.svg": "/static/media/prevArrow.486d9920f97b66bc3e6e.svg",
+    "static/media/nextArrow.svg": "/static/media/nextArrow.59625474b17a10108c44.svg",
+    "static/media/plus.svg": "/static/media/plus.fa7c39d5016178f27fd2.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/accordion-icon.svg": "/static/media/accordion-icon.1d75815ba4fb87ef7b61.svg",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/index.html",
+    "static/media/heroicons-outline_menu.svg": "/static/media/heroicons-outline_menu.860ae81997fa60dd7ec0.svg",
+    "main.e868d1ab.css.map": "/static/css/main.e868d1ab.css.map",
+    "main.321fad71.js.map": "/static/js/main.321fad71.js.map",
+    "787.305c4690.chunk.js.map": "/static/js/787.305c4690.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e868d1ab.css",
+    "static/js/main.321fad71.js"
+  ]
+}
