@@ -801,7 +801,6 @@
 
     .notnow {
         border-radius: 8px;
-        border: 1px solid var(--gradient-light, #00B6CB);
         padding: 13px 0;
     }
 
