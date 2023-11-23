@@ -33,11 +33,15 @@
         font-style: normal;
         color: #fff;
     }
-
-    .navbar-toggler {
+.navbar-toggler{
+    padding: 0%;
+}
+    .navbar-toggler i{
         border: none;
         font-size: 20px;
         padding: 0 0 0 6px;
+        height: 24px ;
+        width: 24px;
     }
 
     .navbar-toggler:focus {
