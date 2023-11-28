@@ -33,14 +33,16 @@
         font-style: normal;
         color: #fff;
     }
-.navbar-toggler{
-    padding: 0%;
-}
-    .navbar-toggler i{
+
+    .navbar-toggler {
+        padding: 0%;
+    }
+
+    .navbar-toggler i {
         border: none;
         font-size: 20px;
         padding: 0 0 0 6px;
-        height: 24px ;
+        height: 24px;
         width: 24px;
     }
 
@@ -677,11 +679,12 @@
         width: 100%;
         padding: 13px 0;
         color: #FFF;
+        font-family: Manrope;
         text-align: center;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 700;
+        font-size: 14px;
+        font-weight: 800;
         line-height: normal;
+        letter-spacing: 0.56px;
         border: none;
     }
 
@@ -750,7 +753,7 @@
     }
 
     .thankyou {
-        margin: 10rem 0;
+        margin: 6rem 0 4rem 0;
     }
 
     .thank-cont h5 {
@@ -772,28 +775,27 @@
         line-height: 140%;
     }
 
-    .thankyou-thum img {
-        width: 88px;
-        height: 88px;
-    }
-
     .proceed-cont h5 {
-        color: #4D4D4D;
+    color: #1A2452;
         text-align: center;
-        font-size: 20px;
+        font-family: Bitter;
+        font-size: 24px;
         font-style: normal;
-        font-weight: 500;
+        font-weight: 700;
         line-height: normal;
         margin: 4rem 0 1rem 0;
     }
 
     .proceed-cont p {
-        color: #596584;
+    color: var(--text-dark-grey, #747E7D);
         text-align: center;
-        font-size: 16px;
+        font-family: Manrope;
+        font-size: 14px;
         font-style: normal;
-        font-weight: 400;
-        line-height: 140%;
+        font-weight: 500;
+        line-height: 22px;
+        /* 157.143% */
+        letter-spacing: 0.56px;
         /* 22.4px */
     }
 
@@ -802,7 +804,7 @@
     }
 
     p.notnow {
-        margin-top: 2rem;
+        margin-top: 1rem;
         width: 100%;
     }
 
