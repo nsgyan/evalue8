@@ -495,8 +495,16 @@ function openNav() {
 	document.getElementById("mySidenav").style.width = "100%";
 }
 
+function openNavRight() {
+	document.getElementById("mySidenavRight").style.width = "100%";
+}
+
 function closeNav() {
 	document.getElementById("mySidenav").style.width = "0";
+}
+
+function closeNavRight() {
+	document.getElementById("mySidenavRight").style.width = "0";
 }
 // ***********side nav end********************
 
