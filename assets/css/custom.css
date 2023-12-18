@@ -103,10 +103,10 @@
     width: 20px;
     height: 20px;
     padding-left: 0.4em;
-    padding-top: 0.1em;
+    padding-top: 0em;
     padding-bottom: 0.3em;
     margin-right: 8px;
-    vertical-align: bottom;
+    /* vertical-align: bottom; */
     color: transparent;
     transition: .2s;
 }
@@ -210,4 +210,19 @@ input[type=checkbox]:checked:disabled+label:before {
     font-weight: 600;
     line-height: normal;
     letter-spacing: 0.32px;
+}
+.statusbutn .bg-success {
+    border-radius: 100px;
+    background-color: #28C65D !important;
+}
+
+.statusbutn .bg-warning {
+    border-radius: 100px;
+    background-color: #FFC043 !important;
+}
+
+.statusbutn,
+.qualifydata .bg-danger {
+    border-radius: 100px;
+    background-color: #EF466F !important;
 }
