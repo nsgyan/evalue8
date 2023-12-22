@@ -58,7 +58,7 @@
     top: 12px;
     transition: top 0.3s ease, font-size 0.3s ease, color 0.3s ease;
 
-    color: var(--text-black, #2D3030);
+    color: var(--text-black, #747E7D);
     font-family: Manrope;
     font-size: 12px;
     font-style: normal;
