@@ -101,6 +101,10 @@ content: "\2714";
     transition: .2s;
 }
 
+.accordion-button:focus{
+    box-shadow: none !important;
+}
+
 input[type=checkbox]+label:active:before {
     transform: scale(0);
 }
