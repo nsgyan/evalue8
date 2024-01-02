@@ -221,7 +221,7 @@ input[type=checkbox]:checked:disabled+label:before {
     background-color: #FFC043 !important;
 }
 
-.statusbutn,
+.statusbutn .bg-danger,
 .qualifydata .bg-danger {
     border-radius: 100px;
     background-color: #EF466F !important;
