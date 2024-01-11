@@ -52,6 +52,7 @@
     letter-spacing: 0.28px;
 }
 
+
 .form-group label {
     position: absolute;
     left: 12px;
@@ -225,4 +226,7 @@ input[type=checkbox]:checked:disabled+label:before {
 .qualifydata .bg-danger {
     border-radius: 100px;
     background-color: #EF466F !important;
+}
+.navbar-expand-lg .navbar-toggler{
+    display: block !important;
 }
