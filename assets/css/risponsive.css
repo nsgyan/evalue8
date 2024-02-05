@@ -5,6 +5,7 @@
 
     .mobile-nav {
         display: none;
+        z-index: 9999;
     }
 
     .desknav {
@@ -19,6 +20,8 @@
 
     .mobile-nav {
         display: block;
+        padding: 4px 0 !important;
+        /* z-index: 999; */
         /* height: 56px; */
     }
 
