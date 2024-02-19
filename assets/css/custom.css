@@ -242,3 +242,11 @@ input::-webkit-inner-spin-button {
 input[type=number] {
     -moz-appearance: textfield;
 }
+
+.desktop-view{
+    margin: 115px 0 !important;
+}
+
+.accordion-button:focus {
+    box-shadow: none !important;
+}
